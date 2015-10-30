@@ -1,0 +1,21 @@
+/ - content_for :js_onready do
+/   = err_supply(@page)
+
+
+%fieldset.well
+  .row
+    .col-md-12
+      .form-group
+        = f.label :parent
+        = f.collection_select :parent_id, Page.all, :id, :title, {include_blank: true}, {class: 'form-control'}
+
+      .form-group
+        = f.label :title
+        = f.text_field :title, class: 'form-control'
+
+      .form-group
+        = f.label :body
+        = f.text_area :body, class: 'form-control editor'
+
+= button_tag t('buttons.save'), class: 'btn btn-primary'
+= link_to t('buttons.cancel'), pages_path, class: 'btn btn-default'

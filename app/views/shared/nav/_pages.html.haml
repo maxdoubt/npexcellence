@@ -1,0 +1,11 @@
+- Page.roots.each do |page|
+
+  %li
+    %a.dropdown-toggle{href: "#", data: { toggle: "dropdown" }, role: "button", "aria-haspopup" => "true", "aria-expanded" => "false" }
+      = page.title
+      %span.caret
+    %ul.dropdown-menu
+      = render 'shared/nav/dropdown', page: page
+      %li.divider{role: "separator"}
+      - page.children.each do |page|
+        = render 'shared/nav/dropdown', page: page

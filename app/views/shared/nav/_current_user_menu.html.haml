@@ -1,0 +1,10 @@
+%li
+  %a.dropdown-toggle{href: "#", data: { toggle: "dropdown" }, role: "button", "aria-haspopup" => "true", "aria-expanded" => "false" }
+    / = current_user.handle
+    %span.caret
+  %ul.dropdown-menu
+    %li
+      / = link_to('Profile', stock_market.edit_player_profile_path)
+    %li.divider{role: "separator"}
+    %li
+      / = link_to('Logout', stock_market.logout_path)

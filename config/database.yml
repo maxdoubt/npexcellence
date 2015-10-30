@@ -1,0 +1,44 @@
+#------------------------------------------------------------
+# common
+#------------------------------------------------------------
+
+pg: &pg
+  adapter:  postgresql
+  host:     localhost
+  port:     5432
+  encoding: utf8
+  template: template0
+  username: dbuser
+  password: dbuser
+
+heroku: &heroku
+  url:  <%= ENV["DATABASE_URL"] %>
+  pool: <%= ENV["DB_POOL"] || ENV['MAX_THREADS'] || 5 %>
+
+
+#------------------------------------------------------------
+# local
+#------------------------------------------------------------
+
+development:
+  <<: *pg
+  database: npexcellence_development
+
+test: &test
+  <<: *pg
+  database: npexcellence_test
+
+local_uat:
+  <<: *pg
+  database: npexcellence_uat
+
+  
+#----------------------------------------------------------
+# heroku
+#----------------------------------------------------------
+
+uat:
+  <<: *heroku
+
+production:
+  <<: *heroku

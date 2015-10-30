@@ -1,0 +1,88 @@
+
+---
+pages:
+  columns:
+  - id
+  - title
+  - body
+  - ancestry
+  - slug
+  - created_at
+  - updated_at
+  records: 
+  - - '1'
+    - Home
+    - '<div id="carousel-example-generic" class="carousel slide" data-ride="carousel"><!--
+      Indicators --><!-- Wrapper for slides --><div class="carousel-inner"><div class="item
+      active"><img src="/images/carousel/hands_plant.jpg" alt="..." style="" class="fr-dib"><div
+      class="carousel-caption"><h1>Your Path to Excellence Starts Here</h1></div></div><div
+      class="item"><img src="/images/carousel/hands_in_air.jpg" alt="..." style=""
+      class="fr-dib"><div class="carousel-caption"><h1>Make Connections and Build
+      Community with Alliance</h1></div></div></div><!-- Controls --><a class="left
+      carousel-control" href="#carousel-example-generic" data-slide="prev"><span class="sr-only">Previous</span></a><a
+      class="right carousel-control" href="#carousel-example-generic" data-slide="next"><span
+      class="sr-only">Next</span></a></div><p></p><section><h1 style="text-align:
+      center;">Our Strategy</h1></section><p></p><div class="container-fluid"><div
+      class="row"><div class="col-md-4"><h1 class="well" style="text-align: center;">People</h1></div><div
+      class="col-md-4"><h1 class="well" style="text-align: center;">Revenue</h1></div><div
+      class="col-md-4"><h1 class="well" style="text-align: center;">Impact</h1></div></div></div><p></p><section><h1
+      style="text-align: center;">Guiding the Path Towards Collaboration</h1></section><p></p><div
+      class="container-fluid"><ul class="timeline"><li><div class="timeline-badge"><i
+      class="glyphicon glyphicon-check">Neat</i></div><div class="timeline-panel"><div
+      class="timeline-heading"><h4 class="timeline-title">Mussum ipsum cacilds</h4><p><small
+      class="text-muted">&nbsp;11 hours ago via Twitter</small></p></div><div class="timeline-body"><p>Mussum
+      ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra l&aacute;
+      , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. M&eacute;
+      faiz elementum girarzis, nisi eros vermeio, in elementis m&eacute; pra quem
+      &eacute; amistosis quis leo.Manduma pindureta quium dia nois paga. Sapien in
+      monti palavris qui num significa nadis i pareci latim. Interessantiss quisso
+      pudia ce receita de bolis, mais bolis eu num gostis.</p></div></div></li><li
+      class="timeline-inverted"><div class="timeline-panel"><div class="timeline-heading"><h4
+      class="timeline-title">Mussum ipsum cacilds</h4></div><div class="timeline-body"><p>Mussum
+      ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra l&aacute;
+      , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. M&eacute;
+      faiz elementum girarzis, nisi eros vermeio, in elementis m&eacute; pra quem
+      &eacute; amistosis quis leo.Manduma pindureta quium dia nois paga. Sapien in
+      monti palavris qui num significa nadis i pareci latim. Interessantiss quisso
+      pudia ce receita de bolis, mais bolis eu num gostis.</p><p>Suco de cevadiss,
+      &eacute; um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi
+      no m&eacute;, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo
+      erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuerepulvinar
+      pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum
+      justo. Aenean ut ante turpis. Pellentesque laoreet m&eacute; vel lectus scelerisque
+      interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscingelit.
+      Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p></div></div></li><li><div
+      class="timeline-panel"><div class="timeline-heading"><h4 class="timeline-title">Mussum
+      ipsum cacilds</h4></div><div class="timeline-body"><p>Mussum ipsum cacilds,
+      vidis litro abertis. Consetis adipiscings elitis. Pra l&aacute; , depois divoltis
+      porris, paradis. Paisis, filhis, espiritis santis. M&eacute; faiz elementum
+      girarzis, nisi eros vermeio, in elementis m&eacute; pra quem &eacute; amistosis
+      quis leo.Manduma pindureta quium dia nois paga. Sapien in monti palavris qui
+      num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de
+      bolis, mais bolis eu num gostis.</p></div></div></li><li class="timeline-inverted"><div
+      class="timeline-panel"><div class="timeline-heading"><h4 class="timeline-title">Mussum
+      ipsum cacilds</h4></div><div class="timeline-body"><p>Mussum ipsum cacilds,
+      vidis litro abertis. Consetis adipiscings elitis. Pra l&aacute; , depois divoltis
+      porris, paradis. Paisis, filhis, espiritis santis. M&eacute; faiz elementum
+      girarzis, nisi eros vermeio, in elementis m&eacute; pra quem &eacute; amistosis
+      quis leo.Manduma pindureta quium dia nois paga. Sapien in monti palavris qui
+      num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de
+      bolis, mais bolis eu num gostis.</p></div></div></li></ul></div>'
+    - 
+    - home
+    - '2015-10-30 17:43:21.170909'
+    - '2015-10-30 20:04:58.067203'
+  - - '2'
+    - Testing
+    - "<p>Here&apos;s a test of another page</p>"
+    - '1'
+    - testing
+    - '2015-10-30 18:58:30.627264'
+    - '2015-10-30 18:58:30.627264'
+  - - '3'
+    - 2nd Test Page
+    - "<p>Testing</p>"
+    - '1'
+    - 2nd-test-page
+    - '2015-10-30 18:58:42.141497'
+    - '2015-10-30 18:58:42.141497'

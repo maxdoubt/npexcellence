@@ -1,0 +1,6 @@
+- flash.each do |type, message|
+  %div{ class: "alert alert-#{ type.to_s.downcase } alert-dismissable alert-flash fade in" }
+    %button.close{ type: 'button', data: { dismiss: 'alert' }, aria: { label: 'Close' } }
+      %span{ aria: { hidden: 'true' } }
+        &times;
+    = message

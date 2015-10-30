@@ -1,0 +1,11 @@
+%button.navbar-toggle.collapsed{type: "button", data: { toggle: "collapse", target: "#js-navbar-collapse" } }
+  %span.sr-only Toggle navigation
+  %span.icon-bar
+  %span.icon-bar
+  %span.icon-bar
+
+= link_to root_path, class: 'navbar-brand' do
+  = app_logo
+
+/ = link_to root_path_for_current_user, class: 'navbar-brand' do
+/   = app_logo

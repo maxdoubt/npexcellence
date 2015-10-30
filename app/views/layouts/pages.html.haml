@@ -1,0 +1,38 @@
+!!!
+%html
+  %head
+    = render partial: 'shared/layouts/head'
+
+  %body{ class: "#{ controller_name } #{ controller_name }-#{ action_name }"}
+    .navbar.navbar-inverse.navbar-fixed-top{role: "navigation"}
+      .container-fluid
+        .navbar-header
+          = render partial: 'shared/nav/header'
+
+        .collapse.navbar-collapse#js-navbar-collapse
+          %ul.nav.navbar-nav.nav-main
+            = render partial: 'shared/nav/pages'
+
+          %ul.nav.navbar-nav.navbar-right
+            / - if current_user
+            /   = render partial: 'shared/nav/current_user_menu'
+            / - else
+            /   = link_to 'Sign In', stock_market.login_path, class: 'btn btn-default navbar-btn'
+            /   = link_to 'Sign Up', stock_market.new_registration_path, class: 'btn btn-primary navbar-btn'
+
+    .content-wrapper
+      - if params[:action] == 'show' 
+        = render partial: 'shared/layouts/flash_messages'
+        .content-container
+          = yield
+      - else 
+        .container-fluid      
+          = render partial: 'shared/layouts/flash_messages'
+          .content-container
+            = yield
+
+
+    .footer-wrapper
+      .container-fluid
+        .footer-container
+          = render partial: 'shared/layouts/footer'
