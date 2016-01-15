@@ -3,7 +3,28 @@
 %p
   = link_to 'New Page', new_page_path, class: 'btn btn-primary'
 
-%ul.pages.list-unstyled
+%ol.pages.list-unstyled.sortable
   - @pages.each do |page|
     - if page.root?
       = render 'row', page: page
+
+%button.btn.btn-primary#toArray Save
+
+%div#toArrayOutput
+
+:coffeescript
+  $ ->
+    $('.sortable').nestedSortable
+      handle: 'div'
+      items: 'li'
+      toleranceElement: '> div'
+      placeholder: 'placeholder'
+      forcePlaceholderSize: true
+
+    $('#toArray').click (e) ->
+      arraied = $('ol.sortable').nestedSortable('toArray', startDepthCount: 0)
+      console.log 'broken'
+      arraied = dump(arraied)
+      if typeof $('#toArrayOutput')[0].textContent != 'undefined' then ($('#toArrayOutput')[0].textContent = arraied) else ($('#toArrayOutput')[0].innerText = arraied)
+      console.log arraied
+      return

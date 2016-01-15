@@ -5,6 +5,7 @@
 // bootstrap overrides
 @import 'bootstrap_overrides/colors';
 @import 'bootstrap_overrides/fonts';
+@import 'bootstrap_overrides/margins';
 
 // bootstrap
 @import 'bootstrap-sprockets';
@@ -15,11 +16,22 @@
 @import 'core/sections';
 @import 'core/fonts';
 @import 'core/timeline';
+@import 'core/empty';
+
+// nested sortable
+@import 'nested_sortable/defaults';
+
+// jquery
+@import 'jquery-ui';
 
 // fileupload
 @import 'jquery.fileupload';
 @import 'jquery.fileupload-ui';
 
+// froala overrides
+@import 'froala_overrides/margins';
+
+// froala
 @import 'codemirror';
 @import 'codemirror/themes/night';
 @import 'froala_editor.min.css';

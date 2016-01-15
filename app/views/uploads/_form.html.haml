@@ -1,0 +1,10 @@
+%fieldset.well
+  .row
+    .col-md-12
+      .form-group
+        = f.label :upload
+        = f.file_field :upload
+
+
+= button_tag t('buttons.save'), class: 'btn btn-primary'
+= link_to t('buttons.cancel'), uploads_path, class: 'btn btn-default'

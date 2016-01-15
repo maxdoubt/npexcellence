@@ -25,6 +25,7 @@ gem 'puma'
 gem 'rack-timeout'
 
 # views
+gem 'jquery-ui-rails'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'momentjs-rails', '>= 2.9.0'
@@ -39,9 +40,9 @@ gem 'paper_trail'
 gem 'friendly_id'
 
 # uploads
-gem 'aws-sdk', '>= 2.0.0'
 gem 'paperclip'
-gem 's3_direct_upload'
+gem 'aws-s3'
+gem 'aws-sdk', '< 2.0'
 gem "jquery-fileupload-rails"
 
 
@@ -53,6 +54,7 @@ group :development, :test do
   gem 'byebug'
   gem 'pry-rails'
   gem 'web-console'
+  gem 'figaro'
 
   gem 'spring'
 end

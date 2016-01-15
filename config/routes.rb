@@ -5,7 +5,13 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'pages#show', :defaults => { :id => 'home' }
 
-  resources :pages
+  resources :pages do
+    member do
+      get 'test'
+    end
+  end
+
+  resources :uploads
 
 
   # Example of regular route:

@@ -1,7 +1,6 @@
 / - content_for :js_onready do
 /   = err_supply(@page)
 
-
 %fieldset.well
   .row
     .col-md-12
@@ -19,3 +18,34 @@
 
 = button_tag t('buttons.save'), class: 'btn btn-primary'
 = link_to t('buttons.cancel'), pages_path, class: 'btn btn-default'
+
+:coffeescript
+  $ ->
+    $('.editor').froalaEditor(
+      codeBeautifier: true,
+      codeMirror: true,
+      codeMirrorOptions: {
+        indentWithTabs: true,
+        lineNumbers: true,
+        lineWrapping: true,
+        mode : "xml",
+        htmlMode: true,
+        tabMode: 'indent',
+        tabSize: 2,
+        theme: 'night'
+      },
+      fileUploadURL: '/uploads',
+      fileUploadParams: {
+        authenticity_token: "#{form_authenticity_token}",
+        contentType: "application/json"
+      },
+      fileUploadMethod: 'POST',
+      fileUploadParam: "upload[upload]",
+      imageUploadURL: '/uploads',
+      imageUploadParams: {
+        authenticity_token: "#{form_authenticity_token}",
+        contentType: "application/json"
+      },
+      imageUploadMethod: 'POST',
+      imageUploadParam: "upload[upload]"
+    )

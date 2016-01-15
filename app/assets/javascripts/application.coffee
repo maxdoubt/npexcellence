@@ -1,5 +1,7 @@
 #= require jquery
 #= require jquery_ujs
+#= require jquery-ui
+#= require nestedSortable/jquery.mjs.nestedSortable.js
 #
 #= require bootstrap-sprockets
 #= require jquery-fileupload
@@ -41,19 +43,25 @@
 #----------------------------------------------------------
 
 
-$(document).on 'page:change', (event) ->
-  $('.editor').froalaEditor(
-    codeBeautifier: true,
-    codeMirror: true,
-    codeMirrorOptions: {
-      indentWithTabs: true,
-      lineNumbers: true,
-      lineWrapping: true,
-      mode : "xml",
-      htmlMode: true,
-      tabMode: 'indent',
-      tabSize: 2,
-      theme: 'night'
-    }
-  )
-  return
+# this code won't work here due to authenticity token
+
+# $(document).on 'page:change', (event) ->
+#   $('.editor').froalaEditor(
+#     codeBeautifier: true,
+#     codeMirror: true,
+#     codeMirrorOptions: {
+#       indentWithTabs: true,
+#       lineNumbers: true,
+#       lineWrapping: true,
+#       mode : "xml",
+#       htmlMode: true,
+#       tabMode: 'indent',
+#       tabSize: 2,
+#       theme: 'night'
+#     },
+#     fileUploadURL: '/uploads',
+#     fileUploadParams: {
+#       authenticity_token: ""
+#     }
+#   )
+#   return

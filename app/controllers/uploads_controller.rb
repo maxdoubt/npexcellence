@@ -1,25 +1,28 @@
-class PagesController < ApplicationController
+class UploadsController < ApplicationController
 
   #----------------------------------------------------
   # Configuration
   #----------------------------------------------------
 
   # callbacks
-  before_filter :assign_record,     only: [:show, :edit, :update]
-
+  before_filter :assign_record,     only: [:show, :edit, :update, :destroy]
 
   #----------------------------------------------------
   # Create
   #----------------------------------------------------
 
   def new
-    @page = Page.new
+    @upload = Upload.new
   end
 
   def create
-    @page = Page.new(page_params)
-    if @page.save
-      redirect_to pages_path
+    @upload = Upload.new(upload_params)
+    if @upload.save
+      if params[:contentType] == 'application/json'
+        render :json => {:link => @upload.upload.url}.to_json
+      else
+        redirect_to uploads_path
+      end
     end
   end
 
@@ -27,14 +30,13 @@ class PagesController < ApplicationController
   # Update
   #----------------------------------------------------
 
-
   def edit
   end
 
   def update
-    @page.attributes = page_params
-    if @page.save
-      redirect_to pages_path
+    @upload.attributes = upload_params
+    if @upload.save
+      redirect_to uploads_path
     end
   end
 
@@ -46,14 +48,17 @@ class PagesController < ApplicationController
   end
 
   def index
-    @pages = Page.all
+    @uploads = Upload.all
   end
 
-  def home
-    @page = Page.find(1)
-  end
+  #----------------------------------------------------
+  # Read
+  #----------------------------------------------------
 
-  def test
+  def destroy
+    if @upload.destroy
+      redirect_to uploads_path
+    end
   end
 
   #----------------------------------------------------
@@ -62,11 +67,11 @@ class PagesController < ApplicationController
   private
 
   def assign_record
-    @page = Page.friendly.find(params[:id])
+    @upload = Upload.find(params[:id])
   end
 
-  def page_params
-    params.require(:page).permit(:id, :title, :body, :parent_id)
+  def upload_params
+    params.require(:upload).permit(:id, :upload)
   end
 
 
