@@ -17,7 +17,7 @@ gem 'pundit'
 # database
 gem 'pg'
 gem 'seedbank'
-gem 'ancestry'
+gem 'awesome_nested_set'
 gem 'yaml_db'
 
 # web server

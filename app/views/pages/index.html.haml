@@ -3,10 +3,9 @@
 %p
   = link_to 'New Page', new_page_path, class: 'btn btn-primary'
 
-%ol.pages.list-unstyled.sortable
+%ol.pages.list-unstyled.sortable#sortable
   - @pages.each do |page|
-    - if page.root?
-      = render 'row', page: page
+    = render 'row', page: page
 
 %button.btn.btn-primary#toArray Save
 
@@ -15,16 +14,19 @@
 :coffeescript
   $ ->
     $('.sortable').nestedSortable
-      handle: 'div'
-      items: 'li'
-      toleranceElement: '> div'
-      placeholder: 'placeholder'
+      handle:               'div'
+      items:                'li'
+      toleranceElement:     '> div'
+      placeholder:          'placeholder'
       forcePlaceholderSize: true
+      excludeRoot:          true
 
     $('#toArray').click (e) ->
-      arraied = $('ol.sortable').nestedSortable('toArray', startDepthCount: 0)
-      console.log 'broken'
-      arraied = dump(arraied)
-      if typeof $('#toArrayOutput')[0].textContent != 'undefined' then ($('#toArrayOutput')[0].textContent = arraied) else ($('#toArrayOutput')[0].innerText = arraied)
+      arraied = $('ol.sortable').nestedSortable('toArray')
       console.log arraied
-      return
+      console.log JSON.stringify(arraied)
+
+      $.ajax
+        url:  'pages/reorganize'
+        type: 'post'
+        data: list: arraied

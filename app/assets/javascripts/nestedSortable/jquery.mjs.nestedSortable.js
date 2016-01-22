@@ -708,10 +708,18 @@
 			function _recursiveItems(item) {
 				var id = ($(item).attr(o.attribute || "id") || "").match(o.expression || (/(.+)[-=_](.+)/)),
 					currentItem;
+
+				var data = $(item).data();
+				if (data.nestedSortableItem) {
+					delete data.nestedSortableItem; // Remove the nestedSortableItem object from the data
+				}
+
 				if (id) {
 					currentItem = {
 						"id": id[2]
 					};
+
+					currentItem = $.extend({}, currentItem, data); // Combine the two objects
 
 					if ($(item).children(o.listType).children(o.items).length > 0) {
 						currentItem.children = [];
@@ -744,7 +752,7 @@
 			}
 
 			$(this.element).children(o.items).each(function() {
-				left = _recursiveArray(this, sDepth + 1, left);
+				left = _recursiveArray(this, sDepth, left);
 			});
 
 			ret = ret.sort(function(a, b) { return (a.left - b.left); });
@@ -768,7 +776,7 @@
 
 				id = ($(item).attr(o.attribute || "id")).match(o.expression || (/(.+)[-=_](.+)/));
 
-				if (depth === sDepth + 1) {
+				if (depth === sDepth) {
 					pid = o.rootID;
 				} else {
 					parentItem = ($(item).parent(o.listType)
@@ -779,12 +787,14 @@
 				}
 
 				if (id) {
+					        var name = $(item).data("name");
 						ret.push({
-							"item_id": id[2],
+							"id": id[2],
 							"parent_id": pid,
 							"depth": depth,
 							"left": _left,
-							"right": right
+							"right": right,
+							"name":name
 						});
 				}
 

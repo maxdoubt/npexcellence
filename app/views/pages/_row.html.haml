@@ -1,4 +1,4 @@
-%li
+%li{id: 'list_' + page.id.to_s}
   %div
     = link_to page.title, page
 
@@ -6,6 +6,7 @@
       = link_to 'Edit', edit_page_path(page), class: 'btn btn-default'
       = link_to 'Delete', page_path(page), class: 'btn btn-danger', method: 'delete', data: { confirm: "Are you sure?" }
 
+  - puts page.children.inspect
   - page.children.each do |page|
     %ol
       = render 'row', page: page

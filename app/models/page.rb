@@ -4,6 +4,5 @@ class Page < ActiveRecord::Base
   extend FriendlyId
   friendly_id :title, use: :slugged
 
-  has_ancestry
-
+  acts_as_nested_set
 end

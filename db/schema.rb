@@ -17,15 +17,21 @@ ActiveRecord::Schema.define(version: 20151024035240) do
   enable_extension "plpgsql"
 
   create_table "pages", force: :cascade do |t|
-    t.string   "title",      null: false
+    t.string   "title",                      null: false
     t.string   "body"
-    t.string   "ancestry"
     t.string   "slug"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer  "parent_id"
+    t.integer  "lft",                        null: false
+    t.integer  "rgt",                        null: false
+    t.integer  "depth",          default: 0, null: false
+    t.integer  "children_count", default: 0, null: false
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
   end
 
-  add_index "pages", ["ancestry"], name: "idx_pages_on_ancestry", using: :btree
+  add_index "pages", ["lft"], name: "index_pages_on_lft", using: :btree
+  add_index "pages", ["parent_id"], name: "index_pages_on_parent_id", using: :btree
+  add_index "pages", ["rgt"], name: "index_pages_on_rgt", using: :btree
 
   create_table "uploads", force: :cascade do |t|
     t.string   "upload_file_name"

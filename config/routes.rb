@@ -9,6 +9,9 @@ Rails.application.routes.draw do
     member do
       get 'test'
     end
+    collection do
+      post 'reorganize', :format => 'json'
+    end
   end
 
   resources :uploads
