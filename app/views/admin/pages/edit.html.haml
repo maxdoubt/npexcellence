@@ -1,4 +1,4 @@
 = form_for @page, url: page_path(@page) do |f|
   %h2.form-header
     = t('pages.edit.header')
-  = render partial: 'pages/form', locals: { f: f }
+  = render partial: 'form', locals: { f: f }
