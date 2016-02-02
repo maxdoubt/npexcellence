@@ -3,6 +3,11 @@ class ApplicationController < ActionController::Base
   # security settings
   protect_from_forgery with: :exception
 
+  # define helper settings
+  helper        :all
+  helper_method :current_user_session
+  helper_method :current_user
+  helper_method :root_path_for_current_user
 
   #-------------------------------------------------------------------------------
   # Protected instance methods

@@ -3,6 +3,12 @@ class User < ActiveRecord::Base
   #-------------------------------------------------------------------------------
   # Configuration
   #-------------------------------------------------------------------------------
+
+  # constants
+  ROLES  = ['admin', 'user']
+
+  # callbacks
+  before_validation :ensure_role
   
   # mixins
   acts_as_authentic do |c|
@@ -24,26 +30,18 @@ class User < ActiveRecord::Base
   # alliases
   alias_attribute :access_code,       :perishable_token
   alias_attribute :confirmation_code, :perishable_token 
-  
-  # associations
-  belongs_to  :role,  :validate   => true
-  
+    
   # validations
-  validates_presence_of     :role_id
-  validates_numericality_of :role_id,         :only_integer => true, :greater_than => 0, :allow_nil => true
   validates_presence_of     :first_name
   validates_length_of       :first_name,      :maximum => 100,  :allow_nil => true
   validates_presence_of     :last_name
   validates_length_of       :last_name,       :maximum => 100,  :allow_nil => true
-  validates_presence_of     :organization
-  validates_length_of       :organization,    :maximum => 100,  :allow_nil => true
   
   # scopes
   scope :active_only,       lambda { where("deactivated_at is null")  }
   scope :inactive_only,     lambda { where("deactivated_at is not null") }
   scope :confirmed_only,    lambda { where("confirmed_at is not null")  }
   scope :unconfirmed_only,  lambda { where("confirmed_at is null") }
-  scope :experts_only,      lambda { joins(:role).where(:roles => { :system_label => ["SYSTEM_ADMIN","DRAFT_EXPERT"] }) }
   
   
   
@@ -76,57 +74,57 @@ class User < ActiveRecord::Base
   
   # =================== Active/Inactive =============================
   
-  # This method flags the user as active.
-  #
-  def activate
-    self.deactivated_at = nil
-  end
+  # # This method flags the user as active.
+  # #
+  # def activate
+  #   self.deactivated_at = nil
+  # end
   
-  # This method reports whether or not the user is active.
-  #
-  def active?
-    self.deactivated_at.nil?
-  end
+  # # This method reports whether or not the user is active.
+  # #
+  # def active?
+  #   self.deactivated_at.nil?
+  # end
   
-  # This method flags the user as inactive.
-  #
-  def deactivate
-    self.deactivated_at = Time.now
-  end
+  # # This method flags the user as inactive.
+  # #
+  # def deactivate
+  #   self.deactivated_at = Time.now
+  # end
   
-  # This method reports whether or not the user is inactive.
-  #
-  def inactive?
-    !self.active?
-  end
+  # # This method reports whether or not the user is inactive.
+  # #
+  # def inactive?
+  #   !self.active?
+  # end
   
   
   # =================== Confirmation ================================
   
-  # This method flags the user as having been confirmed.
-  #
-  def confirm
-    self.confirmed_at = Time.now
-  end
+  # # This method flags the user as having been confirmed.
+  # #
+  # def confirm
+  #   self.confirmed_at = Time.now
+  # end
   
-  # This method flags the user as having been confirmed and saves.
-  #
-  def confirm!
-    self.confirmed_at = Time.now
-    self.save
-  end
+  # # This method flags the user as having been confirmed and saves.
+  # #
+  # def confirm!
+  #   self.confirmed_at = Time.now
+  #   self.save
+  # end
   
-  # This method reports whether or not the user has confirmed her account.
-  #
-  def confirmed?
-    self.new_record? || self.confirmed_at? || (self.created_at > 7.days.ago)
-  end
+  # # This method reports whether or not the user has confirmed her account.
+  # #
+  # def confirmed?
+  #   self.new_record? || self.confirmed_at? || (self.created_at > 7.days.ago)
+  # end
   
-  # This method inverts the confirmed? status.
-  #
-  def unconfirmed?
-    !self.confirmed?
-  end
+  # # This method inverts the confirmed? status.
+  # #
+  # def unconfirmed?
+  #   !self.confirmed?
+  # end
     
   
   # =================== Other ================================
@@ -146,5 +144,18 @@ class User < ActiveRecord::Base
   def name
     Name.new(self.first_name, self.last_name)
   end
+
+
+  #-------------------------------------------------------------------------------
+  # Private Methods
+  #-------------------------------------------------------------------------------
+  private
+
+  def ensure_role
+    unless ROLES.include?(self.role)
+      self.role = 'user'
+    end
+  end
+
 
 end

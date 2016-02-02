@@ -1,0 +1,70 @@
+en:
+  hello: "hello world"
+  #--------------------------------------------
+  # globals
+  #--------------------------------------------      
+  
+  #------------
+  buttons:
+    cancel: "Cancel"
+    submit: "Submit"
+
+
+  #--------------------------------------------
+  # pages
+  #--------------------------------------------
+  pages:
+
+    #-------------
+    new:
+      links:
+        default:
+          text: "Create Page"
+      header: "Create Page"
+
+    #-------------
+    create:
+      flash:
+        success: "The page created successfully."
+
+    #-------------
+    edit:
+      header: "Update Page"
+
+    #-------------
+    update:
+      flash:
+        success: "The page was updated successfully."
+
+    #-------------
+    destroy:
+      flash:
+        success: "The page was deleted successfully."
+      links:
+        default:
+          text: "Delete Page"
+
+
+  #--------------------------------------------
+  # user sessions
+  #--------------------------------------------      
+  user_sessions:
+
+    #------------- 
+    new:
+      header: "Sign In"
+
+    #------------- 
+    create:
+      flash:
+        error: "The credentials you supplied are invalid."
+        required: "Please sign in."
+        success: "Login successful."
+
+    #------------- 
+    destroy:
+      flash:
+        success: "Logout successful."
+      links:
+        default:
+          text: "Logout"

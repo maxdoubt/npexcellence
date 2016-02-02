@@ -4,7 +4,7 @@ class Admin::ApplicationController < ApplicationController
   # Configuration
   #-------------------------------------------------
   
-  layout "admin"
+  layout 'admin'
   
   
 
