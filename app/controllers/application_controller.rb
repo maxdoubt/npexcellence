@@ -1,13 +1,23 @@
 class ApplicationController < ActionController::Base
 
+  #-------------------------------------------------
+  # Configuration
+  #-------------------------------------------------
+
+  # mixins
+  include Pundit
+
   # security settings
-  protect_from_forgery with: :exception
+  protect_from_forgery # with: :exception
 
   # define helper settings
   helper        :all
   helper_method :current_user_session
   helper_method :current_user
   helper_method :root_path_for_current_user
+
+  # error trapping
+  rescue_from Pundit::NotAuthorizedError, with: :render_not_authorized_error
 
   #-------------------------------------------------------------------------------
   # Protected instance methods
@@ -27,7 +37,7 @@ class ApplicationController < ActionController::Base
   def require_user
     unless current_user
       store_location
-      flash[:notice] = t("user_sessions.create.flash.required")
+      flash[:danger] = t("user_sessions.create.flash.required")
       redirect_to(root_path_for_current_user)
       return false
     end
@@ -51,7 +61,12 @@ class ApplicationController < ActionController::Base
   end
   
   def root_path_for_current_user
-    root_path
+    if current_user
+      rp = (current_user.admin?) ? admin_root_path : root_path
+    else
+      rp = root_path
+    end
+    rp
   end
 
 end

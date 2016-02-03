@@ -1,6 +1,6 @@
 %li{id: 'list_' + page.id.to_s}
   %div
-    = link_to page.title, page
+    = link_to page.title, admin_page_path(page)
 
     .pull-right
       = link_to 'Edit', edit_admin_page_path(page), class: 'btn btn-default'

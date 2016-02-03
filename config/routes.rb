@@ -1,8 +1,6 @@
 Rails.application.routes.draw do
-  root 'pages#show', :defaults => { :id => 'home' }
 
   resources :pages,           only: [:show]
-  resources :uploads
   resource  :user_session,    only: [:new,  :create, :destroy]
 
   # named routes (sessions)
@@ -11,9 +9,13 @@ Rails.application.routes.draw do
   match "login"                         => "user_sessions#new",      :as => :login,   via: [:get, :post]
   match "logout"                        => "user_sessions#destroy",  :as => :logout,  via: [:get, :post]
 
+  root 'pages#show', :defaults => { :id => 'home' }
+
 
   namespace :admin do
+
     # collection resource routes
+    resources :posts
     resources :pages do
       member do
         get 'test'
@@ -22,7 +24,10 @@ Rails.application.routes.draw do
         post 'reorganize', :format => 'json'
       end
     end
+    resources :uploads
+    resources :users
 
+    root to: 'dashboard#show'
   end
 
 end

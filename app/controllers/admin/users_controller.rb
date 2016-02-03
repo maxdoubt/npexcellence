@@ -3,41 +3,35 @@ class Admin::UsersController < Admin::ApplicationController
   #-------------------------------------------------
   # Configuration
   #-------------------------------------------------
+
+
+  # callbacks
+  before_filter :assign_user,    except: [:index, :new, :create]
+  before_filter :authorize_user, except: [:index, :new, :create]
   
-  before_filter :require_user
-  
-  load_and_authorize_resource
-  
-  before_filter :assign_role_if_allowed, :only => [:create, :update]
+  # before_filter :require_user  
+  # load_and_authorize_resource
+  # before_filter :assign_role_if_allowed, :only => [:create, :update]
   
   
   
-  #-------------------------------------------------
+  #----------------------------------------------------
   # Public methods
-  #-------------------------------------------------
+  #----------------------------------------------------
   
-  # This method lists all the records that cancan allows the user to see.
-  #
+  #========== READ ====================================
+
   def index
-    @keywords     = params[:keywords].to_s.strip
-    @type         = params[:type].to_s.strip
-    @current_page = (params[:current_page] || 1).to_i
-    
-    keywords  = @keywords.split(/\s+/).uniq
-    limit_to  = @current_page * 20
-    
-    relation = scaffold_class.accessible_by(current_ability, :read)
-    relation = relation.for_keywords(keywords)      unless keywords.empty?
-    relation = relation.send("#{@type}_only")       unless @type.blank?
-    
-    @has_criteria       = !([@keywords, @type].reject(&:blank?).empty?)
-    @total_count        = relation.count
-    instance_variable_set("@#{scaffold_collection_name}", relation.order("last_name, first_name").limit(limit_to).all)
-    @current_count      = scaffold_collection.size
-    
-    render scaffold_template(:index)
+    @users = User.all.order('email')
   end
   
+
+  #========== CREATE ==================================
+
+  def new
+    @user = User.new
+  end
+
   
   # This method creates a record with the supplied parameters.
   #
@@ -54,6 +48,9 @@ class Admin::UsersController < Admin::ApplicationController
     end
   end
   
+
+  #========== UPDATE ====================================
+
   
   # This method updates the record so that it reports as active.
   #
@@ -137,13 +134,22 @@ class Admin::UsersController < Admin::ApplicationController
   # Private methods
   #-------------------------------------------------
   
-  # This method assigns the role_id parameter (or not)
-  # depending on the current user's ability.
-  #
-  def assign_role_if_allowed
-    if can? :assign_role, @user
-      @user.role_id = params[:user][:role_id]
-    end
+  private
+
+  def assign_user
+    @user = User.find(params[:id])
+  end
+
+  def authorize_user
+    authorize @user
+  end
+
+  def user_params
+    params.require(:user).permit(
+      :name,
+      :email,
+      :role
+    )
   end
   
 end

@@ -1,4 +1,4 @@
-class UploadsController < ApplicationController
+class Admin::UploadsController < Admin::ApplicationController
 
   #----------------------------------------------------
   # Configuration
@@ -7,9 +7,7 @@ class UploadsController < ApplicationController
   # callbacks
   before_filter :assign_record,     only: [:show, :edit, :update, :destroy]
 
-  #----------------------------------------------------
-  # Create
-  #----------------------------------------------------
+  #========== CREATE ====================================
 
   def new
     @upload = Upload.new
@@ -21,14 +19,12 @@ class UploadsController < ApplicationController
       if params[:contentType] == 'application/json'
         render :json => {:link => @upload.upload.url}.to_json
       else
-        redirect_to uploads_path
+        redirect_to admin_uploads_path
       end
     end
   end
 
-  #----------------------------------------------------
-  # Update
-  #----------------------------------------------------
+  #========== UPDATE ====================================
 
   def edit
   end
@@ -36,13 +32,11 @@ class UploadsController < ApplicationController
   def update
     @upload.attributes = upload_params
     if @upload.save
-      redirect_to uploads_path
+      redirect_to admin_uploads_path
     end
   end
 
-  #----------------------------------------------------
-  # Read
-  #----------------------------------------------------
+  #========== READ ====================================
 
   def show
   end
@@ -51,13 +45,11 @@ class UploadsController < ApplicationController
     @uploads = Upload.all
   end
 
-  #----------------------------------------------------
-  # Read
-  #----------------------------------------------------
+  #========== DESTROY ====================================
 
   def destroy
     if @upload.destroy
-      redirect_to uploads_path
+      redirect_to admin_uploads_path
     end
   end
 

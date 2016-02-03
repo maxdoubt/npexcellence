@@ -9,9 +9,7 @@ class Admin::PagesController < Admin::ApplicationController
   before_filter :assign_record,     only: [:show, :edit, :update]
 
 
-  #----------------------------------------------------
-  # Create
-  #----------------------------------------------------
+  #========== CREATE ====================================
 
   def new
     @page = Page.new
@@ -20,14 +18,11 @@ class Admin::PagesController < Admin::ApplicationController
   def create
     @page = Page.new(page_params)
     if @page.save
-      redirect_to pages_path
+      redirect_to admin_pages_path
     end
   end
 
-  #----------------------------------------------------
-  # Update
-  #----------------------------------------------------
-
+  #========== UPDATE ====================================
 
   def edit
   end
@@ -35,7 +30,7 @@ class Admin::PagesController < Admin::ApplicationController
   def update
     @page.attributes = page_params
     if @page.save
-      redirect_to pages_path
+      redirect_to admin_pages_path
     end
   end
 
@@ -89,9 +84,7 @@ class Admin::PagesController < Admin::ApplicationController
     end
   end
 
-  #----------------------------------------------------
-  # Read
-  #----------------------------------------------------
+  #========== READ ====================================
 
   def show
   end

@@ -68,3 +68,38 @@ en:
       links:
         default:
           text: "Logout"
+
+
+  #--------------------------------------------
+  # users
+  #--------------------------------------------
+  users:
+
+    #-------------
+    new:
+      links:
+        default:
+          text: "Create User"
+      header: "Create User"
+
+    #-------------
+    create:
+      flash:
+        success: "The user created successfully."
+
+    #-------------
+    edit:
+      header: "Update User"
+
+    #-------------
+    update:
+      flash:
+        success: "The user was updated successfully."
+
+    #-------------
+    destroy:
+      flash:
+        success: "The user was deleted successfully."
+      links:
+        default:
+          text: "Delete User"

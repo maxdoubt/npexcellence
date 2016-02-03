@@ -26,10 +26,10 @@ class UserSessionsController < ApplicationController
     @user_session = UserSession.new(params[:user_session])
     reset_session
     if @user_session.save
-      flash[:notice] = t("user_sessions.create.flash.success")
+      flash[:success] = t("user_sessions.create.flash.success")
       redirect_back_or_default(root_path_for_current_user)
     else
-      flash[:error] = t("user_sessions.create.flash.error")
+      flash[:danger] = t("user_sessions.create.flash.error")
       redirect_to(login_path)
     end
   end
@@ -40,7 +40,7 @@ class UserSessionsController < ApplicationController
   def destroy
     current_user_session.destroy
     
-    flash[:notice] = t("user_sessions.destroy.flash.success") 
+    flash[:success] = t("user_sessions.destroy.flash.success") 
     
     redirect_to(login_path)
   end

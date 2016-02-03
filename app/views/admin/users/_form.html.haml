@@ -1,0 +1,24 @@
+/ - content_for :js_onready do
+/   = err_supply(@page)
+
+%fieldset.well
+  .row
+    .col-md-12
+      .form-group
+        = f.label :email
+        = f.text_field :email, class: 'form-control'
+
+      .form-group
+        = f.label :role
+        = f.select :role, User::ROLES.collect {|s| [s.capitalize, s]}, {}, {class: 'form-control'}
+
+      .form-group
+        = f.label :first_name
+        = f.text_field :first_name, class: 'form-control'
+
+      .form-group
+        = f.label :last_name
+        = f.text_field :last_name, class: 'form-control'
+
+= button_tag t('buttons.save'), class: 'btn btn-primary'
+= link_to t('buttons.cancel'), admin_users_path, class: 'btn btn-default'

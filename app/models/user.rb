@@ -26,6 +26,10 @@ class User < ActiveRecord::Base
     :current_login_ip,
     :last_login_ip
   ]
+  include Roles
+
+  # associations
+  has_many :posts
   
   # alliases
   alias_attribute :access_code,       :perishable_token

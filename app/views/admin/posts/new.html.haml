@@ -1,0 +1,4 @@
+= form_for @post, url: admin_posts_path do |f|
+  %h2.form-header
+    = t('posts.new.header')
+  = render partial: 'form', locals: { f: f }

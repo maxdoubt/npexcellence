@@ -1,3 +1,4 @@
 .page-body= @page.body.html_safe
 
-= link_to 'Edit', edit_admin_page_path(@page), class: 'btn btn-default'
+- if current_user
+  = link_to 'Edit', edit_admin_page_path(@page), class: 'btn btn-default'
