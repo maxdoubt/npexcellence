@@ -16,6 +16,9 @@ class ApplicationController < ActionController::Base
   helper_method :current_user
   helper_method :root_path_for_current_user
 
+  helper_method :current_setting
+
+
   # error trapping
   rescue_from Pundit::NotAuthorizedError, with: :render_not_authorized_error
 
@@ -68,5 +71,12 @@ class ApplicationController < ActionController::Base
     end
     rp
   end
+
+  #==================== CURRENT ITEMS ====================
+
+  def current_setting
+    @current_setting ||= Setting.instance
+  end
+
 
 end

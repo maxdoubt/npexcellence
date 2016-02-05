@@ -2,7 +2,7 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-// bootstrap overrides
+// sass-bootstrap overrides
 @import 'bootstrap_overrides/colors';
 @import 'bootstrap_overrides/fonts';
 @import 'bootstrap_overrides/margins';
@@ -12,11 +12,16 @@
 @import 'bootstrap';
 @import 'bootstrap-datetimepicker';
 
+// css-bootstrap overrides
+@import 'bootstrap_overrides/heading';
+
 // core
 @import 'core/sections';
 @import 'core/fonts';
 @import 'core/timeline';
 @import 'core/empty';
+@import 'core/footer';
+
 
 // nested sortable
 @import 'nested_sortable/defaults';

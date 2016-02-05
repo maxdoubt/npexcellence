@@ -24,6 +24,7 @@ Rails.application.routes.draw do
         post 'reorganize', :format => 'json'
       end
     end
+    resources :settings
     resources :uploads
     resources :users
 

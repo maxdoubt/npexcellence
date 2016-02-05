@@ -4,10 +4,10 @@ module ApplicationHelper
   end
 
   def app_logo
-    'npexcellence'
+    image_tag current_setting.logo.url(:tiny)
   end
 
   def app_title
-    'npexcellence'
+    current_setting.title
   end
 end

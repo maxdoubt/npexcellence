@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160203223411) do
+ActiveRecord::Schema.define(version: 20160205042838) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -41,6 +41,17 @@ ActiveRecord::Schema.define(version: 20160203223411) do
     t.boolean  "published",  default: false, null: false
     t.datetime "created_at",                 null: false
     t.datetime "updated_at",                 null: false
+  end
+
+  create_table "settings", force: :cascade do |t|
+    t.string   "phone",             default: "901.111.1111", null: false
+    t.string   "address",           default: "123 S. Main",  null: false
+    t.string   "footer",            default: "The footer",   null: false
+    t.string   "title",             default: "Website",      null: false
+    t.string   "logo_file_name"
+    t.string   "logo_content_type"
+    t.integer  "logo_file_size"
+    t.datetime "logo_updated_at"
   end
 
   create_table "uploads", force: :cascade do |t|

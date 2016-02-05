@@ -1,0 +1,31 @@
+/ - content_for :js_onready do
+/   = err_supply(@post)
+
+%fieldset.well
+  .row
+    .col-md-12
+      .form-group
+        = f.label :title
+        = f.text_field :title, class: 'form-control'
+
+      .form-group
+        = f.label :phone
+        = f.text_field :phone, class: 'form-control'
+
+      .form-group
+        = f.label :address
+        = f.text_field :address, class: 'form-control'
+
+      .form-group
+        = f.label :footer
+        = f.text_area :footer, class: 'form-control'
+
+      .form-group
+        = f.label :logo
+        = f.file_field :logo
+        - if @setting.logo.exists?
+          = image_tag @setting.logo.url(:medium)
+
+
+= button_tag t('buttons.save'), class: 'btn btn-primary'
+= link_to t('buttons.cancel'), admin_settings_path, class: 'btn btn-default'
