@@ -1,0 +1,11 @@
+.container
+  .page-header
+    %h1= @post.title
+    %h5
+      by
+      = @post.user.first_name 
+      = @post.user.last_name
+      = '-'
+      %i= @post.updated_at.strftime('%B %e, %Y')
+
+  %div= @post.body

@@ -57,7 +57,7 @@ class Admin::PostsController < Admin::ApplicationController
   private
 
   def assign_record
-    @post = Post.find(params[:id])
+    @post = Post.friendly.find(params[:id])
   end
 
   def post_params

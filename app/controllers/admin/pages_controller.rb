@@ -90,7 +90,7 @@ class Admin::PagesController < Admin::ApplicationController
   end
 
   def index
-    @pages = Page.where(parent_id: nil)
+    @pages = Page.where(parent_id: nil).order(:lft)
   end
 
   def home

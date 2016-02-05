@@ -45,6 +45,43 @@ en:
           text: "Delete Page"
 
 
+
+  #--------------------------------------------
+  # posts
+  #--------------------------------------------
+  posts:
+
+    #-------------
+    new:
+      links:
+        default:
+          text: "Create Post"
+      header: "Create Post"
+
+    #-------------
+    create:
+      flash:
+        success: "The post created successfully."
+
+    #-------------
+    edit:
+      header: "Update Post"
+
+    #-------------
+    update:
+      flash:
+        success: "The post was updated successfully."
+
+    #-------------
+    destroy:
+      flash:
+        success: "The post was deleted successfully."
+      links:
+        default:
+          text: "Delete Post"
+
+
+
   #--------------------------------------------
   # user sessions
   #--------------------------------------------      

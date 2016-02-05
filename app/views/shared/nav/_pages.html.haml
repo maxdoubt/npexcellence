@@ -1,4 +1,4 @@
-- Page.roots.each do |page|
+- Page.roots.order(:lft).each do |page|
 
   %li
     %a.dropdown-toggle{href: "#", data: { toggle: "dropdown" }, role: "button", "aria-haspopup" => "true", "aria-expanded" => "false" }
