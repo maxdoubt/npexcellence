@@ -5,7 +5,7 @@ class User < ActiveRecord::Base
   #-------------------------------------------------------------------------------
 
   # constants
-  ROLES  = ['admin', 'user']
+  ROLES  = ['admin', 'employee', 'org_admin', 'member']
 
   # callbacks
   before_validation :ensure_role
@@ -28,8 +28,21 @@ class User < ActiveRecord::Base
   ]
   include Roles
 
+  # This method associates the attribute ":avatar" with a file attachment
+  has_attached_file :avatar, styles: {
+    tiny: '30x30#',
+    icon: '50x50#',
+    thumb: '100x100>',
+    square: '200x200#',
+    medium: '300x300>'
+  }
+
+  # Validate the attached image is image/jpg, image/png, etc
+  validates_attachment_content_type :avatar, :content_type => /\Aimage\/.*\Z/
+
   # associations
-  has_many :posts
+  has_many    :posts
+  belongs_to  :org
   
   # alliases
   alias_attribute :access_code,       :perishable_token
@@ -146,7 +159,7 @@ class User < ActiveRecord::Base
   # Name.
   #
   def name
-    Name.new(self.first_name, self.last_name)
+    self.first_name + ' ' + self.last_name
   end
 
 
@@ -157,7 +170,7 @@ class User < ActiveRecord::Base
 
   def ensure_role
     unless ROLES.include?(self.role)
-      self.role = 'user'
+      self.role = 'member'
     end
   end
 

@@ -1,0 +1,27 @@
+%h1 Organizations
+
+%p= link_to 'New Organization', new_admin_org_path, class: 'btn btn-primary'
+
+%table.table.table-default.table-striped.table-bordered
+  %tr
+    %th Name
+    %th Role
+    %th Active
+    %th Phone
+    %th Contact
+    %th Email
+    %th Actions
+
+  - @orgs.each do |org|
+    %tr
+      %td= link_to org.name, admin_org_path(org)
+      %td= org.role
+      %td= org.active
+      %td= org.phone
+      %td= org.contact
+      %td= org.email
+      %td
+        - if policy(org).destroy?
+          = link_to 'Destroy', admin_org_path(org), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger'
+        - if policy(org).update?
+          = link_to 'Edit', edit_admin_org_path(org), class: 'btn btn-default'

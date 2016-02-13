@@ -17,6 +17,8 @@
       %td= upload.upload_file_size
       %td= upload.upload_content_type
       %td
+        - if upload.upload_content_type.split('/')[0] == 'image'
+          = image_tag upload.upload.url(:thumb)
       %td= upload.upload_updated_at
       %td
         = link_to 'Destroy', admin_upload_path(upload), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger'

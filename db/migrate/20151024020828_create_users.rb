@@ -25,6 +25,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string      :address
       t.string      :title
       t.string      :bio
+      t.integer     :org_id
       t.attachment  :avatar
       
       # timestamps

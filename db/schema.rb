@@ -11,10 +11,34 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160205042838) do
+ActiveRecord::Schema.define(version: 20160206142020) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "orgs", force: :cascade do |t|
+    t.string   "name",               null: false
+    t.string   "slug"
+    t.string   "role",               null: false
+    t.boolean  "active",             null: false
+    t.string   "phone"
+    t.string   "address"
+    t.string   "contact"
+    t.string   "email"
+    t.string   "website"
+    t.text     "description"
+    t.text     "funding"
+    t.string   "logo_file_name"
+    t.string   "logo_content_type"
+    t.integer  "logo_file_size"
+    t.datetime "logo_updated_at"
+    t.string   "photo_file_name"
+    t.string   "photo_content_type"
+    t.integer  "photo_file_size"
+    t.datetime "photo_updated_at"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+  end
 
   create_table "pages", force: :cascade do |t|
     t.string   "title",                      null: false
@@ -35,7 +59,7 @@ ActiveRecord::Schema.define(version: 20160205042838) do
 
   create_table "posts", force: :cascade do |t|
     t.string   "title",                      null: false
-    t.string   "body"
+    t.text     "body"
     t.string   "slug"
     t.integer  "user_id",                    null: false
     t.boolean  "published",  default: false, null: false
@@ -85,6 +109,7 @@ ActiveRecord::Schema.define(version: 20160205042838) do
     t.string   "address"
     t.string   "title"
     t.string   "bio"
+    t.integer  "org_id"
     t.string   "avatar_file_name"
     t.string   "avatar_content_type"
     t.integer  "avatar_file_size"

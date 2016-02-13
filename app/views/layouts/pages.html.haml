@@ -14,11 +14,10 @@
             = render partial: 'shared/nav/pages'
 
           %ul.nav.navbar-nav.navbar-right
-            / - if current_user
-            /   = render partial: 'shared/nav/current_user_menu'
-            / - else
-            /   = link_to 'Sign In', stock_market.login_path, class: 'btn btn-default navbar-btn'
-            /   = link_to 'Sign Up', stock_market.new_registration_path, class: 'btn btn-primary navbar-btn'
+            - if current_user
+              = render partial: 'shared/nav/current_user_menu'
+            - else
+              = link_to 'Sign In', login_path, class: 'btn btn-default navbar-btn'
 
     .content-wrapper
       - if params[:action] == 'show' 

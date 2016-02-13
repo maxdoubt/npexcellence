@@ -1,4 +1,4 @@
-class Admin::PostsController < Admin::ApplicationController
+class Admin::OrgsController < Admin::ApplicationController
 
   #----------------------------------------------------
   # Configuration
@@ -6,20 +6,20 @@ class Admin::PostsController < Admin::ApplicationController
 
   # callbacks
   before_filter :assign_record,     only:   [:show, :edit, :update, :destroy]
-  before_filter :authorize_post,    except: [:index, :new, :create]
+  before_filter :authorize_org,     except: [:index, :new, :create]
 
   #========== CREATE ====================================
 
   def new
-    @post = Post.new
+    @org = Org.new
+    authorize_org
   end
 
   def create
-    @post       = Post.new(post_params)
-    @post.user  = current_user
+    @org = Org.new(org_params)
 
-    if @post.save
-      redirect_to admin_posts_path
+    if @org.save
+      redirect_to admin_orgs_path
     end
   end
 
@@ -29,26 +29,27 @@ class Admin::PostsController < Admin::ApplicationController
   end
 
   def update
-    @post.attributes = post_params
-    if @post.save
-      redirect_to admin_posts_path
+    @org.attributes = org_params
+    if @org.save
+      redirect_to admin_orgs_path
     end
   end
 
   #========== READ ====================================
 
   def show
+    @users = @org.users.order(:last_name)
   end
 
   def index
-    @posts = Post.all
+    @orgs = Org.all
   end
 
   #========== DESTROY ====================================
 
   def destroy
-    if @post.destroy
-      redirect_to admin_posts_path
+    if @org.destroy
+      redirect_to admin_orgs_path
     end
   end
 
@@ -57,16 +58,16 @@ class Admin::PostsController < Admin::ApplicationController
   #----------------------------------------------------
   private
 
-  def authorize_post
-    authorize @post
+  def authorize_org
+    authorize @org
   end
 
   def assign_record
-    @post = Post.friendly.find(params[:id])
+    @org = Org.friendly.find(params[:id])
   end
 
-  def post_params
-    params.require(:post).permit(:id, :title, :body, :published)
+  def org_params
+    params.require(:org).permit(:id, :name, :role, :active, :phone, :address, :contact, :email, :website, :description, :funding, :logo, :photo)
   end
 
 

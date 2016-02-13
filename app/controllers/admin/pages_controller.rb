@@ -5,9 +5,8 @@ class Admin::PagesController < Admin::ApplicationController
   #----------------------------------------------------
 
   # callbacks
-  before_filter :require_user
-  before_filter :assign_record,     only: [:show, :edit, :update]
-
+  before_filter :assign_record,     only:   [:show, :edit, :update]
+  before_filter :authorize_page,    except: [:index, :new, :create]
 
   #========== CREATE ====================================
 
@@ -104,6 +103,10 @@ class Admin::PagesController < Admin::ApplicationController
   # Private Methods
   #----------------------------------------------------
   private
+
+  def authorize_page
+    authorize @page
+  end
 
   def assign_record
     @page = Page.friendly.find(params[:id])

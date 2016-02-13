@@ -31,6 +31,7 @@ gem 'font-awesome-sass'
 gem 'momentjs-rails', '>= 2.9.0'
 gem 'bootstrap3-datetimepicker-rails', '~> 4.17.37'
 gem 'quiet_assets'
+gem 'skrollr-rails'
 
 # helpers
 gem 'haml-rails'
@@ -44,6 +45,9 @@ gem 'paperclip'
 gem 'aws-s3'
 gem 'aws-sdk', '< 2.0'
 gem "jquery-fileupload-rails"
+
+# frontend
+gem 'bower-rails'
 
 
 group :development, :test do

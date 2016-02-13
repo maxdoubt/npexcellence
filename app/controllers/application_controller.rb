@@ -65,7 +65,7 @@ class ApplicationController < ActionController::Base
   
   def root_path_for_current_user
     if current_user
-      rp = (current_user.admin?) ? admin_root_path : root_path
+      rp = (current_user.admin? or current_user.employee? or current_user.org_admin?) ? admin_root_path : root_path
     else
       rp = root_path
     end
@@ -76,6 +76,13 @@ class ApplicationController < ActionController::Base
 
   def current_setting
     @current_setting ||= Setting.instance
+  end
+
+  #========== RENDERING (HTML) ==========================
+
+  def render_not_authorized_error
+    flash.keep[:danger] = 'Access denied.'
+    redirect_to(root_path_for_current_user)
   end
 
 

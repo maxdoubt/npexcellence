@@ -13,12 +13,44 @@
         = f.select :role, User::ROLES.collect {|s| [s.capitalize, s]}, {}, {class: 'form-control'}
 
       .form-group
+        = f.label :org_id
+        = f.select :org_id, Org.all.collect {|s| [s.name, s.id]}, {include_blank: true}, {class: 'form-control'}
+
+
+  .row
+    .col-md-6
+      .form-group
         = f.label :first_name
         = f.text_field :first_name, class: 'form-control'
 
       .form-group
         = f.label :last_name
         = f.text_field :last_name, class: 'form-control'
+
+      .form-group
+        = f.label :phone
+        = f.text_field :phone, class: 'form-control'
+
+      .form-group
+        = f.label :address
+        = f.text_field :address, class: 'form-control'
+
+      .form-group
+        = f.label :title
+        = f.text_field :title, class: 'form-control'
+
+
+    .col-md-6
+      .form-group
+        = f.label :bio
+        = f.text_area :bio, class: 'form-control'
+
+      .form-group
+        = f.label :avatar
+        = f.file_field :avatar
+        - if @user.avatar.exists?
+          = image_tag @user.avatar.url(:medium)
+
 
 = button_tag t('buttons.save'), class: 'btn btn-primary'
 = link_to t('buttons.cancel'), admin_users_path, class: 'btn btn-default'

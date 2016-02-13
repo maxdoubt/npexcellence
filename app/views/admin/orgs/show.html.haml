@@ -1,0 +1,39 @@
+.container
+  .page-header
+    %h1= @org.name
+  .row
+    .col-md-6
+      .panel.panel-default
+        .panel-body
+          %h3= Org.human_attribute_name('description')
+          %h4= @org.description
+
+      .panel.panel-default
+        .panel-body
+          %h3= Org.human_attribute_name('funding')
+          %h4= @org.funding
+
+    .col-md-6
+      .well
+        %dl.dl-horizontal
+          %dt= Org.human_attribute_name('contact')
+          %dd= @org.contact
+
+          %dt= Org.human_attribute_name('address')
+          %dd= @org.address
+
+          %dt= Org.human_attribute_name('phone')
+          %dd= @org.phone
+
+          %dt= Org.human_attribute_name('email')
+          %dd= @org.email
+
+          %dt= Org.human_attribute_name('website')
+          %dd= @org.website
+
+  - if @users.length > 0
+    .row
+      .col-md-12
+        %h2 User Directory
+        - @users.each do |user|
+          = render partial: 'admin/users/user', locals: { user: user }

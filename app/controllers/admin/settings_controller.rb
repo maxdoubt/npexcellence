@@ -5,7 +5,8 @@ class Admin::SettingsController < Admin::ApplicationController
   #----------------------------------------------------
 
   # callbacks
-  before_filter :assign_record,     only: [:edit, :update, :index, :destroy]
+  before_filter :assign_record,     only:   [:edit, :update, :index, :destroy]
+  before_filter :authorize_setting, except: [:index, :new, :create]
 
 
   #========== UPDATE ====================================
@@ -38,6 +39,10 @@ class Admin::SettingsController < Admin::ApplicationController
   # Private Methods
   #----------------------------------------------------
   private
+
+  def authorize_setting
+    authorize @setting
+  end
 
   def assign_record
     @setting = current_setting

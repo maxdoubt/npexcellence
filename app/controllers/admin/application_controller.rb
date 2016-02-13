@@ -6,6 +6,8 @@ class Admin::ApplicationController < ApplicationController
   
   layout 'admin'
   
+  # callbacks
+  before_filter :require_user  
   
 
   #-------------------------------------------------
@@ -17,11 +19,7 @@ class Admin::ApplicationController < ApplicationController
   
   def root_path_for_current_user
     if current_user
-      if current_user.role == Role.api_consumer
-        path = edit_profile_path
-      else
-        path = dashboards_path
-      end
+      path = admin_root_path
     else
       path = login_path
     end

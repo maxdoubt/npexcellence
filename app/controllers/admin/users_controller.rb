@@ -4,7 +4,6 @@ class Admin::UsersController < Admin::ApplicationController
   # Configuration
   #-------------------------------------------------
 
-
   # callbacks
   before_filter :assign_user,    except: [:index, :new, :create]
   before_filter :authorize_user, except: [:index, :new, :create]
@@ -12,8 +11,6 @@ class Admin::UsersController < Admin::ApplicationController
   # before_filter :require_user  
   # load_and_authorize_resource
   # before_filter :assign_role_if_allowed, :only => [:create, :update]
-  
-  
   
   #----------------------------------------------------
   # Public methods
@@ -24,7 +21,9 @@ class Admin::UsersController < Admin::ApplicationController
   def index
     @users = User.all.order('email')
   end
-  
+
+  def show
+  end
 
   #========== CREATE ==================================
 
@@ -51,82 +50,97 @@ class Admin::UsersController < Admin::ApplicationController
 
   #========== UPDATE ====================================
 
-  
-  # This method updates the record so that it reports as active.
-  #
-  def activate
-    @user.activate
-    saved = @user.save
-    
-    if saved
-      flash[:notice] = t("users.activate.flash.success")
+
+  def edit; end
+
+  def update
+    @user.attributes = user_params
+
+    if @user.save
+      flash.keep[:success] = t('users.update.flash.success')
+      redirect_to(admin_users_path)
     else
-      flash[:error]  = t("users.activate.flash.error")
-    end
-    
-    respond_to do |format|
-      format.html {
-        if saved
-          redirect_to users_path
-        else
-          render scaffold_template(:edit)
-        end
-      }
-      format.js
+      flash.now[:danger] = t('scaffolds.generic.flash.error')
+      render :edit
     end
   end
+
+  
+  # # This method updates the record so that it reports as active.
+  # #
+  # def activate
+  #   @user.activate
+  #   saved = @user.save
+    
+  #   if saved
+  #     flash[:notice] = t("users.activate.flash.success")
+  #   else
+  #     flash[:error]  = t("users.activate.flash.error")
+  #   end
+    
+  #   respond_to do |format|
+  #     format.html {
+  #       if saved
+  #         redirect_to users_path
+  #       else
+  #         render scaffold_template(:edit)
+  #       end
+  #     }
+  #     format.js
+  #   end
+  # end
   
   
-  # This method updates the record so that it reports as inactive.
-  #
-  def deactivate
-    @user.deactivate
-    saved = @user.save
+  # # This method updates the record so that it reports as inactive.
+  # #
+  # def deactivate
+  #   @user.deactivate
+  #   saved = @user.save
     
-    if saved
-      flash[:notice] = t("users.deactivate.flash.success")
-    else
-      flash[:error]  = t("users.deactivate.flash.error")
-    end
+  #   if saved
+  #     flash[:notice] = t("users.deactivate.flash.success")
+  #   else
+  #     flash[:error]  = t("users.deactivate.flash.error")
+  #   end
     
-    respond_to do |format|
-      format.html {
-        if saved
-          redirect_to users_path
-        else
-          render scaffold_template(:edit)
-        end
-      }
-      format.js
-    end
-  end
+  #   respond_to do |format|
+  #     format.html {
+  #       if saved
+  #         redirect_to users_path
+  #       else
+  #         render scaffold_template(:edit)
+  #       end
+  #     }
+  #     format.js
+  #   end
+  # end
   
   
-  # This method resets the user's password and send him an activation
-  # email.
-  #
-  def reset    
-    @user.reset_password
-    saved = @user.save
+  # # This method resets the user's password and send him an activation
+  # # email.
+  # #
+  # def reset    
+  #   @user.reset_password
+  #   saved = @user.save
     
-    if saved
-      flash[:notice] = t("users.reset.flash.success")
-      Admin::UserMailer.password_reset(@user).deliver
-    else
-      flash[:error]  = t("users.reset.flash.error")
-    end
+  #   if saved
+  #     flash[:notice] = t("users.reset.flash.success")
+  #     Admin::UserMailer.password_reset(@user).deliver
+  #   else
+  #     flash[:error]  = t("users.reset.flash.error")
+  #   end
     
-    respond_to do |format|
-      format.html {
-        if saved
-          redirect_to users_path
-        else
-          render scaffold_template(:edit)
-        end
-      }
-      format.js
-    end
-  end
+  #   respond_to do |format|
+  #     format.html {
+  #       if saved
+  #         redirect_to users_path
+  #       else
+  #         render scaffold_template(:edit)
+  #       end
+  #     }
+  #     format.js
+  #   end
+  # end
   
   
   
@@ -146,9 +160,18 @@ class Admin::UsersController < Admin::ApplicationController
 
   def user_params
     params.require(:user).permit(
-      :name,
+      :id,
       :email,
-      :role
+      :role,
+      :org_id,
+      :first_name,
+      :last_name,
+      :banned,
+      :phone,
+      :address,
+      :title,
+      :bio,
+      :avatar
     )
   end
   

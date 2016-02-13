@@ -9,12 +9,13 @@ Rails.application.routes.draw do
   match "login"                         => "user_sessions#new",      :as => :login,   via: [:get, :post]
   match "logout"                        => "user_sessions#destroy",  :as => :logout,  via: [:get, :post]
 
-  root 'pages#show', :defaults => { :id => 'home' }
+  root 'pages#show', :defaults => { :id => 'who-we-are' }
 
 
   namespace :admin do
 
     # collection resource routes
+    resources :orgs
     resources :posts
     resources :pages do
       member do

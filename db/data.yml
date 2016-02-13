@@ -9,18 +9,6 @@ uploads:
   - upload_updated_at
   - user_id
   records: 
-  - - '2'
-    - playthedraft_configuration.jpg
-    - image/jpeg
-    - '149097'
-    - '2016-02-03 20:47:17.076332'
-    - 
-  - - '3'
-    - playthedraft_reload_prices.jpg
-    - image/jpeg
-    - '179309'
-    - '2016-02-03 20:52:00.679063'
-    - 
   - - '7'
     - shuttle.jpg
     - image/jpeg
@@ -32,6 +20,12 @@ uploads:
     - image/jpeg
     - '90830'
     - '2016-02-04 22:26:47.320518'
+    - 
+  - - '10'
+    - sears_parking_lot.jpg
+    - image/jpeg
+    - '128488'
+    - '2016-02-05 21:21:28.128198'
     - 
 
 ---
@@ -50,7 +44,7 @@ pages:
   - updated_at
   records: 
   - - '1'
-    - Home
+    - Who We Are
     - '<div id="carousel-example-generic" class="carousel slide" data-ride="carousel"><!--
       Indicators --><!-- Wrapper for slides --><div class="carousel-inner"><div class="item
       active"><img src="/images/carousel/hands_plant.jpg" alt="..." style="" class="fr-dib"><div
@@ -60,49 +54,76 @@ pages:
       Community with Alliance</h1></div></div></div><!-- Controls --><a class="left
       carousel-control" href="#carousel-example-generic" data-slide="prev"><span class="sr-only">Previous</span></a><a
       class="right carousel-control" href="#carousel-example-generic" data-slide="next"><span
-      class="sr-only">Next</span></a></div><p></p><section><h1 style="text-align:
-      center;">Our Strategy</h1></section><p></p><div class="container"><div class="row"><div
-      class="col-md-4"><div class="well text-center"><h1>People</h1><h3>Strengthen
-      board and staff leadership while building the human resources systems to move
-      your nonprofit forward.</h3></div></div><div class="col-md-4"><div class="well
-      text-center"><h1>Revenue</h1><h3>Strike a balance between mission and money,
-      developing new revenue strategies and enhancing financial management.</h3></div></div><div
-      class="col-md-4"><div class="well text-center"><h1>Impact</h1><h3>Align vision
-      to impact as you measure change, develop better solutions, and establish a compelling
-      story.</h3></div></div></div></div><p></p><section><h1 style="text-align: center;">Guiding
-      the Path Towards Collaboration</h1></section><p></p><div class="container"><ul
-      class="timeline"><li><div class="timeline-panel"><div class="timeline-heading"><h2
-      class="timeline-title">Consulting and Training</h2></div><div class="timeline-body"><h3>Our
-      Consulting services help you challenge your assumptions, discover new solutions,
-      and enhance your capacity while strengthening the impact of your work.</h3></div></div></li><li
-      class="timeline-inverted"><div class="timeline-panel"><div class="timeline-heading"><h2
-      class="timeline-title">Convening</h2></div><div class="timeline-body"><h3>The
-      Alliance believes that nonprofits are the heartbeat of our community. A vibrant
-      nonprofit sector strengthens our community and increases our collective potential
-      to make a meaningiful difference.</h3><h3>The Alliance builds community and
-      connections through its membership network and through special events such as
-      member sessions, community forums, and our Annual Conference, that create opprotunities
-      for peer learning and sharing.</h3></div></div></li><li><div class="timeline-panel"><div
-      class="timeline-heading"><h2 class="timeline-title">Gateway Programs</h2></div><div
-      class="timeline-body"><h3>The Alliance provides online tools and resources that
-      are available to any organization, including connections and access to resources
-      provided by national partners.</h3></div></div></li><li class="timeline-inverted"><div
-      class="timeline-panel"><div class="timeline-heading"><h2 class="timeline-title">Systems
-      Impact</h2></div><div class="timeline-body"><h3>The Alliance contributes to
-      and continues to learn from sector research, guiding the work we do and the
+      class="sr-only">Next</span></a></div><p></p><section><h1>Our Strategy</h1></section><p></p><p><br></p><div
+      class="container"><div class="row"><div class="col-md-4"><div class="well text-center"><h1><div
+      class="fa fa-users"><br></div> People</h1><h3>Strengthen board and staff leadership
+      while building the human resources systems to move your nonprofit forward.</h3></div></div><div
+      class="col-md-4"><div class="well text-center"><h1><div class="fa fa-balance-scale"><br></div>
+      Revenue</h1><h3>Strike a balance between mission and money, developing new revenue
+      strategies and enhancing financial management.</h3></div></div><div class="col-md-4"><div
+      class="well text-center"><h1><div class="fa fa-line-chart"><br></div> Impact</h1><h3>Align
+      vision to impact as you measure change, develop better solutions, and establish
+      a compelling story.</h3></div></div></div></div><p></p><section><h1 style="text-align:
+      center;">Guiding the Path Towards Collaboration</h1></section><p></p><div class="container"><div
+      class="row"><div class="col-md-5"><h2>Consulting and Training</h2><h3>Our Consulting
+      services help you challenge your assumptions, discover new solutions, and enhance
+      your capacity while strengthening the impact of your work.</h3></div><div class="col-md-7">Image
+      Here</div></div><div class="row"><div class="col-md-7">Image Here</div><div
+      class="col-md-5"><h2>Convening</h2><h3>The Alliance believes that nonprofits
+      are the heartbeat of our community. A vibrant nonprofit sector strengthens our
+      community and increases our collective potential to make a meaningiful difference.</h3><h3>The
+      Alliance builds community and connections through its membership network and
+      through special events such as member sessions, community forums, and our Annual
+      Conference, that create opprotunities for peer learning and sharing.</h3></div></div><div
+      class="row"><div class="col-md-5"><h2>Gateway Programs</h2><h3>The Alliance
+      provides online tools and resources that are available to any organization,
+      including connections and access to resources provided by national partners.</h3></div><div
+      class="col-md-7">Image Here</div></div><div class="row"><div class="col-md-7">Image
+      Here</div><div class="col-md-5"><h2>Systems Impact</h2><h3>The Alliance contributes
+      to and continues to learn from sector research, guiding the work we do and the
       services we offer. We provide organizations access to current research and knowledge
-      of key trends and important advocacy issues.</h3></div></div></li></ul></div>'
-    - home
+      of key trends and important advocacy issues.</h3></div></div></div>'
+    - who-we-are
     - 
     - '1'
     - '16'
     - '0'
     - '0'
     - '2015-10-30 17:43:21.170909'
-    - '2016-02-05 02:58:09.096581'
+    - '2016-02-06 13:59:22.56755'
   - - '2'
-    - Theory of Change
-    - '<div><img class="fr-dib img-responsive" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/008/original/road_work_change_short.jpg?1454624807"></div><p></p><section><h1
+    - History
+    - <div><img class="fr-dib img-responsive" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/010/original/sears_parking_lot.jpg?1454707288"></div><p></p><section><h1
+      class="text-center">Alliance&nbsp;History</h1></section><p></p>
+    - history
+    - '1'
+    - '4'
+    - '5'
+    - '1'
+    - '0'
+    - '2015-10-30 18:58:30.627264'
+    - '2016-02-05 21:24:26.838592'
+  - - '3'
+    - Mission & Theory of Change
+    - '<div><img class="fr-dib img-responsive" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/007/original/shuttle.jpg?1454622247"></div><p></p><section><h1
+      class="text-center">Strengthening Non Profits Toward Excellence</h1></section><p></p><div
+      class="container"><div class="history"><div class="page-header"><h1 class="text-center">Our
+      Mission</h1></div><p>The mission of the Alliance is to strengthen nonprofits
+      toward excellence. At the heart of what we do is our belief that a stronger
+      nonprofit sector builds a stronger community. The Alliance believes that nonprofits
+      connect us to something larger than ourselves as they reflect our best qualities
+      as individuals and shine a light on our collective potential as a community.</p><p>The
+      Alliance for Nonprofit Excellence provides resources, training, and consulting
+      services to Mid-South nonprofits. These offerings equip nonprofits with the
+      knowledge, tools, and networks to thrive in a rapidly changing environment and
+      drive organizational impact. During its twenty-three year history, the Alliance
+      has worked with hundreds of nonprofits to develop their financial resources,
+      professional skills, and management tools and strategies.</p><p>The Alliance
+      helps nonprofit organizations build operational excellence in the areas of people,
+      revenue, and impact, and helps transform board and staff members&rsquo; passion
+      into know how, providing a way to move their missions and goals forward and
+      meet community needs.</p></div></div><div><img class="fr-dib img-responsive"
+      src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/008/original/road_work_change_short.jpg?1454624807"></div><p></p><section><h1
       class="text-center">Theory of Change</h1></section><p></p><div class="container"><div><h3>The
       Alliance seeks to expand the number of high impact Mid-South nonprofits by strengthening
       their ability to engage people, acquire and utilize revenue, and deliver on
@@ -163,42 +184,14 @@ pages:
       Alliance enhances community impact by readying Mid-South nonprofits to take
       the leap from good to better, from better to best, and from best to world-class
       creating a vibrant region for people to live and thrive</h4></div></div></div>'
-    - theory-of-change
-    - '1'
-    - '4'
-    - '5'
-    - '1'
-    - '0'
-    - '2015-10-30 18:58:30.627264'
-    - '2016-02-05 02:12:44.80639'
-  - - '3'
-    - History and Mission
-    - <div><img class="fr-dib img-responsive" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/007/original/shuttle.jpg?1454622247"></div><p></p><section><h1
-      class="text-center">Strengthening Non Profits Toward Excellence</h1></section><p></p><div
-      class="container"><div class="history"><div class="page-header"><h1 class="text-center">Our
-      Mission</h1></div><p>The mission of the Alliance is to strengthen nonprofits
-      toward excellence. At the heart of what we do is our belief that a stronger
-      nonprofit sector builds a stronger community. The Alliance believes that nonprofits
-      connect us to something larger than ourselves as they reflect our best qualities
-      as individuals and shine a light on our collective potential as a community.</p><p>The
-      Alliance for Nonprofit Excellence provides resources, training, and consulting
-      services to Mid-South nonprofits. These offerings equip nonprofits with the
-      knowledge, tools, and networks to thrive in a rapidly changing environment and
-      drive organizational impact. During its twenty-three year history, the Alliance
-      has worked with hundreds of nonprofits to develop their financial resources,
-      professional skills, and management tools and strategies.</p><p>The Alliance
-      helps nonprofit organizations build operational excellence in the areas of people,
-      revenue, and impact, and helps transform board and staff members&rsquo; passion
-      into know how, providing a way to move their missions and goals forward and
-      meet community needs.</p></div></div>
-    - history-and-mission
+    - mission-theory-of-change
     - '1'
     - '2'
     - '3'
     - '1'
     - '0'
     - '2015-10-30 18:58:42.141497'
-    - '2016-02-05 02:17:22.25929'
+    - '2016-02-05 20:46:05.866868'
   - - '4'
     - Staff
     - "<p>Staff</p>"
@@ -419,3 +412,29 @@ pages:
     - '0'
     - '2016-02-04 16:54:02.418269'
     - '2016-02-04 16:54:11.736767'
+
+---
+settings:
+  columns:
+  - id
+  - phone
+  - address
+  - footer
+  - title
+  - logo_file_name
+  - logo_content_type
+  - logo_file_size
+  - logo_updated_at
+  records: 
+  - - '1'
+    - 901.684.6605
+    - '1919 Lynnfield Rd #200, Memphis, TN 38119'
+    - The Alliance helps nonprofit organizations build operational excellence in the
+      areas of people, revenue, and impact, and helps transform board and staff members’
+      passion into know how, providing a way to move their missions and goals forward
+      and meet community needs.
+    - The Alliance for Nonprofit Excellence
+    - logo.png
+    - image/png
+    - '33732'
+    - '2016-02-05 17:09:01.579871'

@@ -11,6 +11,41 @@ en:
 
 
   #--------------------------------------------
+  # orgs
+  #--------------------------------------------
+  orgs:
+
+    #-------------
+    new:
+      links:
+        default:
+          text: "Create Organization"
+      header: "Create Organization"
+
+    #-------------
+    create:
+      flash:
+        success: "The organization was created successfully."
+
+    #-------------
+    edit:
+      header: "Update Organization"
+
+    #-------------
+    update:
+      flash:
+        success: "The organization was updated successfully."
+
+    #-------------
+    destroy:
+      flash:
+        success: "The organization was deleted successfully."
+      links:
+        default:
+          text: "Delete Organization"
+
+
+  #--------------------------------------------
   # pages
   #--------------------------------------------
   pages:

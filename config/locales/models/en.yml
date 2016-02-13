@@ -6,3 +6,6 @@ en:
     #--------------------------------------------      
     attributes:
 
+      #------------
+      org:
+        contact: 'Primary Contact'

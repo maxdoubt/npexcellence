@@ -18,10 +18,11 @@
                 Admin Functions
                 %span.caret
               %ul.dropdown-menu
-                %li= link_to 'Pages',   admin_pages_path
-                %li= link_to 'Posts',   admin_posts_path
-                %li= link_to 'Uploads', admin_uploads_path
-                %li= link_to 'Users',   admin_users_path
+                %li= link_to 'Organizations',   admin_orgs_path
+                %li= link_to 'Pages',           admin_pages_path
+                %li= link_to 'Posts',           admin_posts_path
+                %li= link_to 'Uploads',         admin_uploads_path
+                %li= link_to 'Users',           admin_users_path
                 %li.divider{role: "separator"}
                 %li= link_to 'Settings',   admin_settings_path
 
@@ -33,7 +34,7 @@
               = link_to 'Sign In', login_path, class: 'btn btn-default navbar-btn'
 
     .content-wrapper
-      - if params[:action] == 'show' 
+      - if params[:action] == 'show' and params[:controller] == 'admin/pages'
         = render partial: 'shared/layouts/flash_messages'
         .content-container
           = yield

@@ -5,7 +5,8 @@ class Admin::UploadsController < Admin::ApplicationController
   #----------------------------------------------------
 
   # callbacks
-  before_filter :assign_record,     only: [:show, :edit, :update, :destroy]
+  before_filter :assign_record,     only:   [:show, :edit, :update, :destroy]
+  before_filter :authorize_upload,  except: [:index, :new, :create]
 
   #========== CREATE ====================================
 
@@ -57,6 +58,10 @@ class Admin::UploadsController < Admin::ApplicationController
   # Private Methods
   #----------------------------------------------------
   private
+
+  def authorize_upload
+    authorize @upload
+  end
 
   def assign_record
     @upload = Upload.find(params[:id])

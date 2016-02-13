@@ -69,8 +69,8 @@ class ApplicationPolicy
     user.admin?
   end
 
-  def user?
-    user.user?
+  def employee?
+    user.employee?
   end
 
 end
