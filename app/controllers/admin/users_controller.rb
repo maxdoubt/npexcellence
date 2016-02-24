@@ -11,6 +11,9 @@ class Admin::UsersController < Admin::ApplicationController
   # before_filter :require_user  
   # load_and_authorize_resource
   # before_filter :assign_role_if_allowed, :only => [:create, :update]
+
+  # views
+  layout 'users'
   
   #----------------------------------------------------
   # Public methods

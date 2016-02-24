@@ -48,6 +48,7 @@ gem "jquery-fileupload-rails"
 
 # frontend
 gem 'bower-rails'
+gem 'angular-rails-templates'
 
 
 group :development, :test do

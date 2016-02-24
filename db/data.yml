@@ -27,6 +27,55 @@ uploads:
     - '128488'
     - '2016-02-05 21:21:28.128198'
     - 
+  - - '12'
+    - teamwork_hands.jpg
+    - image/jpeg
+    - '507035'
+    - '2016-02-24 02:09:41.028658'
+    - 
+  - - '15'
+    - NPQ_Nonprofit_Economy_2012.jpg
+    - image/jpeg
+    - '575282'
+    - '2016-02-24 02:32:37.609434'
+    - 
+  - - '16'
+    - consulting.jpg
+    - image/jpeg
+    - '216744'
+    - '2016-02-24 02:45:24.268059'
+    - 
+  - - '17'
+    - community_engagement3.jpg
+    - image/jpeg
+    - '541795'
+    - '2016-02-24 02:45:38.222365'
+    - 
+  - - '18'
+    - resources3.jpg
+    - image/jpeg
+    - '274274'
+    - '2016-02-24 02:45:51.90544'
+    - 
+  - - '20'
+    - jsuffel.jpeg
+    - image/jpeg
+    - '193679'
+    - '2016-02-24 03:14:06.459061'
+    - 
+  - - '21'
+    - pnewman.jpg
+    - image/jpeg
+    - '1078302'
+    - '2016-02-24 03:14:17.888565'
+    - 
+  - - '22'
+    - cecil_award.png
+    - image/png
+    - '1785896'
+    - '2016-02-24 04:46:44.433842'
+    - 
+
 
 ---
 pages:
@@ -46,10 +95,10 @@ pages:
   - - '1'
     - Who We Are
     - '<div id="carousel-example-generic" class="carousel slide" data-ride="carousel"><!--
-      Indicators --><!-- Wrapper for slides --><div class="carousel-inner"><div class="item
-      active"><img src="/images/carousel/hands_plant.jpg" alt="..." style="" class="fr-dib"><div
+      Indicators --><!-- Wrapper for slides --><div class="carousel-inner"><div class="item"><img
+      src="/images/carousel/hands_plant.jpg" alt="..." style="" class="fr-dib"><div
       class="carousel-caption"><h1>Your Path to Excellence Starts Here</h1></div></div><div
-      class="item"><img src="/images/carousel/hands_in_air.jpg" alt="..." style=""
+      class="item active"><img src="/images/carousel/hands_in_air.jpg" alt="..." style=""
       class="fr-dib"><div class="carousel-caption"><h1>Make Connections and Build
       Community with Alliance</h1></div></div></div><!-- Controls --><a class="left
       carousel-control" href="#carousel-example-generic" data-slide="prev"><span class="sr-only">Previous</span></a><a
@@ -63,69 +112,73 @@ pages:
       strategies and enhancing financial management.</h3></div></div><div class="col-md-4"><div
       class="well text-center"><h1><div class="fa fa-line-chart"><br></div> Impact</h1><h3>Align
       vision to impact as you measure change, develop better solutions, and establish
-      a compelling story.</h3></div></div></div></div><p></p><section><h1 style="text-align:
-      center;">Guiding the Path Towards Collaboration</h1></section><p></p><div class="container"><div
-      class="row"><div class="col-md-5"><h2>Consulting and Training</h2><h3>Our Consulting
-      services help you challenge your assumptions, discover new solutions, and enhance
-      your capacity while strengthening the impact of your work.</h3></div><div class="col-md-7">Image
-      Here</div></div><div class="row"><div class="col-md-7">Image Here</div><div
-      class="col-md-5"><h2>Convening</h2><h3>The Alliance believes that nonprofits
-      are the heartbeat of our community. A vibrant nonprofit sector strengthens our
-      community and increases our collective potential to make a meaningiful difference.</h3><h3>The
-      Alliance builds community and connections through its membership network and
-      through special events such as member sessions, community forums, and our Annual
-      Conference, that create opprotunities for peer learning and sharing.</h3></div></div><div
-      class="row"><div class="col-md-5"><h2>Gateway Programs</h2><h3>The Alliance
-      provides online tools and resources that are available to any organization,
-      including connections and access to resources provided by national partners.</h3></div><div
-      class="col-md-7">Image Here</div></div><div class="row"><div class="col-md-7">Image
-      Here</div><div class="col-md-5"><h2>Systems Impact</h2><h3>The Alliance contributes
+      a compelling story.</h3></div></div></div><br><br></div><p></p><section><h1
+      style="text-align: center;">Guiding the Path Towards Collaboration</h1></section><p></p><div
+      class="container"><br><br><div class="row"><div class="col-md-6"><h2>Consulting
+      and Training</h2><h3>Our Consulting services help you challenge your assumptions,
+      discover new solutions, and enhance your capacity while strengthening the impact
+      of your work.</h3></div><div class="col-md-6"><img class="img-responsive fr-dii"
+      src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/016/original/consulting.jpg?1456281924"></div></div><hr><div
+      class="row"><div class="col-md-6"><img class="img-responsive fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/017/original/community_engagement3.jpg?1456281938"
+      style=""></div><div class="col-md-6"><h2>Convening</h2><h3>The Alliance believes
+      that nonprofits are the heartbeat of our community. A vibrant nonprofit sector
+      strengthens our community and increases our collective potential to make a meaningiful
+      difference.</h3><h3>The Alliance builds community and connections through its
+      membership network and through special events such as member sessions, community
+      forums, and our Annual Conference, that create opprotunities for peer learning
+      and sharing.</h3></div></div><hr><div class="row"><div class="col-md-6"><h2>Gateway
+      Programs</h2><h3>The Alliance provides online tools and resources that are available
+      to any organization, including connections and access to resources provided
+      by national partners.</h3><h2>Systems Impact</h2><h3>The Alliance contributes
       to and continues to learn from sector research, guiding the work we do and the
       services we offer. We provide organizations access to current research and knowledge
-      of key trends and important advocacy issues.</h3></div></div></div>'
+      of key trends and important advocacy issues.</h3></div><div class="col-md-6"><img
+      class="img-responsive fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/018/original/resources3.jpg?1456281951"
+      style=""></div></div></div>'
     - who-we-are
     - 
     - '1'
-    - '16'
+    - '12'
     - '0'
     - '0'
     - '2015-10-30 17:43:21.170909'
-    - '2016-02-06 13:59:22.56755'
+    - '2016-02-24 02:59:39.816707'
   - - '2'
     - History
     - <div><img class="fr-dib img-responsive" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/010/original/sears_parking_lot.jpg?1454707288"></div><p></p><section><h1
-      class="text-center">Alliance&nbsp;History</h1></section><p></p>
+      class="text-center">Alliance History</h1></section><p></p><div class="container"><div
+      class="row"><div class="col-md-12"><h2>For 24 years, the Alliance has serviced
+      hundreds of nonprofits in the mid-south. Starting as The Grant Center in 1992,
+      the Alliance has evolved over time to better meet the needs of our nonprofit
+      members and our community.</h2></div></div></div>
     - history
     - '1'
-    - '4'
-    - '5'
+    - '8'
+    - '9'
     - '1'
     - '0'
     - '2015-10-30 18:58:30.627264'
-    - '2016-02-05 21:24:26.838592'
+    - '2016-02-24 03:37:01.032628'
   - - '3'
     - Mission & Theory of Change
-    - '<div><img class="fr-dib img-responsive" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/007/original/shuttle.jpg?1454622247"></div><p></p><section><h1
-      class="text-center">Strengthening Non Profits Toward Excellence</h1></section><p></p><div
-      class="container"><div class="history"><div class="page-header"><h1 class="text-center">Our
-      Mission</h1></div><p>The mission of the Alliance is to strengthen nonprofits
-      toward excellence. At the heart of what we do is our belief that a stronger
-      nonprofit sector builds a stronger community. The Alliance believes that nonprofits
-      connect us to something larger than ourselves as they reflect our best qualities
-      as individuals and shine a light on our collective potential as a community.</p><p>The
-      Alliance for Nonprofit Excellence provides resources, training, and consulting
-      services to Mid-South nonprofits. These offerings equip nonprofits with the
-      knowledge, tools, and networks to thrive in a rapidly changing environment and
-      drive organizational impact. During its twenty-three year history, the Alliance
-      has worked with hundreds of nonprofits to develop their financial resources,
-      professional skills, and management tools and strategies.</p><p>The Alliance
-      helps nonprofit organizations build operational excellence in the areas of people,
-      revenue, and impact, and helps transform board and staff members&rsquo; passion
-      into know how, providing a way to move their missions and goals forward and
-      meet community needs.</p></div></div><div><img class="fr-dib img-responsive"
-      src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/008/original/road_work_change_short.jpg?1454624807"></div><p></p><section><h1
-      class="text-center">Theory of Change</h1></section><p></p><div class="container"><div><h3>The
-      Alliance seeks to expand the number of high impact Mid-South nonprofits by strengthening
+    - '<div><img class="fr-dib img-responsive" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/012/original/teamwork_hands.jpg?1456279781"></div><p></p><section><h3><strong>Our
+      Mission</strong></h3><h1 class="text-center">Strengthening Nonprofits Toward
+      Excellence</h1></section><p></p><div class="container"><div class="history"><div
+      class="page-header"><h2 class="text-center"><br>Why: Strong Nonprofits mean
+      Strong Communities</h2></div><h3>Nonprofits have an incredible economic impact,
+      and often step in the gap to provide social services and support that other
+      entities cannot. Nonprofits make the Mid-South a great place to live and work,
+      and they are critical to our local economy.</h3><br><br></div></div><div><img
+      class="fr-dib img-responsive" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/015/original/NPQ_Nonprofit_Economy_2012.jpg?1456281157"><br></div><div
+      class="container"><div class="page-header"><h2 class="text-center">How: People,
+      Revenue, Impact</h2></div><h3>We strengthen nonprofits by focusing on the things
+      that matter most when creating a thriving organization: people, revenue, and
+      impact. We offer customized training and consulting in these areas to help our
+      member organizations increase their impact and adapt to change. To learn more
+      about what types of training and consulting we offer, visit our training and
+      consulting pages.</h3><div><br><br><br></div></div><p></p><section><h1 class="text-center">Theory
+      of Change</h1></section><p></p><div class="container"><div><h3>The Alliance
+      seeks to expand the number of high impact Mid-South nonprofits by strengthening
       their ability to engage people, acquire and utilize revenue, and deliver on
       mission to meet the changing needs of our region.</h3></div><div class="row"><div
       class="col-md-6"><div class="page-header"><h1 class="text-center">The Need</h1></div><h4>The
@@ -191,227 +244,365 @@ pages:
     - '1'
     - '0'
     - '2015-10-30 18:58:42.141497'
-    - '2016-02-05 20:46:05.866868'
+    - '2016-02-24 02:33:50.271471'
   - - '4'
     - Staff
-    - "<p>Staff</p>"
+    - <div class="container"><div class="row"><div class="col-md-12"><div class="page-header
+      text-center"><h1>Our Staff</h1></div></div><div class="col-sm-4 text-center"><img
+      class="img-responsive img-circle fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/020/original/jsuffel.jpeg?1456283646"
+      style=""><h2><strong>Jaclyn Suffel</strong></h2><h3>Director of Communications</h3></div><div
+      class="col-sm-4 text-center"><img class="img-responsive img-circle fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/021/original/pnewman.jpg?1456283657"
+      style=""><h2><strong>Paul Newman</strong></h2><h3>Philanthropist</h3></div></div></div>
     - staff
+    - '1'
+    - '4'
+    - '5'
+    - '1'
+    - '0'
+    - '2016-01-22 20:36:46.920638'
+    - '2016-02-24 03:54:25.742159'
+  - - '7'
+    - Consultants
+    - <div class="container"><div class="row"><div class="col-md-12"><div class="page-header
+      text-center"><h1>Our Consultants</h1></div></div></div><div class="row"><h3
+      class="text-center">Consultants with Expertise in Human Resources and Leadership
+      Development</h3><div class="col-sm-4 text-center"><img class="img-responsive
+      img-circle fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/020/original/jsuffel.jpeg?1456283646"
+      style=""><h2><strong>Jaclyn Suffel</strong></h2><h3>Director of Communications</h3></div><div
+      class="col-sm-4 text-center"><img class="img-responsive img-circle fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/021/original/pnewman.jpg?1456283657"
+      style=""><h2><strong>Paul Newman</strong></h2><h3>Philanthropist</h3></div></div><hr><div
+      class="row"><h3 class="text-center">Consultants with Expertise in Revenue Streams
+      and Financial Management</h3><div class="col-sm-4 text-center"><img class="img-responsive
+      img-circle fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/020/original/jsuffel.jpeg?1456283646"
+      style=""><h2><strong>Jaclyn Suffel</strong></h2><h3>Director of Communications</h3></div><div
+      class="col-sm-4 text-center"><img class="img-responsive img-circle fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/021/original/pnewman.jpg?1456283657"
+      style=""><h2><strong>Paul Newman</strong></h2><h3>Philanthropist</h3></div></div><hr><div
+      class="row"><h3 class="text-center">Consultants with Expertise in Evaluation,
+      Change Management, and Communications</h3><div class="col-sm-4 text-center"><img
+      class="img-responsive img-circle fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/020/original/jsuffel.jpeg?1456283646"
+      style=""><h2><strong>Jaclyn Suffel</strong></h2><h3>Director of Communications</h3></div><div
+      class="col-sm-4 text-center"><img class="img-responsive img-circle fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/021/original/pnewman.jpg?1456283657"
+      style=""><h2><strong>Paul Newman</strong></h2><h3>Philanthropist</h3></div></div></div>
+    - consultants
     - '1'
     - '6'
     - '7'
     - '1'
     - '0'
-    - '2016-01-22 20:36:46.920638'
-    - '2016-02-04 16:38:24.46423'
-  - - '7'
-    - Consultants
-    - "<p>Consultants</p>"
-    - consultants
-    - '1'
-    - '8'
-    - '9'
-    - '1'
-    - '0'
     - '2016-02-04 16:38:42.513225'
-    - '2016-02-04 16:38:48.527724'
-  - - '8'
-    - Board
-    - "<p>Board</p>"
-    - board
+    - '2016-02-24 03:54:25.742159'
+  - - '10'
+    - Members
+    - "<p>Supporters</p>"
+    - members
     - '1'
     - '10'
     - '11'
     - '1'
     - '0'
-    - '2016-02-04 16:38:57.874105'
-    - '2016-02-04 16:39:04.610245'
-  - - '9'
-    - Mission Partners
-    - "<p>Mission Partners</p>"
-    - mission-partners
-    - '1'
-    - '12'
-    - '13'
-    - '1'
-    - '0'
-    - '2016-02-04 16:39:17.677776'
-    - '2016-02-04 16:39:24.473802'
-  - - '10'
-    - Supporters
-    - "<p>Supporters</p>"
-    - supporters
-    - '1'
+    - '2016-02-04 16:39:45.577557'
+    - '2016-02-24 03:57:44.727727'
+  - - '11'
+    - Training
+    - <div class="container"><div class="row"><div class="col-md-12"><div class="page-header
+      text-center"><h1>Training</h1></div></div></div><div class="row"><div class="col-md-12"><h3>(Picture
+      of Training in action and quote from someone about trainings)</h3><h3>The Alliance
+      offers weekly training opportunities (hyperlink to calendar) in our office or
+      online and members receive a substantial discount. Our trainings are led by
+      expert instructors and the curriculum is diverse. Our trainings can be utilized
+      by every member of a nonprofit staff, from HR to Development.</h3><h3>Trainings
+      can also be customized for an organization&rsquo;s specific needs. We are happy
+      to work with you to provide professional development for your staff.</h3><h3>To
+      see a list of upcoming trainings or register for one- click here. (hyperlink
+      to calendar)</h3><h3>For questions about trainings please contact April Carter
+      (email)</h3></div></div></div>
+    - training
+    - '26'
     - '14'
     - '15'
     - '1'
     - '0'
-    - '2016-02-04 16:39:45.577557'
-    - '2016-02-04 16:39:52.005036'
-  - - '11'
-    - Training and Consulting
-    - "<p>Training and Consulting</p>"
-    - training-and-consulting
-    - 
-    - '17'
-    - '26'
-    - '0'
-    - '0'
     - '2016-02-04 16:40:14.432369'
-    - '2016-02-04 16:45:44.811694'
+    - '2016-02-24 04:12:08.194368'
   - - '12'
-    - Our Process
-    - "<p>Our Process</p>"
-    - our-process
-    - '11'
+    - Consulting
+    - <div class="container"><div class="row"><div class="col-md-12"><div class="page-header
+      text-center"><h1>Consulting</h1></div></div></div><div class="row"><div class="col-md-12
+      text-center"><h2>(Picture of consulting client- quote about consulting help)</h2><h2>Customized
+      Consulting</h2><h3>We offer one-on-one consulting with seasoned nonprofit professionals
+      who can listen to your needs, provide guidance, and create strategy. Our expert
+      consultants are highly trained in the areas of people, revenue, and impact,
+      and they can aid you in projects of all types.</h3><h3>Projects could include
+      objectives like board development, HR auditing, strategic planning, program
+      cost assessment, program evaluation, or marketing and branding.</h3><h2>The
+      Alliance Consulting Process</h2><h3>Our consultants and clients participate
+      in a thorough process of working collaboratively to assess the organization&rsquo;s
+      key issues and to prepare a scope of service to address those issues. Our consultants
+      then deliver high quality service and the Alliance monitors this process and
+      measures the outcome to ensure our client is satisfied.</h3><h2>Bookkeeping
+      Services</h2><h3>We also offer bookkeeping consultants that can meet your organization&rsquo;s
+      accounting needs and ensure your operations are well managed.</h3><h2>How to
+      get Started</h2><h3>To schedule a free consultation complete this interest form.
+      (webform for interest with specific fields that gets sent to John)</h3></div></div></div>
+    - consulting
+    - '26'
+    - '16'
+    - '17'
+    - '1'
+    - '0'
+    - '2016-02-04 16:41:33.56072'
+    - '2016-02-24 04:16:50.1172'
+  - - '13'
+    - Nonprofit Networking and Convening
+    - <div class="container"><div class="row"><div class="col-md-12"><div class="page-header
+      text-center"><h1>Nonprofit Networking and Convening</h1></div></div></div><div
+      class="row"><div class="col-md-12"><h3 class="text-center">As a benefit to our
+      members, we offer several free opportunities for nonprofit professionals to
+      meet their colleagues from the sector, trouble shoot, share best practices,
+      and support one another. We also regularly convene the sector to discuss important
+      current issues, to foster collaboration and communication, and to better align
+      our vision for our community.</h3></div></div><div class="row"><div class="col-sm-6"><h2><strong>Member
+      Events</strong></h2><h3>Meet the Media</h3><h3>First Fridays</h3><h3>LPBC Breakfast
+      Club</h3><h3>etc. (what else?)<br><br></h3></div><div class="col-sm-6"><h2><strong>Sector
+      Convening</strong></h2><h3>Two Sides Discussion between funders and nonprofits</h3><h3>Day
+      on the Hill</h3><h3>Chamber Convening</h3></div></div><div class="row"><div
+      class="col-sm-6"><h2><strong>Monthly Networking Groups for Professionals</strong></h2><h3>Click
+      here to see when the next networking meetings are (link to calendar)</h3></div><div
+      class="col-sm-6"><h2><strong>Annual Conference</strong></h2><h3>Every year we
+      host an annual conference for the sector to(pictures)</h3></div></div></div>
+    - nonprofit-networking-and-convening
+    - '26'
     - '18'
     - '19'
     - '1'
     - '0'
-    - '2016-02-04 16:41:33.56072'
-    - '2016-02-04 16:43:17.145559'
-  - - '13'
-    - People Support
-    - "<p>People Support</p>"
-    - people-support
-    - '11'
+    - '2016-02-04 16:43:28.410789'
+    - '2016-02-24 04:27:31.067581'
+  - - '14'
+    - Program of Nonprofit Excellence
+    - '<div><img class="img-responsive fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/022/original/cecil_award.png?1456289204"><div
+      class="container"><div class="page-header text-center"><h1>Program for Nonprofit
+      Excellence</h1></div><div class="row"><div class="col-md-12 text-center"><h2>The
+      Program for Nonprofit Excellence (PNE) is an intensive three-year capacity building
+      program for nonprofit organizations. The goal of PNE is to support nonprofits
+      in developing healthy, sustainable organizations with the capacity to learn
+      and grow, use their resources effectively, and meet the changing needs of the
+      community.</h2></div></div><hr><div class="row"><div class="col-md-4"><div class="well"><h1>A
+      quote from someone about PNE here.</h1></div></div><div class="col-md-8"><h3>PNE
+      integrates best practices and lessons learned from the sector-wide field of
+      capacity building with the specific needs and challenges facing the local nonprofit
+      community. Over the past twelve years, 33 organizations have participated in
+      the program. From learning to harness board talent, to sharing leadership, to
+      creating a new vision for their roles in the community, these organizations
+      have invested in identifying and working toward their diverse goals for organizational
+      health and growth.</h3></div></div><hr><div class="row text-center"><div class="col-md-4"><h1>Year
+      One Focus: Revenue</h1><h1><i class="fa fa-dollar large">&nbsp;</i></h1></div><div
+      class="col-md-4"><h1>Year One Focus: Revenue</h1><h1><i class="fa fa-users large">&nbsp;</i></h1></div><div
+      class="col-md-4"><h1>Year One Focus: Revenue</h1><h1><i class="fa fa-line-chart
+      large">&nbsp;</i></h1></div></div></div></div>'
+    - program-of-nonprofit-excellence
+    - '26'
     - '20'
     - '21'
     - '1'
     - '0'
-    - '2016-02-04 16:43:28.410789'
-    - '2016-02-04 16:43:33.642636'
-  - - '14'
-    - Revenue Support
-    - "<p>Revenue Support</p>"
-    - revenue-support
-    - '11'
+    - '2016-02-04 16:43:45.485174'
+    - '2016-02-24 04:50:19.48977'
+  - - '15'
+    - Program of Nonprofit Excellence Alumni
+    - "<p>Impact Support</p>"
+    - program-of-nonprofit-excellence-alumni
+    - '26'
     - '22'
     - '23'
     - '1'
     - '0'
-    - '2016-02-04 16:43:45.485174'
-    - '2016-02-04 16:44:01.130046'
-  - - '15'
-    - Impact Support
-    - "<p>Impact Support</p>"
-    - impact-support
-    - '11'
-    - '24'
-    - '25'
-    - '1'
-    - '0'
     - '2016-02-04 16:45:34.031041'
-    - '2016-02-04 16:45:44.811694'
+    - '2016-02-24 03:59:13.241518'
   - - '16'
     - Membership
     - "<p>Membership</p>"
     - membership
     - 
-    - '27'
-    - '34'
+    - '25'
+    - '32'
     - '0'
     - '0'
     - '2016-02-04 16:46:21.684151'
-    - '2016-02-04 16:48:03.548241'
+    - '2016-02-24 03:53:30.749989'
   - - '17'
-    - Partner Spotlight
+    - Member Spotlights
     - "<p>Partner Spotlight</p>"
-    - partner-spotlight
+    - member-spotlights
     - '16'
-    - '28'
-    - '29'
+    - '26'
+    - '27'
     - '1'
     - '0'
     - '2016-02-04 16:46:45.842608'
-    - '2016-02-04 16:46:56.85785'
+    - '2016-02-24 03:59:31.68285'
   - - '18'
     - Become a Member
     - "<p>Become a Member</p>"
     - become-a-member
     - '16'
-    - '30'
-    - '31'
+    - '28'
+    - '29'
     - '1'
     - '0'
     - '2016-02-04 16:47:35.608837'
-    - '2016-02-04 16:47:41.582568'
+    - '2016-02-24 03:53:30.749989'
   - - '19'
     - PNE Graduates
     - "<p>PNE Graduates</p>"
     - pne-graduates
     - '16'
-    - '32'
-    - '33'
+    - '30'
+    - '31'
     - '1'
     - '0'
     - '2016-02-04 16:47:52.520302'
-    - '2016-02-04 16:48:03.548241'
+    - '2016-02-24 03:53:30.749989'
   - - '20'
     - Resources
     - "<p>Resources</p>"
     - resources
     - 
-    - '35'
-    - '46'
+    - '43'
+    - '54'
     - '0'
     - '0'
     - '2016-02-04 16:48:17.930078'
-    - '2016-02-04 16:54:11.736767'
+    - '2016-02-24 04:06:19.764357'
   - - '21'
     - Career Center
     - "<p>Career Center</p>"
     - career-center
     - '20'
-    - '36'
-    - '37'
+    - '44'
+    - '45'
     - '1'
     - '0'
     - '2016-02-04 16:52:16.818827'
-    - '2016-02-04 16:52:26.712436'
+    - '2016-02-24 04:06:19.764357'
   - - '22'
     - Research
     - "<p>Research</p>"
     - research
     - '20'
-    - '38'
-    - '39'
+    - '46'
+    - '47'
     - '1'
     - '0'
     - '2016-02-04 16:52:41.590818'
-    - '2016-02-04 16:52:47.4325'
+    - '2016-02-24 04:06:19.764357'
   - - '23'
     - Advocacy
     - "<p>Advocacy</p>"
     - advocacy
     - '20'
-    - '40'
-    - '41'
+    - '48'
+    - '49'
     - '1'
     - '0'
     - '2016-02-04 16:53:00.719118'
-    - '2016-02-04 16:53:12.696727'
+    - '2016-02-24 04:06:19.764357'
   - - '24'
     - Online Resources
     - "<p>Online Resources</p>"
     - online-resources
     - '20'
-    - '42'
-    - '43'
+    - '50'
+    - '51'
     - '1'
     - '0'
     - '2016-02-04 16:53:30.30344'
-    - '2016-02-04 16:53:38.33171'
+    - '2016-02-24 04:06:19.764357'
   - - '25'
     - Calendar
     - "<p>Calendar</p>"
     - calendar
     - '20'
-    - '44'
-    - '45'
+    - '52'
+    - '53'
     - '1'
     - '0'
     - '2016-02-04 16:54:02.418269'
-    - '2016-02-04 16:54:11.736767'
+    - '2016-02-24 04:06:19.764357'
+  - - '26'
+    - What We Do
+    - '<div class="container"><div class="row"><div class="col-md-12"><div class="page-header
+      text-center"><h1>Our Approach</h1></div></div></div><div class="row"><div class="col-md-12"><h2>After
+      years of experience with outstanding nonprofits, we narrowed our training and
+      consulting approach to focus on the three areas that matter most to fostering
+      excellence: people, revenue, and impact.</h2><h2>(Graphics Here)</h2><h2>All
+      effective organizations have robust practices and strategies that develop leadership
+      and attract talent, promote fiscal health and sustainability, and evaluate program
+      success. Both our training and consulting services are designed with this in
+      mind.</h2></div></div></div>'
+    - what-we-do
+    - 
+    - '13'
+    - '24'
+    - '0'
+    - '0'
+    - '2016-02-24 03:38:50.391082'
+    - '2016-02-24 04:09:01.781972'
+  - - '27'
+    - Our Supporters
+    - '<h1 style="text-align: center;">Our Supporters</h1>'
+    - our-supporters
+    - 
+    - '33'
+    - '38'
+    - '0'
+    - '0'
+    - '2016-02-24 04:00:44.75373'
+    - '2016-02-24 04:01:52.115973'
+  - - '28'
+    - Board Members
+    - '<h1 style="text-align: center;">Board Members</h1>'
+    - board-members
+    - '27'
+    - '34'
+    - '35'
+    - '1'
+    - '0'
+    - '2016-02-24 04:01:18.074461'
+    - '2016-02-24 04:01:27.29362'
+  - - '29'
+    - Mission Partners
+    - '<h1 style="text-align: center;">Mission Partners</h1>'
+    - mission-partners
+    - '27'
+    - '36'
+    - '37'
+    - '1'
+    - '0'
+    - '2016-02-24 04:01:44.446084'
+    - '2016-02-24 04:01:52.115973'
+  - - '30'
+    - Upcoming Events
+    - '<h1 style="text-align: center;">Upcoming Events</h1>'
+    - upcoming-events
+    - 
+    - '39'
+    - '42'
+    - '0'
+    - '0'
+    - '2016-02-24 04:05:36.798512'
+    - '2016-02-24 04:06:19.764357'
+  - - '31'
+    - Event Registration
+    - '<h1 style="text-align: center;">Event Registration</h1>'
+    - event-registration
+    - '30'
+    - '40'
+    - '41'
+    - '1'
+    - '0'
+    - '2016-02-24 04:06:00.933975'
+    - '2016-02-24 04:06:19.764357'
 
 ---
 settings:

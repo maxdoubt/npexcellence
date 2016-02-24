@@ -1,0 +1,55 @@
+!!!
+%html{'ng-app': 'angular-app'}
+  %head
+    %base{href: '/admin/users/'}
+    = render partial: 'shared/layouts/head'
+
+  %body{ class: "#{ controller_name } #{ controller_name }-#{ action_name }"}
+    .navbar.navbar-inverse.navbar-fixed-top{role: "navigation"}
+      .container-fluid
+        .navbar-header
+          = render partial: 'shared/nav/header'
+
+        .collapse.navbar-collapse#js-navbar-collapse
+          %ul.nav.navbar-nav.nav-main
+            = render partial: 'shared/nav/pages'
+
+            %li
+              %a.dropdown-toggle{href: "#", data: { toggle: "dropdown" }, role: "button", "aria-haspopup" => "true", "aria-expanded" => "false" }
+                Admin Functions
+                %span.caret
+              %ul.dropdown-menu
+                %li= link_to 'Organizations',   admin_orgs_path
+                %li= link_to 'Pages',           admin_pages_path
+                %li= link_to 'Posts',           admin_posts_path
+                %li= link_to 'Uploads',         admin_uploads_path
+                %li= link_to 'Users',           admin_users_path
+                %li.divider{role: "separator"}
+                %li= link_to 'Settings',   admin_settings_path
+
+
+          %ul.nav.navbar-nav.navbar-right
+            - if current_user
+              = render partial: 'shared/nav/current_user_menu'
+            - else
+              = link_to 'Sign In', login_path, class: 'btn btn-default navbar-btn'
+
+    .content-wrapper
+      - if params[:action] == 'show' and params[:controller] == 'admin/pages'
+        = render partial: 'shared/layouts/flash_messages'
+        .content-container
+          = yield
+      - else 
+        .container-fluid      
+          = render partial: 'shared/layouts/flash_messages'
+
+          / ======================
+          /   angular views here
+          / ======================
+          .content-container{'ng-view': true}
+
+
+    .footer-wrapper
+      .container-fluid
+        .footer-container
+          = render partial: 'shared/layouts/footer'

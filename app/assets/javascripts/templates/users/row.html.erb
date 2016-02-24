@@ -1,0 +1,10 @@
+<td class="remove-col">
+  <a href class="text-danger" ng-click="removeUser(user)"><i class="glyphicon glyphicon-remove"></i></a>
+</td>
+<td class="isbn-col">{{user.isbn}}</td>
+<td class="author-col">{{user.author}}</td>
+<td class="title-col">{{user.title}}</td>
+<td class="price-col">$ {{user.price / 1000 | number : 2}}</td>
+<td class="action-col">
+  <a ng-href="/users/{{user.id}}"><i class="glyphicon glyphicon-pencil"></i></a>
+</td>

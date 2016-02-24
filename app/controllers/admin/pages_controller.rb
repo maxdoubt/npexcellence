@@ -5,8 +5,8 @@ class Admin::PagesController < Admin::ApplicationController
   #----------------------------------------------------
 
   # callbacks
-  before_filter :assign_record,     only:   [:show, :edit, :update]
-  before_filter :authorize_page,    except: [:index, :new, :create]
+  before_filter :assign_record,     only:   [:show, :edit, :update, :destroy]
+  before_filter :authorize_page,    except: [:index, :new, :create, :reorganize]
 
   #========== CREATE ====================================
 
@@ -37,6 +37,7 @@ class Admin::PagesController < Admin::ApplicationController
   def reorganize
     list = params[:list]
     prev_page = nil
+    last_root = nil
     list.each_with_index do |item, i|
       item_params = item[1]
 
@@ -45,6 +46,10 @@ class Admin::PagesController < Admin::ApplicationController
       # if root of tree on rails side
       if item_params['parent_id'] == ''
         page.parent_id = nil
+        if last_root
+          page.move_to_right_of(last_root.id)
+        end
+        last_root = page
         page.save
 
       else
@@ -97,6 +102,14 @@ class Admin::PagesController < Admin::ApplicationController
   end
 
   def test
+  end
+
+  #========== READ ====================================
+
+  def destroy
+    if @page.destroy
+      redirect_to admin_pages_path
+    end
   end
 
   #----------------------------------------------------
