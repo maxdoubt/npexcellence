@@ -1,0 +1,31 @@
+<div class="row">
+  <div class="col-sm-12">
+    <header class="page-header">
+      <h2>Users</h2>
+    </header>
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="remove-col"></th>
+          <th class="isbn-col">ISBN</th>
+          <th class="author-col">Author(s)</th>
+          <th class="title-col">Title</th>
+          <th class="price-col">Price</th>
+          <th class="action-col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr user-row user="user" removebook="removeUser(user)" ng-repeat="user in users"></tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="6">
+            <div class="pull-right">
+              <a ng-href="/users/new" class="btn btn-primary">New User</a>
+            </div>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</div>
