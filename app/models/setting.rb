@@ -25,9 +25,9 @@ class Setting < ActiveRecord::Base
   # Public Class Methods
   #-------------------------------------------------------------------------------
 
-  def self.instance
-    first_or_create!
-  end
+  # def self.instance
+  #   first_or_create!
+  # end
 
   #-------------------------------------------------------------------------------
   # Public Instance Methods
