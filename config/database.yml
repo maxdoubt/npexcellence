@@ -41,4 +41,7 @@ uat:
   <<: *heroku
 
 production:
-  <<: *heroku
+  <<: *pg
+  database: npexcellence_production
+
+#  <<: *heroku

@@ -41,12 +41,13 @@
 #= require plugins/url.min.js
 #= require plugins/video.min.js
 #
+#= require core/nav
+#
 #= require_tree .
 
 #----------------------------------------------------------
 # App Configuration
 #----------------------------------------------------------
-
 
 # this code won't work here due to authenticity token
 
