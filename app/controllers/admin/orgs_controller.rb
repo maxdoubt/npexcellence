@@ -67,7 +67,29 @@ class Admin::OrgsController < Admin::ApplicationController
   end
 
   def org_params
-    params.require(:org).permit(:id, :name, :role, :active, :phone, :address, :contact, :email, :website, :description, :funding, :logo, :photo)
+    params.require(:org).permit(:id, 
+                                :name, 
+                                :role, 
+                                :active, 
+                                :spotlight, 
+                                :phone, 
+                                :address, 
+                                :contact, 
+                                :email, 
+                                :website, 
+                                :description, 
+                                :inspiration, 
+                                :pride, 
+                                :involvement, 
+                                :alliance, 
+                                :interviewee, 
+                                :interviewee_title, 
+                                :funding, 
+                                :logo, 
+                                :photo, 
+                                :photo_two, 
+                                :photo_three, 
+                                :photo_four)
   end
 
 

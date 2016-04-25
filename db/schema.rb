@@ -17,17 +17,23 @@ ActiveRecord::Schema.define(version: 20160206142020) do
   enable_extension "plpgsql"
 
   create_table "orgs", force: :cascade do |t|
-    t.string   "name",               null: false
+    t.string   "name",                     null: false
     t.string   "slug"
-    t.string   "role",               null: false
-    t.boolean  "active",             null: false
+    t.string   "role",                     null: false
+    t.boolean  "active",                   null: false
     t.string   "phone"
     t.string   "address"
     t.string   "contact"
     t.string   "email"
     t.string   "website"
     t.text     "description"
+    t.text     "inspiration"
+    t.text     "pride"
+    t.text     "involvement"
     t.text     "funding"
+    t.text     "alliance"
+    t.text     "interviewee"
+    t.string   "interviewee_title"
     t.string   "logo_file_name"
     t.string   "logo_content_type"
     t.integer  "logo_file_size"
@@ -36,8 +42,21 @@ ActiveRecord::Schema.define(version: 20160206142020) do
     t.string   "photo_content_type"
     t.integer  "photo_file_size"
     t.datetime "photo_updated_at"
-    t.datetime "created_at",         null: false
-    t.datetime "updated_at",         null: false
+    t.string   "photo_two_file_name"
+    t.string   "photo_two_content_type"
+    t.integer  "photo_two_file_size"
+    t.datetime "photo_two_updated_at"
+    t.string   "photo_three_file_name"
+    t.string   "photo_three_content_type"
+    t.integer  "photo_three_file_size"
+    t.datetime "photo_three_updated_at"
+    t.string   "photo_four_file_name"
+    t.string   "photo_four_content_type"
+    t.integer  "photo_four_file_size"
+    t.datetime "photo_four_updated_at"
+    t.boolean  "spotlight"
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
   end
 
   create_table "pages", force: :cascade do |t|

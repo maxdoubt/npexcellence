@@ -147,6 +147,197 @@ uploads:
     - '48057'
     - '2016-03-29 03:54:33.931272'
     - 
+  - - '35'
+    - Streets_helpers.jpg
+    - image/jpeg
+    - '197488'
+    - '2016-04-22 02:49:35.855232'
+    - 
+  - - '36'
+    - meritan_foster_parents.jpg
+    - image/jpeg
+    - '213659'
+    - '2016-04-22 02:52:19.989738'
+    - 
+  - - '37'
+    - IMG_0162.jpg
+    - image/jpeg
+    - '119827'
+    - '2016-04-22 02:57:14.674176'
+    - 
+  - - '38'
+    - DSC_1103.jpg
+    - image/jpeg
+    - '161560'
+    - '2016-04-22 03:03:05.189317'
+    - 
+  - - '39'
+    - dsc_0832_med-2.jpeg
+    - image/jpeg
+    - '140353'
+    - '2016-04-22 03:05:12.992365'
+    - 
+  - - '40'
+    - DSC_1255.jpg
+    - image/jpeg
+    - '152664'
+    - '2016-04-22 03:05:32.336147'
+    - 
+  - - '41'
+    - IMG_0407.jpg
+    - image/jpeg
+    - '128428'
+    - '2016-04-22 03:05:49.821504'
+    - 
+  - - '42'
+    - PNE_grads.jpg
+    - image/jpeg
+    - '143309'
+    - '2016-04-23 03:56:16.143045'
+    - 
+  - - '43'
+    - Soulsville.jpg
+    - image/jpeg
+    - '143552'
+    - '2016-04-23 04:27:15.919888'
+    - 
+  - - '44'
+    - St._Columba_Camp.JPG
+    - image/jpeg
+    - '237656'
+    - '2016-04-23 04:27:25.966703'
+    - 
+  - - '45'
+    - Change-Group.jpg
+    - image/jpeg
+    - '205080'
+    - '2016-04-23 05:02:08.96986'
+    - 
+
+---
+orgs:
+  columns:
+  - id
+  - name
+  - slug
+  - role
+  - active
+  - phone
+  - address
+  - contact
+  - email
+  - website
+  - description
+  - inspiration
+  - pride
+  - involvement
+  - funding
+  - alliance
+  - interviewee
+  - interviewee_title
+  - logo_file_name
+  - logo_content_type
+  - logo_file_size
+  - logo_updated_at
+  - photo_file_name
+  - photo_content_type
+  - photo_file_size
+  - photo_updated_at
+  - photo_two_file_name
+  - photo_two_content_type
+  - photo_two_file_size
+  - photo_two_updated_at
+  - photo_three_file_name
+  - photo_three_content_type
+  - photo_three_file_size
+  - photo_three_updated_at
+  - photo_four_file_name
+  - photo_four_content_type
+  - photo_four_file_size
+  - photo_four_updated_at
+  - spotlight
+  - created_at
+  - updated_at
+  records: 
+  - - '3'
+    - Bridges
+    - bridges
+    - nonprofit
+    - true
+    - '9014525600'
+    - 477 N 5th St, Memphis, TN 38105
+    - Cynthia Ham
+    - info@bridgesusa.org
+    - http://bridgesusa.org/
+    - "Through our Bridge Builders program we unite and inspire diverse young people
+      to become confident and courageous leaders. Our philosophy is that youth deserve
+      to be respected and acknowledged for the positive difference they can make in
+      Memphis. In the course of a year, we impact 6,000 students in 144 schools and
+      in 57 zip codes.\r\n\r\nSome people think that because we're a social service
+      agency, we target under-served youth.  In fact, the point of Bridge Builders
+      is to bring together youth from all walks of life to get to know one another
+      and appreciate what they have in common and how they may think differently."
+    - 'When I came to BRIDGES I was challenged by the business challenges: clarity
+      of focus and mission,creating the strategy, building a sustainable business
+      and finanical model, etc. However, working with the youth and watching them
+      evole into leaders has been the most gratifying. I’ve had an opportunity to
+      coach some of our youth and it was really inspiring. Throughout my career I
+      hadn’t had much interaction with youth in large numbers. Our youth really are
+      amazing; adults need to think of them as an asset to the community.'
+    - 'I am most proud of the Bridge Builders CHANGE program. CHANGE brings 24 students
+      together to study social problems in Memphis, particularly as it relates to
+      youth, because there are lots of issues that youth identify in schools and in
+      the community that adults might miss. Youth are best equipped to identify youth
+      problems and they work together to analyze the problem and develop a strategy
+      for creating grassroots change. Instead of one-time volunteer service projects,
+      this is a year-long project that addresses much more systemic issues. BRIDGES
+      is unique in that it’s all about youth leading other youth: we believe that
+      once you equip them with good practices and methodologies, they can figure out
+      what to do and act on it. For example, through this program, our Bridge Builders
+      recommended a policy to the Shelby County Schools Board of Education to establish
+      a student congress so that youth voice could be heard. They lobbied every member
+      of the school board and worked closely with the administration to develop the
+      policy. The policy recommendation was passed and now the Bridge Builders working
+      to make sure it’s implemented.'
+    - We received an amazing challenge grant of $10 million to match with $10 million,
+      creativng a $20 million  endowment, ensuring BRIDGES will never go away and
+      that it will always serve the youth in the Memphis area... We are in the home
+      stretch and we would love people to consider donating to the matching grant
+      so we can reach our goal very soon!
+    - ''
+    - "We love all of the professional development opportunities through the Alliance
+      that are unique to non-profit work. I personally enjoy the CEO round tables
+      because I get the opportunity to interact with my fellow CEOs. When we get together,
+      we compare notes about challenges we have and talk about best practices. It’s
+      a great opportunity to seek advice from colleagues who have had similar experiences.\r\n\r\nIt’s
+      a great resource for inexpensive and effective trainings and great networking
+      opportunities for your entire staff. Our CFO and Vice President of HR both enjoy
+      participating in their networking groups."
+    - Cynthia Ham
+    - President & CEO
+    - logo.png
+    - image/png
+    - '10322'
+    - '2016-04-25 12:49:47.983698'
+    - Bridges_kids.jpg
+    - image/jpeg
+    - '114064'
+    - '2016-04-25 12:49:48.333031'
+    - bridgedebate2.jpg
+    - image/jpeg
+    - '259725'
+    - '2016-04-25 12:49:49.779927'
+    - collaborate-728x390.jpg
+    - image/jpeg
+    - '126234'
+    - '2016-04-25 12:49:51.295532'
+    - Bridges_staff.JPG
+    - image/jpeg
+    - '215129'
+    - '2016-04-25 12:49:52.661936'
+    - true
+    - '2016-04-25 12:31:14.248621'
+    - '2016-04-25 12:49:54.284069'
 
 ---
 settings:
@@ -392,10 +583,8 @@ pages:
       specific needs. We are happy to work with you to provide professional development
       for your staff.</h3><h3>To see a list of upcoming trainings or register for
       one- click here. (hyperlink to calendar)</h3><h3>For questions about trainings
-      please contact April Carter (email)<br><br><br></h3></div></div><div class="row"><div
-      class="col-md-2">&nbsp;</div><div class="col-md-8"><img class="fr-dib img-responsive"
-      src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/034/original/D3X_6978.jpg?1459223673"></div><div
-      class="col-md-2">&nbsp;</div></div></div>
+      please contact April Carter (email)<br><br><br></h3><img class="fr-dib img-responsive"
+      src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/034/original/D3X_6978.jpg?1459223673"></div></div></div>
     - training
     - '26'
     - '14'
@@ -403,12 +592,11 @@ pages:
     - '1'
     - '0'
     - '2016-02-04 16:40:14.432369'
-    - '2016-03-29 03:59:38.177194'
+    - '2016-04-22 03:00:48.902474'
   - - '12'
     - Consulting
-    - <div class="container"><div class="row"><div class="col-md-12"><div class="page-header
-      text-center"><h1>Consulting</h1></div></div></div><div class="row"><div class="col-md-12
-      text-center"><h2>(Picture of consulting client- quote about consulting help)</h2><h2>Customized
+    - <div><img class="fr-dib img-responsive" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/037/original/IMG_0162.jpg?1461293834"></div><p></p><section><h1>Consulting</h1></section><p></p><div
+      class="container"><div class="row"><div class="col-md-12 text-center"><h2>Customized
       Consulting</h2><h3>We offer one-on-one consulting with seasoned nonprofit professionals
       who can listen to your needs, provide guidance, and create strategy. Our expert
       consultants are highly trained in the areas of people, revenue, and impact,
@@ -431,25 +619,31 @@ pages:
     - '1'
     - '0'
     - '2016-02-04 16:41:33.56072'
-    - '2016-02-24 04:16:50.1172'
+    - '2016-04-22 02:58:49.518919'
   - - '13'
     - Nonprofit Networking and Convening
-    - <div class="container"><div class="row"><div class="col-md-12"><div class="page-header
-      text-center"><h1>Nonprofit Networking and Convening</h1></div></div></div><div
-      class="row"><div class="col-md-12"><h3 class="text-center">As a benefit to our
-      members, we offer several free opportunities for nonprofit professionals to
-      meet their colleagues from the sector, trouble shoot, share best practices,
-      and support one another. We also regularly convene the sector to discuss important
-      current issues, to foster collaboration and communication, and to better align
-      our vision for our community.</h3></div></div><div class="row"><div class="col-sm-6"><h2><strong>Member
+    - <div><img class="fr-dib img-responsive" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/038/original/DSC_1103.jpg?1461294185"></div><p></p><section><h1>Nonprofit
+      Networking and Convening</h1></section><p></p><div class="container"><div class="row"><div
+      class="col-md-12"><h3 class="text-center">As a benefit to our members, we offer
+      several free opportunities for nonprofit professionals to meet their colleagues
+      from the sector, trouble shoot, share best practices, and support one another.
+      We also regularly convene the sector to discuss important current issues, to
+      foster collaboration and communication, and to better align our vision for our
+      community.</h3></div></div><div class="row"><div class="col-sm-6 text-center"><h2><strong>Member
       Events</strong></h2><h3>Meet the Media</h3><h3>First Fridays</h3><h3>LPBC Breakfast
-      Club</h3><h3>etc. (what else?)<br><br></h3></div><div class="col-sm-6"><h2><strong>Sector
+      Club</h3><h3>etc. (what else?)<br><br></h3></div><div class="col-sm-6 text-center"><h2><strong>Sector
       Convening</strong></h2><h3>Two Sides Discussion between funders and nonprofits</h3><h3>Day
       on the Hill</h3><h3>Chamber Convening</h3></div></div><div class="row"><div
-      class="col-sm-6"><h2><strong>Monthly Networking Groups for Professionals</strong></h2><h3>Click
+      class="col-sm-2">&nbsp;</div><div class="col-sm-8"><img class="img-responsive
+      fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/039/original/dsc_0832_med-2.jpeg?1461294312"
+      style=""></div><div class="col-sm-2">&nbsp;</div></div><div class="row"><div
+      class="col-sm-6 text-center"><h2><strong>Monthly Networking Groups for Professionals</strong></h2><h3>Click
       here to see when the next networking meetings are (link to calendar)</h3></div><div
-      class="col-sm-6"><h2><strong>Annual Conference</strong></h2><h3>Every year we
-      host an annual conference for the sector to(pictures)</h3></div></div></div>
+      class="col-sm-6 text-center"><h2><strong>Annual Conference</strong></h2><h3>Every
+      year we host an annual conference for the sector to(pictures)</h3></div></div><div
+      class="row"><div class="col-sm-6"><img class="img-responsive fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/040/original/DSC_1255.jpg?1461294332"
+      style=""></div><div class="col-sm-6"><img class="img-responsive fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/041/original/IMG_0407.jpg?1461294349"
+      style=""></div></div></div>
     - nonprofit-networking-and-convening
     - '26'
     - '18'
@@ -457,29 +651,30 @@ pages:
     - '1'
     - '0'
     - '2016-02-04 16:43:28.410789'
-    - '2016-02-24 04:27:31.067581'
+    - '2016-04-22 03:14:16.029792'
   - - '14'
     - Program of Nonprofit Excellence
-    - '<div><img class="img-responsive fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/022/original/cecil_award.png?1456289204"><div
-      class="container"><div class="page-header text-center"><h1>Program for Nonprofit
-      Excellence</h1></div><div class="row"><div class="col-md-12 text-center"><h2>The
-      Program for Nonprofit Excellence (PNE) is an intensive three-year capacity building
-      program for nonprofit organizations. The goal of PNE is to support nonprofits
-      in developing healthy, sustainable organizations with the capacity to learn
-      and grow, use their resources effectively, and meet the changing needs of the
-      community.</h2></div></div><hr><div class="row"><div class="col-md-4"><div class="well"><h1>A
-      quote from someone about PNE here.</h1></div></div><div class="col-md-8"><h3>PNE
-      integrates best practices and lessons learned from the sector-wide field of
-      capacity building with the specific needs and challenges facing the local nonprofit
-      community. Over the past twelve years, 33 organizations have participated in
-      the program. From learning to harness board talent, to sharing leadership, to
-      creating a new vision for their roles in the community, these organizations
-      have invested in identifying and working toward their diverse goals for organizational
-      health and growth.</h3></div></div><hr><div class="row text-center"><div class="col-md-4"><h1>Year
+    - '<div><img class="fr-dib img-responsive" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/042/original/PNE_grads.jpg?1461383776"></div><p></p><section><h1>Program
+      for Nonprofit Excellence</h1></section><p></p><div><div class="container"><div
+      class="row"><div class="col-md-12 text-center"><h2>The Program for Nonprofit
+      Excellence (PNE) is an intensive three-year capacity building program for nonprofit
+      organizations. The goal of PNE is to support nonprofits in developing healthy,
+      sustainable organizations with the capacity to learn and grow, use their resources
+      effectively, and meet the changing needs of the community.</h2></div></div><hr><div
+      class="row"><div class="col-md-4"><div class="well"><h1>A quote from someone
+      about PNE here.</h1></div></div><div class="col-md-8"><h3>PNE integrates best
+      practices and lessons learned from the sector-wide field of capacity building
+      with the specific needs and challenges facing the local nonprofit community.
+      Over the past twelve years, 33 organizations have participated in the program.
+      From learning to harness board talent, to sharing leadership, to creating a
+      new vision for their roles in the community, these organizations have invested
+      in identifying and working toward their diverse goals for organizational health
+      and growth.</h3></div></div><hr><div class="row text-center"><div class="col-md-4"><h1>Year
       One Focus: Revenue</h1><h1><i class="fa fa-dollar large">&nbsp;</i></h1></div><div
       class="col-md-4"><h1>Year One Focus: Revenue</h1><h1><i class="fa fa-users large">&nbsp;</i></h1></div><div
       class="col-md-4"><h1>Year One Focus: Revenue</h1><h1><i class="fa fa-line-chart
-      large">&nbsp;</i></h1></div></div></div></div>'
+      large">&nbsp;</i></h1></div></div><br><br><img class="img-responsive fr-dib"
+      src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/022/original/cecil_award.png?1456289204"></div></div>'
     - program-of-nonprofit-excellence
     - '26'
     - '20'
@@ -487,7 +682,7 @@ pages:
     - '1'
     - '0'
     - '2016-02-04 16:43:45.485174'
-    - '2016-02-24 04:50:19.48977'
+    - '2016-04-23 04:16:04.31746'
   - - '15'
     - Program of Nonprofit Excellence Alumni
     - "<p>Impact Support</p>"
@@ -501,7 +696,16 @@ pages:
     - '2016-02-24 03:59:13.241518'
   - - '16'
     - Membership
-    - "<p>Membership</p>"
+    - <div><img class="img-responsive fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/043/original/Soulsville.jpg?1461385635"
+      style=""></div><p></p><section><h1>Membership Benefits</h1></section><p></p><div
+      class="container"><div class="row text-center"><div class="col-sm-4"><h2>Discounts
+      and Partnerships</h2></div><div class="col-sm-4"><h2>Publications</h2></div><div
+      class="col-sm-4"><h2>Alerts and Information (Grants Alert, Policy Action Alerts)</h2></div></div><div
+      class="row text-center"><div class="col-sm-4"><h2>Free events and opportunities</h2></div><div
+      class="col-sm-4"><h2>Access to Tools via the Membership Portal</h2></div><div
+      class="col-sm-4"><h2>Ready to join? Link to join page</h2></div></div><br><br><br></div><div><img
+      class="img-responsive fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/044/original/St._Columba_Camp.JPG?1461385645"
+      style=""></div>
     - membership
     - 
     - '25'
@@ -509,10 +713,11 @@ pages:
     - '0'
     - '0'
     - '2016-02-04 16:46:21.684151'
-    - '2016-02-24 03:53:30.749989'
+    - '2016-04-23 04:42:49.748373'
   - - '17'
     - Member Spotlights
-    - "<p>Partner Spotlight</p>"
+    - <div><img class="img-responsive fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/045/original/Change-Group.jpg?1461387728"
+      style=""><section><h1>Partner Spotlight</h1></section></div>
     - member-spotlights
     - '16'
     - '26'
@@ -520,7 +725,7 @@ pages:
     - '1'
     - '0'
     - '2016-02-04 16:46:45.842608'
-    - '2016-02-24 03:59:31.68285'
+    - '2016-04-23 05:03:56.768187'
   - - '18'
     - Become a Member
     - "<p>Become a Member</p>"
@@ -611,15 +816,16 @@ pages:
     - '2016-02-24 04:06:19.764357'
   - - '26'
     - What We Do
-    - '<div class="container"><div class="row"><div class="col-md-12"><div class="page-header
-      text-center"><h1>Our Approach</h1></div></div></div><div class="row"><div class="col-md-12"><h2>After
-      years of experience with outstanding nonprofits, we narrowed our training and
-      consulting approach to focus on the three areas that matter most to fostering
-      excellence: people, revenue, and impact.</h2><h2>(Graphics Here)</h2><h2>All
-      effective organizations have robust practices and strategies that develop leadership
-      and attract talent, promote fiscal health and sustainability, and evaluate program
-      success. Both our training and consulting services are designed with this in
-      mind.</h2></div></div></div>'
+    - '<div><img class="fr-dib img-responsive" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/035/original/Streets_helpers.jpg?1461293375"></div><p></p><section><h1
+      class="text-center">Our Approach</h1></section><p></p><div class="container"><div
+      class="row"><div class="col-md-12"><h2>After years of experience with outstanding
+      nonprofits, we narrowed our training and consulting approach to focus on the
+      three areas that matter most to fostering excellence: people, revenue, and impact.</h2><img
+      class="img-responsive fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/036/original/meritan_foster_parents.jpg?1461293539"
+      style=""><h2>All effective organizations have robust practices and strategies
+      that develop leadership and attract talent, promote fiscal health and sustainability,
+      and evaluate program success. Both our training and consulting services are
+      designed with this in mind.</h2></div></div></div>'
     - what-we-do
     - 
     - '13'
@@ -627,7 +833,7 @@ pages:
     - '0'
     - '0'
     - '2016-02-24 03:38:50.391082'
-    - '2016-02-24 04:09:01.781972'
+    - '2016-04-22 02:56:11.942799'
   - - '27'
     - Our Supporters
     - '<h1 style="text-align: center;">Our Supporters</h1>'

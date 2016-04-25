@@ -37,3 +37,5 @@
         %h2 User Directory
         - @users.each do |user|
           = render partial: 'admin/users/user', locals: { user: user }
+
+= render partial: 'admin/orgs/spotlight', locals: {org: @org}

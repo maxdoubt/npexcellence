@@ -2,3 +2,8 @@
 
 - if current_user
   = link_to 'Edit', edit_admin_page_path(@page), class: 'btn btn-default'
+
+- if params[:id] == 'member-spotlights'
+  - Org.where(spotlight: true).each do |org|
+    .container
+      = render partial: 'orgs/spotlight', locals: {org: org}

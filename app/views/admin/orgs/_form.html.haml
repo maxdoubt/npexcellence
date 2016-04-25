@@ -16,6 +16,9 @@
         = f.label :active
         = f.check_box :active, class: 'form-control'
 
+      .form-group
+        = f.label :spotlight
+        = f.check_box :spotlight, class: 'form-control'
 
   .row
     .col-md-6
@@ -44,6 +47,29 @@
         = f.label :description
         = f.text_area :description, class: 'form-control'
 
+      .form-group
+        = f.label :inspiration
+        = f.text_area :inspiration, class: 'form-control'
+
+      .form-group
+        = f.label :pride
+        = f.text_area :pride, class: 'form-control'
+
+      .form-group
+        = f.label :involvement
+        = f.text_area :involvement, class: 'form-control'
+
+      .form-group
+        = f.label :alliance
+        = f.text_area :alliance, class: 'form-control'
+
+      .form-group
+        = f.label :interviewee
+        = f.text_field :interviewee, class: 'form-control'
+
+      .form-group
+        = f.label :interviewee_title
+        = f.text_field :interviewee_title, class: 'form-control'
 
       .form-group
         = f.label :funding
@@ -59,6 +85,24 @@
       .form-group
         = f.label :photo
         = f.file_field :photo
+        - if @org.photo.exists?
+          = image_tag @org.photo.url(:medium)
+
+      .form-group
+        = f.label :photo_two
+        = f.file_field :photo_two
+        - if @org.photo.exists?
+          = image_tag @org.photo.url(:medium)
+
+      .form-group
+        = f.label :photo_three
+        = f.file_field :photo_three
+        - if @org.photo.exists?
+          = image_tag @org.photo.url(:medium)
+
+      .form-group
+        = f.label :photo_four
+        = f.file_field :photo_four
         - if @org.photo.exists?
           = image_tag @org.photo.url(:medium)
 
