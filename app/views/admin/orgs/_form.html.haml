@@ -91,20 +91,20 @@
       .form-group
         = f.label :photo_two
         = f.file_field :photo_two
-        - if @org.photo.exists?
-          = image_tag @org.photo.url(:medium)
+        - if @org.photo_two.exists?
+          = image_tag @org.photo_two.url(:medium)
 
       .form-group
         = f.label :photo_three
         = f.file_field :photo_three
-        - if @org.photo.exists?
-          = image_tag @org.photo.url(:medium)
+        - if @org.photo_three.exists?
+          = image_tag @org.photo_three.url(:medium)
 
       .form-group
         = f.label :photo_four
         = f.file_field :photo_four
-        - if @org.photo.exists?
-          = image_tag @org.photo.url(:medium)
+        - if @org.photo_four.exists?
+          = image_tag @org.photo_four.url(:medium)
 
 
 

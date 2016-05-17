@@ -259,6 +259,88 @@ orgs:
   - created_at
   - updated_at
   records: 
+  - - '1'
+    - Test Nonprofit
+    - test-nonprofit
+    - nonprofit
+    - true
+    - '9011231234'
+    - 123 Test Address
+    - John Doe
+    - john@doe.com
+    - testnonprofit.org
+    - Test Org
+    - 
+    - 
+    - 
+    - no funding
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - false
+    - '2016-04-25 12:10:49.951012'
+    - '2016-04-25 12:10:49.951012'
+  - - '2'
+    - Test Funder
+    - test-funder
+    - funder
+    - true
+    - '9011231234'
+    - 123 Test Address
+    - John Doe
+    - john@doe.com
+    - testnonprofit.org
+    - Test Org
+    - 
+    - 
+    - 
+    - no funding
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - false
+    - '2016-04-25 12:10:49.979586'
+    - '2016-04-25 12:10:49.979586'
   - - '3'
     - Bridges
     - bridges
@@ -435,7 +517,7 @@ pages:
     - who-we-are
     - 
     - '1'
-    - '12'
+    - '8'
     - '0'
     - '0'
     - '2015-10-30 17:43:21.170909'
@@ -481,8 +563,8 @@ pages:
       management consulting. We held our first Annual Conference.</p></div></div></li></ul></div></div></div>
     - history
     - '1'
-    - '8'
-    - '9'
+    - '6'
+    - '7'
     - '1'
     - '0'
     - '2015-10-30 18:58:30.627264'
@@ -530,50 +612,9 @@ pages:
     - '0'
     - '2016-01-22 20:36:46.920638'
     - '2016-02-24 03:54:25.742159'
-  - - '7'
-    - Consultants
-    - <div class="container"><div class="row"><div class="col-md-12"><div class="page-header
-      text-center"><h1>Our Consultants</h1></div></div></div><div class="row"><h3
-      class="text-center">Consultants with Expertise in Human Resources and Leadership
-      Development</h3><div class="col-sm-4 text-center"><img class="img-responsive
-      img-circle fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/020/original/jsuffel.jpeg?1456283646"
-      style=""><h2><strong>Jaclyn Suffel</strong></h2><h3>Director of Communications</h3></div><div
-      class="col-sm-4 text-center"><img class="img-responsive img-circle fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/021/original/pnewman.jpg?1456283657"
-      style=""><h2><strong>Paul Newman</strong></h2><h3>Philanthropist</h3></div></div><hr><div
-      class="row"><h3 class="text-center">Consultants with Expertise in Revenue Streams
-      and Financial Management</h3><div class="col-sm-4 text-center"><img class="img-responsive
-      img-circle fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/020/original/jsuffel.jpeg?1456283646"
-      style=""><h2><strong>Jaclyn Suffel</strong></h2><h3>Director of Communications</h3></div><div
-      class="col-sm-4 text-center"><img class="img-responsive img-circle fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/021/original/pnewman.jpg?1456283657"
-      style=""><h2><strong>Paul Newman</strong></h2><h3>Philanthropist</h3></div></div><hr><div
-      class="row"><h3 class="text-center">Consultants with Expertise in Evaluation,
-      Change Management, and Communications</h3><div class="col-sm-4 text-center"><img
-      class="img-responsive img-circle fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/020/original/jsuffel.jpeg?1456283646"
-      style=""><h2><strong>Jaclyn Suffel</strong></h2><h3>Director of Communications</h3></div><div
-      class="col-sm-4 text-center"><img class="img-responsive img-circle fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/021/original/pnewman.jpg?1456283657"
-      style=""><h2><strong>Paul Newman</strong></h2><h3>Philanthropist</h3></div></div></div>
-    - consultants
-    - '1'
-    - '6'
-    - '7'
-    - '1'
-    - '0'
-    - '2016-02-04 16:38:42.513225'
-    - '2016-02-24 03:54:25.742159'
-  - - '10'
-    - Members
-    - "<p>Supporters</p>"
-    - members
-    - '1'
-    - '10'
-    - '11'
-    - '1'
-    - '0'
-    - '2016-02-04 16:39:45.577557'
-    - '2016-02-24 03:57:44.727727'
   - - '11'
     - Training
-    - <div><img class="fr-dib img-responsive" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/033/original/D3X_6974.jpg?1459223655"></div><p></p><section
+    - '<div><img class="fr-dib img-responsive" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/033/original/D3X_6974.jpg?1459223655"></div><p></p><section
       class="text-center"><h1>Training</h1></section><p></p><div class="container"><div
       class="row"><div class="col-md-12"><h3>The Alliance offers weekly training opportunities
       (hyperlink to calendar) in our office or online and members receive a substantial
@@ -582,17 +623,20 @@ pages:
       from HR to Development.</h3><h3>Trainings can also be customized for an organization&rsquo;s
       specific needs. We are happy to work with you to provide professional development
       for your staff.</h3><h3>To see a list of upcoming trainings or register for
-      one- click here. (hyperlink to calendar)</h3><h3>For questions about trainings
-      please contact April Carter (email)<br><br><br></h3><img class="fr-dib img-responsive"
-      src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/034/original/D3X_6978.jpg?1459223673"></div></div></div>
+      one- click here. (hyperlink to calendar)<br><br></h3><div class="row"><div class="col-md-2">&nbsp;</div><div
+      class="col-md-8"><img class="fr-dib img-responsive" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/034/original/D3X_6978.jpg?1459223673"></div><div
+      class="col-md-2">&nbsp;</div></div><h3 style="text-align: center;"><br>For questions
+      about trainings please complete the form below:</h3><br><br><iframe seamless="seamless"
+      scrolling="no" src="https://docs.google.com/forms/d/1vOve2JDfZdlmCuhALpU_NFoSQ1eT4HNaqr5qKQdHPQ4/viewform?embedded=true"
+      width="100%" height="1300px">Loading...</iframe></div></div></div>'
     - training
     - '26'
-    - '14'
-    - '15'
+    - '10'
+    - '11'
     - '1'
     - '0'
     - '2016-02-04 16:40:14.432369'
-    - '2016-04-22 03:00:48.902474'
+    - '2016-05-17 14:57:24.250622'
   - - '12'
     - Consulting
     - <div><img class="fr-dib img-responsive" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/037/original/IMG_0162.jpg?1461293834"></div><p></p><section><h1>Consulting</h1></section><p></p><div
@@ -614,8 +658,8 @@ pages:
       (webform for interest with specific fields that gets sent to John)</h3></div></div></div>
     - consulting
     - '26'
-    - '16'
-    - '17'
+    - '12'
+    - '13'
     - '1'
     - '0'
     - '2016-02-04 16:41:33.56072'
@@ -646,8 +690,8 @@ pages:
       style=""></div></div></div>
     - nonprofit-networking-and-convening
     - '26'
-    - '18'
-    - '19'
+    - '14'
+    - '15'
     - '1'
     - '0'
     - '2016-02-04 16:43:28.410789'
@@ -677,143 +721,110 @@ pages:
       src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/022/original/cecil_award.png?1456289204"></div></div>'
     - program-of-nonprofit-excellence
     - '26'
-    - '20'
-    - '21'
+    - '16'
+    - '17'
     - '1'
     - '0'
     - '2016-02-04 16:43:45.485174'
     - '2016-04-23 04:16:04.31746'
-  - - '15'
-    - Program of Nonprofit Excellence Alumni
-    - "<p>Impact Support</p>"
-    - program-of-nonprofit-excellence-alumni
-    - '26'
-    - '22'
-    - '23'
-    - '1'
-    - '0'
-    - '2016-02-04 16:45:34.031041'
-    - '2016-02-24 03:59:13.241518'
   - - '16'
-    - Membership
+    - Become a Member
     - <div><img class="img-responsive fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/043/original/Soulsville.jpg?1461385635"
-      style=""></div><p></p><section><h1>Membership Benefits</h1></section><p></p><div
-      class="container"><div class="row text-center"><div class="col-sm-4"><h2>Discounts
-      and Partnerships</h2></div><div class="col-sm-4"><h2>Publications</h2></div><div
-      class="col-sm-4"><h2>Alerts and Information (Grants Alert, Policy Action Alerts)</h2></div></div><div
-      class="row text-center"><div class="col-sm-4"><h2>Free events and opportunities</h2></div><div
+      style=""></div><p><section><h1>Membership Benefits</h1></section></p><div class="container"><div
+      class="row text-center"><div class="col-sm-4"><h2>Discounts and Partnerships</h2></div><div
+      class="col-sm-4"><h2>Publications</h2></div><div class="col-sm-4"><h2>Alerts
+      and Information (Grants Alert, Policy Action Alerts)</h2></div></div><div class="row
+      text-center"><div class="col-sm-4"><h2>Free events and opportunities</h2></div><div
       class="col-sm-4"><h2>Access to Tools via the Membership Portal</h2></div><div
       class="col-sm-4"><h2>Ready to join? Link to join page</h2></div></div><br><br><br></div><div><img
       class="img-responsive fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/044/original/St._Columba_Camp.JPG?1461385645"
       style=""></div>
-    - membership
+    - become-a-member
     - 
-    - '25'
-    - '32'
+    - '19'
+    - '26'
     - '0'
     - '0'
     - '2016-02-04 16:46:21.684151'
-    - '2016-04-23 04:42:49.748373'
+    - '2016-05-16 23:56:34.881321'
   - - '17'
     - Member Spotlights
     - <div><img class="img-responsive fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/045/original/Change-Group.jpg?1461387728"
       style=""><section><h1>Partner Spotlight</h1></section></div>
     - member-spotlights
     - '16'
-    - '26'
-    - '27'
+    - '20'
+    - '21'
     - '1'
     - '0'
     - '2016-02-04 16:46:45.842608'
     - '2016-04-23 05:03:56.768187'
   - - '18'
-    - Become a Member
+    - Members
     - "<p>Become a Member</p>"
-    - become-a-member
+    - members
     - '16'
-    - '28'
-    - '29'
+    - '22'
+    - '23'
     - '1'
     - '0'
     - '2016-02-04 16:47:35.608837'
-    - '2016-02-24 03:53:30.749989'
+    - '2016-05-16 23:55:09.919837'
   - - '19'
-    - PNE Graduates
+    - Why Join?
     - "<p>PNE Graduates</p>"
-    - pne-graduates
+    - why-join
     - '16'
-    - '30'
-    - '31'
+    - '24'
+    - '25'
     - '1'
     - '0'
     - '2016-02-04 16:47:52.520302'
-    - '2016-02-24 03:53:30.749989'
+    - '2016-05-16 23:55:21.662368'
   - - '20'
     - Resources
     - "<p>Resources</p>"
     - resources
     - 
-    - '43'
-    - '54'
+    - '39'
+    - '46'
     - '0'
     - '0'
     - '2016-02-04 16:48:17.930078'
-    - '2016-02-24 04:06:19.764357'
+    - '2016-05-16 23:59:16.331772'
   - - '21'
     - Career Center
     - "<p>Career Center</p>"
     - career-center
     - '20'
-    - '44'
-    - '45'
+    - '40'
+    - '41'
     - '1'
     - '0'
     - '2016-02-04 16:52:16.818827'
-    - '2016-02-24 04:06:19.764357'
-  - - '22'
-    - Research
-    - "<p>Research</p>"
-    - research
-    - '20'
-    - '46'
-    - '47'
-    - '1'
-    - '0'
-    - '2016-02-04 16:52:41.590818'
-    - '2016-02-24 04:06:19.764357'
+    - '2016-05-16 23:59:16.331772'
   - - '23'
     - Advocacy
     - "<p>Advocacy</p>"
     - advocacy
     - '20'
-    - '48'
-    - '49'
+    - '42'
+    - '43'
     - '1'
     - '0'
     - '2016-02-04 16:53:00.719118'
-    - '2016-02-24 04:06:19.764357'
+    - '2016-05-16 23:59:16.331772'
   - - '24'
     - Online Resources
     - "<p>Online Resources</p>"
     - online-resources
     - '20'
-    - '50'
-    - '51'
+    - '44'
+    - '45'
     - '1'
     - '0'
     - '2016-02-04 16:53:30.30344'
-    - '2016-02-24 04:06:19.764357'
-  - - '25'
-    - Calendar
-    - "<p>Calendar</p>"
-    - calendar
-    - '20'
-    - '52'
-    - '53'
-    - '1'
-    - '0'
-    - '2016-02-04 16:54:02.418269'
-    - '2016-02-24 04:06:19.764357'
+    - '2016-05-16 23:59:16.331772'
   - - '26'
     - What We Do
     - '<div><img class="fr-dib img-responsive" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/035/original/Streets_helpers.jpg?1461293375"></div><p></p><section><h1
@@ -828,8 +839,8 @@ pages:
       designed with this in mind.</h2></div></div></div>'
     - what-we-do
     - 
-    - '13'
-    - '24'
+    - '9'
+    - '18'
     - '0'
     - '0'
     - '2016-02-24 03:38:50.391082'
@@ -839,53 +850,68 @@ pages:
     - '<h1 style="text-align: center;">Our Supporters</h1>'
     - our-supporters
     - 
-    - '33'
-    - '38'
+    - '27'
+    - '34'
     - '0'
     - '0'
     - '2016-02-24 04:00:44.75373'
-    - '2016-02-24 04:01:52.115973'
+    - '2016-05-16 23:59:16.331772'
   - - '28'
     - Board Members
     - '<h1 style="text-align: center;">Board Members</h1>'
     - board-members
     - '27'
-    - '34'
-    - '35'
+    - '28'
+    - '29'
     - '1'
     - '0'
     - '2016-02-24 04:01:18.074461'
     - '2016-02-24 04:01:27.29362'
   - - '29'
-    - Mission Partners
+    - Become a Mission Partner
     - '<h1 style="text-align: center;">Mission Partners</h1>'
-    - mission-partners
+    - become-a-mission-partner
     - '27'
+    - '30'
+    - '31'
+    - '1'
+    - '0'
+    - '2016-02-24 04:01:44.446084'
+    - '2016-05-16 23:57:26.657819'
+  - - '30'
+    - Calendar
+    - '<h1 style="text-align: center;">Upcoming Events</h1>'
+    - calendar-4460c99b-4698-4447-96df-e63a8249a12a
+    - 
+    - '35'
+    - '38'
+    - '0'
+    - '0'
+    - '2016-02-24 04:05:36.798512'
+    - '2016-05-16 23:59:16.331772'
+  - - '31'
+    - Event Registration
+    - '<p></p><section>&nbsp;<h1 style="text-align: center;"><br><br>Event Registration</h1></section><p></p><div
+      class="container"><div class="col-md-12"><h3 style="text-align: center;">Please
+      register for an event by completing the form below:</h3><br><iframe seamless="seamless"
+      scrolling="no" src="https://docs.google.com/forms/d/1tLgBClO2lG3ytwBRDokhh1f1AkwnuxNsqZx48bNtmu0/viewform?embedded=true"
+      width="100%" height="1300px">Loading...</iframe></div></div>'
+    - event-registration
+    - '30'
     - '36'
     - '37'
     - '1'
     - '0'
-    - '2016-02-24 04:01:44.446084'
-    - '2016-02-24 04:01:52.115973'
-  - - '30'
-    - Upcoming Events
-    - '<h1 style="text-align: center;">Upcoming Events</h1>'
-    - upcoming-events
-    - 
-    - '39'
-    - '42'
-    - '0'
-    - '0'
-    - '2016-02-24 04:05:36.798512'
-    - '2016-02-24 04:06:19.764357'
-  - - '31'
-    - Event Registration
-    - '<h1 style="text-align: center;">Event Registration</h1>'
-    - event-registration
-    - '30'
-    - '40'
-    - '41'
+    - '2016-02-24 04:06:00.933975'
+    - '2016-05-17 04:21:57.141515'
+  - - '32'
+    - Give to the Alliance
+    - ''
+    - give-to-the-alliance
+    - '27'
+    - '32'
+    - '33'
     - '1'
     - '0'
-    - '2016-02-24 04:06:00.933975'
-    - '2016-02-24 04:06:19.764357'
+    - '2016-05-16 23:58:54.587323'
+    - '2016-05-16 23:59:16.331772'
