@@ -17,6 +17,7 @@ Rails.application.routes.draw do
 
     # collection resource routes
     resources :orgs
+    resources :org_imports,     only: [:new, :create]
     resources :posts
     resources :pages do
       member do

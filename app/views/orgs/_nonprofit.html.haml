@@ -1,0 +1,7 @@
+.col-md-6.text-center
+  %h3= org.name
+  %h4= org.address
+  %h4= org.city
+  %h4= org.phone
+  - if org.website
+    %h4= link_to org.website.gsub('http://','').downcase, org.website

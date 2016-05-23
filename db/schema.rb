@@ -18,14 +18,17 @@ ActiveRecord::Schema.define(version: 20160206142020) do
 
   create_table "orgs", force: :cascade do |t|
     t.string   "name",                     null: false
+    t.string   "abbreviation"
     t.string   "slug"
     t.string   "role",                     null: false
     t.boolean  "active",                   null: false
     t.string   "phone"
     t.string   "address"
+    t.string   "city"
     t.string   "contact"
     t.string   "email"
     t.string   "website"
+    t.string   "org_type"
     t.text     "description"
     t.text     "inspiration"
     t.text     "pride"

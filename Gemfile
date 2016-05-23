@@ -39,6 +39,7 @@ gem 'codemirror-rails'
 gem "wysiwyg-rails", "2.0.0.pre.rc.3"
 gem 'paper_trail'
 gem 'friendly_id'
+gem 'roo'
 
 # uploads
 gem 'paperclip'
