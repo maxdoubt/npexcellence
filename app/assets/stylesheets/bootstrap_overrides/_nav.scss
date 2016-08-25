@@ -8,12 +8,9 @@
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-  color: #eee;
-  background: rgba(0, 0, 0, .1); // linear-gradient(to bottom, rgba(0,0,0,.1) 0%, rgba(0,0,0,0) 100%);
   font-size: 18px;
 }
 
 .navbar.scrolled {
-  background: rgba($brand-primary, 1); //NON-IE
   font-size: 14px;
 }

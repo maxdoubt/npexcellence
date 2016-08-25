@@ -9,6 +9,15 @@
       /   = f.collection_select :parent_id, Page.all, :id, :title, {include_blank: true}, {class: 'form-control'}
 
       .form-group
+        = f.check_box :published
+        = f.label :published
+
+      .form-group
+        = f.check_box :menu
+        = f.label :menu 
+
+
+      .form-group
         = f.label :title
         = f.text_field :title, class: 'form-control'
 
@@ -22,7 +31,15 @@
 :coffeescript
   $ ->
     $('.editor').froalaEditor(
-      codeBeautifier: true,
+      codeBeautifierOptions: {
+        end_with_newline: true,
+        indent_inner_html: true,
+        extra_liners: "['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'blockquote', 'pre', 'ul', 'ol', 'table', 'dl']",
+        brace_style: 'expand',
+        indent_char: ' ',
+        indent_size: 4,
+        wrap_line_length: 0
+      },
       codeMirror: true,
       codeMirrorOptions: {
         indentWithTabs: true,

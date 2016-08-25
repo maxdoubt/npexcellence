@@ -5,6 +5,8 @@ class CreatePages < ActiveRecord::Migration
       t.string      :title,     null: false
       t.string      :body
       t.string      :slug,      unique: true
+      t.boolean     :menu
+      t.boolean     :published
 
       # awesome nested set
       t.integer     :parent_id,       :null => true,  :index => true

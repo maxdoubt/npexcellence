@@ -1,6 +1,8 @@
 %li{id: 'list_' + page.id.to_s}
   %div
     = link_to page.title, admin_page_path(page)
+    - if page.published
+      (Published)
 
     .pull-right
       = link_to 'Edit', edit_admin_page_path(page), class: 'btn btn-default'

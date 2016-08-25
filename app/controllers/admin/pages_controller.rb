@@ -126,7 +126,7 @@ class Admin::PagesController < Admin::ApplicationController
   end
 
   def page_params
-    params.require(:page).permit(:id, :title, :body, :parent_id)
+    params.require(:page).permit(:id, :title, :body, :parent_id, :menu, :published)
   end
 
 

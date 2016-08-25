@@ -36,7 +36,7 @@ gem 'skrollr-rails'
 # helpers
 gem 'haml-rails'
 gem 'codemirror-rails'
-gem "wysiwyg-rails", "2.0.0.pre.rc.3"
+gem "wysiwyg-rails", "2.3.4"
 gem 'paper_trail'
 gem 'friendly_id'
 gem 'roo'

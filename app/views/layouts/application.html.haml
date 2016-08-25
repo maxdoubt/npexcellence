@@ -4,7 +4,7 @@
     = render partial: 'shared/layouts/head'
 
   %body{ class: "#{ controller_name } #{ controller_name }-#{ action_name }"}
-    .navbar.navbar-inverse{role: "navigation"}
+    .navbar.navbar-inverse.navbar-fixed-top{role: "navigation"}
       .container-fluid
         .navbar-header
           = render partial: 'shared/nav/header'

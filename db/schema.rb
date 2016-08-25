@@ -66,6 +66,8 @@ ActiveRecord::Schema.define(version: 20160206142020) do
     t.string   "title",                      null: false
     t.string   "body"
     t.string   "slug"
+    t.boolean  "menu"
+    t.boolean  "published"
     t.integer  "parent_id"
     t.integer  "lft",                        null: false
     t.integer  "rgt",                        null: false

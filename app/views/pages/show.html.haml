@@ -4,12 +4,39 @@
   = link_to 'Edit', edit_admin_page_path(@page), class: 'btn btn-default'
 
 - if params[:id] == 'member-spotlights'
-  - Org.where(spotlight: true).each do |org|
+  - Org.where(spotlight: true).order(:name).each do |org|
     .container
-      = render partial: 'orgs/spotlight', locals: {org: org}
+      = render partial: 'orgs/spotlight_short', locals: {org: org}
+    %br
+    %br
+
 
 - if params[:id] == 'members'
   .container
     .row
       - Org.where(role: 'nonprofit').order(:name).each do |org|
         = render partial: 'orgs/nonprofit', locals: {org: org}
+
+- if @page.menu
+  :css
+    .navbar {
+      -webkit-transition: all 0.3s ease-out;
+      -moz-transition: all 0.3s ease-out;
+      -o-transition: all 0.3s ease-out;
+      -ms-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out;
+      color: #eee;
+      background: rgba(0, 0, 0, .1);
+      font-size: 18px;
+    }
+
+  :css
+    .navbar.scrolled {
+      background: rgba(99,100,102,1);
+      font-size: 14px;
+    }
+
+  :css
+    body {
+      padding-top: 0px;
+    }
