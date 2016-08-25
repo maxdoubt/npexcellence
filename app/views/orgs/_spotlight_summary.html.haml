@@ -1,0 +1,10 @@
+%section
+  %h1.text-center Member Spotlights
+
+- orgs = Org.where(spotlight: true).order(:name)
+.container
+  .row
+    - orgs.each do |org|
+      .col-md-4
+        = link_to org do
+          %img.img-responsive.center-block{src: org.logo(:square)}

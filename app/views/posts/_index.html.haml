@@ -1,0 +1,9 @@
+%section
+  %h1.text-center Posts & Articles
+- @posts = Post.where(published: true).order('updated_at DESC')
+- @posts.each do |post|
+  .container
+    .row
+      = render partial: 'posts/show_short', locals: {post: post}
+
+%br

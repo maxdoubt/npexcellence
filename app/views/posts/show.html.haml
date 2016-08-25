@@ -1,0 +1,16 @@
+.container
+  .page-header
+    .row
+      .col-md-12
+        %h1= "“#{@post.title}”"
+        %h3
+          %i= "#{@post.user.first_name} #{@post.user.last_name} - #{@post.updated_at.strftime('%b %d')}"
+
+      .col-md-1
+        = image_tag @post.user.avatar(:square), class: 'img img-responsive img-circle'
+
+  .row
+    .col-md-12
+      - markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, autolink: true, tables: true)
+      %h3
+        = markdown.render(@post.body).html_safe

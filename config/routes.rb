@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :pages,           only: [:show]
   resource  :user_session,    only: [:new,  :create, :destroy]
   resources :orgs,            only: [:index, :show]
+  resources :posts,           only: [:show]
 
   # named routes (sessions)
   match "access(/:access_code)"         => "admissions#create",      :as => :access,  via: [:get, :post]

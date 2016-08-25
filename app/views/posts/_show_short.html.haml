@@ -1,0 +1,15 @@
+.col-md-12
+  %hr
+  = link_to post do
+    %h1= "\“#{post.title}\”"
+
+  - markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, autolink: true, tables: true)
+  %h3
+    = markdown.render(post.body.split('.')[0..5].join('. ') + '...').html_safe
+    = link_to 'Continue Reading', post
+
+  %h3
+    %i= "#{post.user.first_name} #{post.user.last_name} - #{post.updated_at.strftime('%b %d')}"
+
+.col-sm-1
+  = image_tag post.user.avatar(:square), class: 'img img-responsive img-circle'

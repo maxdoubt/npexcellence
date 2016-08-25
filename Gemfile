@@ -40,6 +40,7 @@ gem "wysiwyg-rails", "2.3.4"
 gem 'paper_trail'
 gem 'friendly_id'
 gem 'roo'
+gem 'redcarpet'
 
 # uploads
 gem 'paperclip'

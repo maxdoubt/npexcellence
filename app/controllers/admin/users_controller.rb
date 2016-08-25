@@ -13,7 +13,7 @@ class Admin::UsersController < Admin::ApplicationController
   # before_filter :assign_role_if_allowed, :only => [:create, :update]
 
   # views
-  layout 'users'
+  layout 'admin'
   
   #----------------------------------------------------
   # Public methods
