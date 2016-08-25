@@ -5,16 +5,59 @@
   .row
     .col-md-12
       .form-group
+        = f.label :published
+        = f.check_box :published
+
+      .form-group
         = f.label :title
         = f.text_field :title, class: 'form-control'
 
       .form-group
-        = f.label :body
-        = f.text_area :body, class: 'form-control'
+        = f.label :abstract
+        = f.text_area :abstract, class: 'form-control'
 
       .form-group
-        = f.label :published
-        = f.check_box :published
+        = f.label :body
+        = f.text_area :body, class: 'form-control editor'
 
 = button_tag t('buttons.save'), class: 'btn btn-primary'
 = link_to t('buttons.cancel'), admin_posts_path, class: 'btn btn-default'
+
+:coffeescript
+  $ ->
+    $('.editor').froalaEditor(
+      codeBeautifierOptions: {
+        end_with_newline: true,
+        indent_inner_html: true,
+        extra_liners: "['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'blockquote', 'pre', 'ul', 'ol', 'table', 'dl']",
+        brace_style: 'expand',
+        indent_char: ' ',
+        indent_size: 4,
+        wrap_line_length: 0
+      },
+      codeMirror: true,
+      codeMirrorOptions: {
+        indentWithTabs: true,
+        lineNumbers: true,
+        lineWrapping: true,
+        mode : "xml",
+        htmlMode: true,
+        tabMode: 'indent',
+        tabSize: 2,
+        theme: 'night'
+      },
+      fileUploadURL: '/admin/uploads',
+      fileUploadParams: {
+        authenticity_token: "#{form_authenticity_token}",
+        contentType: "application/json"
+      },
+      fileUploadMethod: 'POST',
+      fileUploadParam: "upload[upload]",
+      imageUploadURL: '/admin/uploads',
+      imageUploadParams: {
+        authenticity_token: "#{form_authenticity_token}",
+        contentType: "application/json"
+      },
+      imageUploadMethod: 'POST',
+      imageUploadParam: "upload[upload]"
+    )

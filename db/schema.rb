@@ -83,6 +83,7 @@ ActiveRecord::Schema.define(version: 20160206142020) do
 
   create_table "posts", force: :cascade do |t|
     t.string   "title",                      null: false
+    t.text     "abstract"
     t.text     "body"
     t.string   "slug"
     t.integer  "user_id",                    null: false

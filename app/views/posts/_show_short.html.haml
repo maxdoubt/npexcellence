@@ -3,10 +3,9 @@
   = link_to post do
     %h1= "\“#{post.title}\”"
 
-  - markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, autolink: true, tables: true)
   %h3
-    = markdown.render(post.body.split('.')[0..5].join('. ') + '...').html_safe
-    = link_to 'Continue Reading', post
+    %div= post.abstract
+    %div= link_to 'Continue Reading', post
 
   %h3
     %i= "#{post.user.first_name} #{post.user.last_name} - #{post.updated_at.strftime('%b %d')}"

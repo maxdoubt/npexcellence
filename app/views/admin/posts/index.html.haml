@@ -6,7 +6,7 @@
   %tr
     %th Title
     %th User
-    %th Body
+    %th Abstract
     %th Published
     %th Created At
     %th Actions
@@ -15,7 +15,7 @@
     %tr
       %td= link_to post.title, post_path(post)
       %td= post.user.email
-      %td= post.body.split(' ')[0..30].join(' ')
+      %td= post.abstract
       %td= post.published
       %td= post.created_at
       %td
