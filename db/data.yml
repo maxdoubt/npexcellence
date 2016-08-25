@@ -1,5 +1,215 @@
 
 ---
+users:
+  columns:
+  - id
+  - email
+  - crypted_password
+  - password_salt
+  - persistence_token
+  - single_access_token
+  - perishable_token
+  - login_count
+  - failed_login_count
+  - current_login_at
+  - last_login_at
+  - current_login_ip
+  - last_login_ip
+  - role
+  - first_name
+  - last_name
+  - banned
+  - phone
+  - address
+  - title
+  - bio
+  - org_id
+  - avatar_file_name
+  - avatar_content_type
+  - avatar_file_size
+  - avatar_updated_at
+  - created_at
+  - updated_at
+  records: 
+  - - '1'
+    - admin@example.com
+    - "$2a$10$BCHQcL0VqHezMOunqNrNyehrmU1OHa6dpmiF5sElywkLqRDe.H0Gm"
+    - IxcwrAbCbml8xWDxKy26
+    - 9774c62649250c9375fd020a173d6defa12946c571bb5d4b0b9ec9d87487bbec8e067b3dc73663a754883bc5f368ad70e0a085f3263834e9ba6e60934021481a
+    - 4Tv1ms5aFsZBhvZcueP
+    - 1OnpNafdAgzZBMTckrS2
+    - '2'
+    - '0'
+    - '2016-08-24 23:37:24.738975'
+    - '2016-08-15 02:08:10.686099'
+    - "::1"
+    - "::1"
+    - admin
+    - Paul
+    - Newmann
+    - false
+    - ''
+    - ''
+    - Philanthropist
+    - 'Newman''s Own is a food company founded by actor Paul Newman and author A.E.
+      Hotchner in 1982. The company gives 100% of the after-tax profits from the sale
+      of its products to Newman''s Own Foundation (a private non-profit foundation)
+      which in turn, gives the money to various educational and charitable organizations.
+      In 1982 Newman summarized his initial intentions regarding distribution of his
+      company''s profits: "My profits will be divided between a number of tax-deductible
+      charities and causes, some church-related, others for conservation and ecology
+      and things like that.""'
+    - 
+    - pnewman.jpg
+    - image/jpeg
+    - '1078302'
+    - '2016-08-25 12:25:12.448589'
+    - '2016-08-15 02:07:27.660194'
+    - '2016-08-25 12:25:14.991485'
+  - - '2'
+    - employee@example.com
+    - "$2a$10$nBCsz0j1L4szzcQG87NX2O4rwZI.qyyswCmmAA95O8es6B/.gb73W"
+    - lGW0Z5ffNTfp9GHbfBa
+    - 83ea0133f8b366fe20b371887e2690495875b1f24080557b00e0aef4f5a440fdaa18e2c744fda9a39710dea63e4ff5d64e4c9fa3cf9049de453454640dd401e2
+    - 0BRrjEIzUHBaYVyKADBH
+    - 9g1b4jePcITGcUoC5jI
+    - '0'
+    - '0'
+    - 
+    - 
+    - 
+    - 
+    - employee
+    - Employee
+    - User
+    - false
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2016-08-15 02:07:27.736308'
+    - '2016-08-15 02:07:27.736308'
+  - - '3'
+    - org_admin@example.com
+    - "$2a$10$exbf9LowlAgAxw9az000.umReWzHTXCrwsGVjPkifOSPq/XBTMYR."
+    - F50guGWlFTf0J7rl2yt
+    - 93eb0c84e0a7e42daf2ba0c17dbcbb4462e15b766eff95aad8262ae505fa21bf7bf88fe2f725e19b49a6cd58e173a39967df151b1e2efca6877e8da758019a33
+    - ghobL9LFvqfpgJnRj8
+    - o140KyeZPR87hwpS3M
+    - '0'
+    - '0'
+    - 
+    - 
+    - 
+    - 
+    - org_admin
+    - Org Admin
+    - User
+    - false
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2016-08-15 02:07:27.808764'
+    - '2016-08-15 02:07:27.808764'
+  - - '4'
+    - member@example.com
+    - "$2a$10$k/2m9/Ho888UdfoM1Go3qOwiNb66jhjqi44W0JRMAD8MabEESv/Pq"
+    - aM4ACD7Jd0DecfVvu5z
+    - ebf91610714d753da37adcb879f77d70a0f0683ddbc1c94923af2b6f3dd63d4da99cd7607783a0b57f698a0d2ba4b9e10ff591336aa23dd41bacf0b3a286830c
+    - HcAyHFx1ljaHYVeK71ms
+    - PJmcgzI3iqopIKch1bL
+    - '0'
+    - '0'
+    - 
+    - 
+    - 
+    - 
+    - member
+    - Member
+    - User
+    - false
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2016-08-15 02:07:27.885798'
+    - '2016-08-15 02:07:27.885798'
+
+
+---
+posts:
+  columns:
+  - id
+  - title
+  - body
+  - slug
+  - user_id
+  - published
+  - created_at
+  - updated_at
+  records: 
+  - - '1'
+    - Giving Back to the Community
+    - "It’s important that we’re giving back to communities in need. And my take is
+      that it’s most important for people to put food on the table, and then a roof
+      over that table. To help facilitate this, I supported the Memphis Central Kitchen.
+      One way I did that was to help ‘em get some new ovens that we’re just delivered.\r\n\r\nSince
+      the founding of Memphis Central Kitchen in 1989, they’ve prepared 27 million
+      meals for their low-income and at-risk neighbors. That’s a lot of meals, and
+      the real deal, but they don’t want you to mistake them for a soup kitchen. (Here’s
+      stories from some of the folks who have gone through Memphis Central Kitchen’s
+      programs...)\r\n\r\nMemphis Central Kitchen (MemphisCK) was founded by a young
+      nightclub manager, Robert Egger. Egger was frustrated with the programs that
+      fed Memphis residents who were homeless, and wanted to rearrange Memphis’s existing
+      resources in ways that would ultimately liberate hungry and homeless individuals
+      from poverty.\r\n\r\nOperations began with the leftover food from George H.W.
+      Bush’s inauguration, a refrigerated van, and deliveries to area shelters. A
+      few months later, MemphisCK secured its own kitchen space and launched a Culinary
+      Job Training program for residents of those shelters. This is about giving resources
+      and access to more opportunities for people who could use it.\r\n\r\nThe org
+      continued to grow, and helped start more than 60 like-minded community kitchens
+      nationwide through the 1990s. In 2001, Egger launched The Campus Kitchens Project,
+      a project to replicate MemphisCK’s core activities at college and high schools
+      across the country. In this last academic year alone, they’ve empowered 23,000
+      student volunteers to implement their model on 53 high school and college campuses
+      across the country.\r\n\r\nEvery single day, despite not having any AC, Memphis
+      Central Kitchen provides 5,000 meals, distributed at little or no cost to 82
+      nearby homeless shelters, transitional homes, and nonprofit organizations, saving
+      them money and feeding the community.\r\n\r\nMentioned earlier, the Culinary
+      Job Training program is still running, and is for unemployed folks who want
+      to replace homelessness, addiction, and incarceration with new careers and a
+      different way of life. These are the folks who are making sure that MemphisCK’s
+      recipes are cooked and the ovens are filled with food.\r\n\r\nMemphis Central
+      Kitchen’s School Food Program serves 6,800 healthy, locally-sourced, scratch-cooked
+      meals to 3,600 low-income Memphis schoolchildren every day, helping to ensure
+      that school meals are nutritious, affordable, and sustainable. And their Healthy
+      Corners program delivers fresh produce and healthy snacks to 67 corner stores
+      in Memphis’s ‘food deserts,’ where access to nutritious food options is limited.
+      Because of these initiatives, more than half of their income is through social
+      enterprise, but they’ve still got a pretty big monthly budget..."
+    - giving-back-to-the-community
+    - '1'
+    - true
+    - '2016-08-25 12:25:58.232659'
+    - '2016-08-25 12:26:10.015822'
+
+---
 uploads:
   columns:
   - id
@@ -447,8 +657,8 @@ orgs:
     - President & CEO
     - logo.png
     - image/png
-    - '10322'
-    - '2016-04-25 12:49:47.983698'
+    - '91382'
+    - '2016-08-25 14:55:36.258398'
     - Bridges_kids.jpg
     - image/jpeg
     - '114064'
@@ -467,7 +677,7 @@ orgs:
     - '2016-04-25 12:49:52.661936'
     - true
     - '2016-04-25 12:31:14.248621'
-    - '2016-04-25 12:49:54.284069'
+    - '2016-08-25 14:55:36.724787'
   - - '4'
     - ABA Development, Inc.
     - ABA
@@ -1292,8 +1502,8 @@ orgs:
     - ''
     - logo.png
     - image/png
-    - '26368'
-    - '2016-08-25 00:32:14.774939'
+    - '31084'
+    - '2016-08-25 15:01:09.776022'
     - Baddour_work_gardening.JPG
     - image/jpeg
     - '244110'
@@ -1312,7 +1522,7 @@ orgs:
     - '2016-08-25 00:32:19.348908'
     - true
     - '2016-05-23 04:21:24.514005'
-    - '2016-08-25 00:32:20.985645'
+    - '2016-08-25 15:01:10.225293'
   - - '21'
     - Baptist Memorial Health Care Foundation
     - BMHCF
@@ -1561,8 +1771,8 @@ orgs:
     - ''
     - logo.png
     - image/png
-    - '34514'
-    - '2016-08-25 00:22:08.272223'
+    - '98185'
+    - '2016-08-25 14:58:20.136797'
     - Educator_Workshop_2015_active.jpg
     - image/jpeg
     - '194181'
@@ -1581,7 +1791,7 @@ orgs:
     - '2016-08-25 00:22:12.848168'
     - true
     - '2016-05-23 04:21:24.546444'
-    - '2016-08-25 00:22:14.297806'
+    - '2016-08-25 14:58:20.62114'
   - - '26'
     - Christian Brothers High School
     - CBHS
@@ -3624,8 +3834,8 @@ orgs:
     - ''
     - logo.png
     - image/png
-    - '70149'
-    - '2016-08-25 01:52:14.234435'
+    - '66940'
+    - '2016-08-25 14:58:51.339228'
     - IMG_0359.JPG
     - image/jpeg
     - '125433'
@@ -3644,7 +3854,7 @@ orgs:
     - '2016-08-25 01:52:19.028883'
     - true
     - '2016-05-23 04:21:24.912528'
-    - '2016-08-25 01:52:20.527807'
+    - '2016-08-25 14:58:51.803582'
   - - '70'
     - Greater Memphis Greenline
     - GMGL
@@ -6167,8 +6377,8 @@ orgs:
     - ''
     - logo.png
     - image/png
-    - '6096'
-    - '2016-08-25 00:54:51.413298'
+    - '30163'
+    - '2016-08-25 15:00:40.104493'
     - SallyJonesHeinz_MIFAexecutivedirector.jpg
     - image/jpeg
     - '135224'
@@ -6187,7 +6397,7 @@ orgs:
     - '2016-08-25 00:54:56.572948'
     - true
     - '2016-05-23 04:21:25.428206'
-    - '2016-08-25 00:54:58.076106'
+    - '2016-08-25 15:00:40.580831'
   - - '124'
     - Memphis Leadership Foundation
     - MLF
@@ -6809,8 +7019,8 @@ orgs:
     - ''
     - logo.png
     - image/png
-    - '131000'
-    - '2016-08-25 01:10:19.439199'
+    - '108279'
+    - '2016-08-25 15:00:18.278412'
     - IMG_0434.JPG
     - image/jpeg
     - '148205'
@@ -6829,7 +7039,7 @@ orgs:
     - '2016-08-25 01:10:24.522582'
     - true
     - '2016-05-23 04:21:25.538449'
-    - '2016-08-25 01:10:26.082312'
+    - '2016-08-25 15:00:18.743663'
   - - '137'
     - Memphis Urban League
     - MUL
@@ -9884,14 +10094,14 @@ pages:
     - "<p>Resources</p>"
     - resources
     - false
-    - true
+    - false
     - 
     - '37'
     - '44'
     - '0'
     - '0'
     - '2016-02-04 16:48:17.930078'
-    - '2016-05-16 23:59:16.331772'
+    - '2016-08-25 15:18:27.970168'
   - - '21'
     - Career Center
     - "<p>Career Center</p>"
