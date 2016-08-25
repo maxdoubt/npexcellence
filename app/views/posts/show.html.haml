@@ -11,6 +11,5 @@
 
   .row
     .col-md-12
-      - markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, autolink: true, tables: true)
       %h3
-        = markdown.render(@post.body).html_safe
+        = @post.body.html_safe
