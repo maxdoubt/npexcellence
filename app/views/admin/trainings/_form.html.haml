@@ -1,0 +1,55 @@
+%fieldset.well
+  .row
+    .col-md-6
+      .form-group
+        = f.label :active
+        = f.check_box :active
+
+    .col-md-6
+      .form-group
+        = f.label :featured
+        = f.check_box :featured
+
+  .row
+    .col-md-12
+      .form-group
+        = f.label :name
+        = f.text_field :name, class: 'form-control'
+
+      .form-group
+        = f.label :description
+        = f.text_area :description, class: 'form-control'
+
+      .form-group
+        = f.label :facilitators
+        = f.text_field :facilitators, class: 'form-control'
+
+      .form-group
+        = f.label :location
+        = f.text_field :location, class: 'form-control'
+
+  .row
+    .col-md-6
+      .form-group
+        = f.label :begin_date
+        = f.date_field :begin_date, class: 'form-control'
+
+    .col-md-6
+      .form-group
+        = f.label :end_date
+        = f.date_field :end_date, class: 'form-control'
+
+  .row
+    .col-md-6
+      .form-group
+        = f.label :max_registrations
+        = f.text_field :max_registrations, class: 'form-control'
+
+    .col-md-6
+      .form-group
+        = f.label :fee
+        = f.text_field :fee, class: 'form-control'
+
+
+= button_tag t('buttons.save'), class: 'btn btn-primary'
+= link_to t('buttons.cancel'), admin_trainings_path, class: 'btn btn-default'

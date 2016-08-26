@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160206142020) do
+ActiveRecord::Schema.define(version: 20160826014744) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -41,6 +41,10 @@ ActiveRecord::Schema.define(version: 20160206142020) do
     t.string   "logo_content_type"
     t.integer  "logo_file_size"
     t.datetime "logo_updated_at"
+    t.string   "staff_photo_file_name"
+    t.string   "staff_photo_content_type"
+    t.integer  "staff_photo_file_size"
+    t.datetime "staff_photo_updated_at"
     t.string   "photo_file_name"
     t.string   "photo_content_type"
     t.integer  "photo_file_size"
@@ -92,6 +96,17 @@ ActiveRecord::Schema.define(version: 20160206142020) do
     t.datetime "updated_at",                 null: false
   end
 
+  create_table "registrations", force: :cascade do |t|
+    t.integer  "user_id",         null: false
+    t.integer  "training_id",     null: false
+    t.integer  "attendees",       null: false
+    t.boolean  "paid",            null: false
+    t.boolean  "current_payment", null: false
+    t.string   "payment_method",  null: false
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+  end
+
   create_table "settings", force: :cascade do |t|
     t.string   "phone",             default: "901.111.1111", null: false
     t.string   "address",           default: "123 S. Main",  null: false
@@ -102,6 +117,36 @@ ActiveRecord::Schema.define(version: 20160206142020) do
     t.integer  "logo_file_size"
     t.datetime "logo_updated_at"
   end
+
+  create_table "training_categories", force: :cascade do |t|
+    t.string "name", null: false
+  end
+
+  create_table "trainings", force: :cascade do |t|
+    t.string   "name",              null: false
+    t.string   "location",          null: false
+    t.string   "slug"
+    t.text     "description",       null: false
+    t.text     "facilitators",      null: false
+    t.datetime "begin_date",        null: false
+    t.datetime "end_date",          null: false
+    t.integer  "max_registrations", null: false
+    t.boolean  "active",            null: false
+    t.boolean  "featured",          null: false
+    t.float    "fee",               null: false
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
+  end
+
+  create_table "trainings_training_categories", force: :cascade do |t|
+    t.integer  "training_category_id"
+    t.integer  "training_id"
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
+  end
+
+  add_index "trainings_training_categories", ["training_category_id"], name: "index_trainings_training_categories_on_training_category_id", using: :btree
+  add_index "trainings_training_categories", ["training_id"], name: "index_trainings_training_categories_on_training_id", using: :btree
 
   create_table "uploads", force: :cascade do |t|
     t.string   "upload_file_name"
@@ -159,4 +204,6 @@ ActiveRecord::Schema.define(version: 20160206142020) do
 
   add_index "versions", ["item_type", "item_id"], name: "index_versions_on_item_type_and_item_id", using: :btree
 
+  add_foreign_key "trainings_training_categories", "training_categories"
+  add_foreign_key "trainings_training_categories", "trainings"
 end

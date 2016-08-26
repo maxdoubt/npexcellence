@@ -1,17 +1,23 @@
 %hr
 
 .row
-  .col-sm-12
+  .col-md-4
     = link_to org do 
-      %img.img-responsive.center-block{src: org.logo(:medium)}
-    %br
-    %br
-.row
-  .col-sm-6
+      %img.img-responsive.center-block.faded{src: org.logo(:square)}
+  .col-md-4
     = link_to org do
-      %img.img-responsive{src: org.photo}
-  .col-sm-6
-    %h1
-      = link_to org do
-        = org.name
-    %h4= org.description
+      %img.img-responsive.img-circle.center-block{src: org.staff_photo(:square)}
+  .col-md-4
+    = link_to org do
+      %img.img-responsive.center-block.faded{src: org.photo}
+
+.row
+  .col-md-12.text-center
+    %h2
+      = "An interview with #{org.interviewee} - #{org.interviewee_title} of #{org.name}"
+
+.row
+  .col-sm-12.text-justify
+    %h3= "“#{org.description}”"
+  .col-sm-12.text-center
+    = link_to 'Read More', org, class: 'btn btn-primary btn-lg'

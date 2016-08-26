@@ -86,6 +86,7 @@ class Admin::OrgsController < Admin::ApplicationController
                                 :interviewee_title, 
                                 :funding, 
                                 :logo, 
+                                :staff_photo,
                                 :photo, 
                                 :photo_two, 
                                 :photo_three, 

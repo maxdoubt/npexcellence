@@ -72,9 +72,14 @@
         = f.text_field :interviewee_title, class: 'form-control'
 
       .form-group
+        = f.label :staff_photo
+        = f.file_field :staff_photo
+        - if @org.staff_photo.exists?
+          = image_tag @org.staff_photo.url(:medium)
+
+      .form-group
         = f.label :funding
         = f.text_area :funding, class: 'form-control'
-
 
       .form-group
         = f.label :logo

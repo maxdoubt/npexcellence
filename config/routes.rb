@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   resource  :user_session,    only: [:new,  :create, :destroy]
   resources :orgs,            only: [:index, :show]
   resources :posts,           only: [:show]
+  resources :trainings,       only: [:index, :show]
+
 
   # named routes (sessions)
   match "access(/:access_code)"         => "admissions#create",      :as => :access,  via: [:get, :post]
@@ -29,6 +31,7 @@ Rails.application.routes.draw do
       end
     end
     resources :settings
+    resources :trainings
     resources :uploads
     resources :users
 

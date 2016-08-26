@@ -25,6 +25,7 @@ class CreateOrgs < ActiveRecord::Migration
       t.string      :interviewee_title        
 
       t.attachment  :logo
+      t.attachment  :staff_photo
       t.attachment  :photo
       t.attachment  :photo_two
       t.attachment  :photo_three
