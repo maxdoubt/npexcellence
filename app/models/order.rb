@@ -19,16 +19,16 @@ class Order < ActiveRecord::Base
     state :new, initial: true
     state :pending
     state :complete
-  end
 
-  event :submitted do
-    transitions from: :new,
-                to:   :pending
-  end
+    event :submitted do
+      transitions from: :new,
+                  to:   :pending
+    end
 
-  event :paid do
-    transitions from: :pending,
-                to:   :complete
+    event :paid do
+      transitions from: :pending,
+                  to:   :complete
+    end
   end
 
   # ----------------------------------------
