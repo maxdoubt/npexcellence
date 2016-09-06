@@ -34,6 +34,7 @@ gem 'quiet_assets'
 gem 'skrollr-rails'
 
 # helpers
+gem 'aasm'
 gem 'haml-rails'
 gem 'codemirror-rails'
 gem "wysiwyg-rails", "2.3.4"
