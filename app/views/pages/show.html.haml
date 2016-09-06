@@ -20,6 +20,11 @@
       - Org.where(role: 'nonprofit').order(:name).each_with_index do |org, i|
         = render partial: 'orgs/nonprofit', locals: {org: org}
 
+- if params[:id] == 'trainings'
+  %br
+  .container
+    = render partial: 'trainings/index', locals: {trainings: Training.all.where(active: true)}
+
 - if @page.menu
   :css
     .navbar {

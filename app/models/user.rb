@@ -5,7 +5,7 @@ class User < ActiveRecord::Base
   #-------------------------------------------------------------------------------
 
   # constants
-  ROLES  = ['admin', 'employee', 'org_admin', 'member']
+  ROLES  = ['admin', 'employee', 'org_admin', 'member', 'signup']
 
   # callbacks
   before_validation :ensure_role
@@ -170,7 +170,7 @@ class User < ActiveRecord::Base
 
   def ensure_role
     unless ROLES.include?(self.role)
-      self.role = 'member'
+      self.role = 'signup'
     end
   end
 

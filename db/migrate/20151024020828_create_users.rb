@@ -20,12 +20,14 @@ class CreateUsers < ActiveRecord::Migration
       t.string      :first_name,         null: false
       t.string      :last_name,          null: false
       t.boolean     :banned,             null: false, default: false
+      t.boolean     :validated,          null: false, default: false
 
       t.string      :phone
       t.string      :address
       t.string      :title
       t.string      :bio
       t.integer     :org_id
+      t.string      :submitted_org
       t.attachment  :avatar
       
       # timestamps

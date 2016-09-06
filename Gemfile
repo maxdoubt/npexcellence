@@ -41,6 +41,7 @@ gem 'paper_trail'
 gem 'friendly_id'
 gem 'roo'
 gem 'redcarpet'
+gem 'ffaker'
 
 # uploads
 gem 'paperclip'

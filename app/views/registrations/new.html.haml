@@ -1,0 +1,5 @@
+.container
+  = form_for @registration, url: registrations_path do |f|
+    %h2.form-header
+      = t('registrations.new.header')
+    = render partial: 'form', locals: { f: f }

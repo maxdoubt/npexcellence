@@ -1,0 +1,26 @@
+/ - content_for :js_onready do
+/   = err_supply(@org)
+
+%fieldset.well
+  .row
+    .col-md-12
+      .form-group
+        = f.label :attendees
+        = f.text_area :attendees, class: 'form-control'
+
+      .form-group
+        = f.label :payment_method
+        = f.select :payment_method, Registration::PAYMENT_METHODS.collect {|s| [s.capitalize, s]}, {}, {class: 'form-control'}
+
+      / .form-group
+      /   = f.label :active
+      /   = f.check_box :active, class: 'form-control'
+
+      / .form-group
+      /   = f.label :spotlight
+      /   = f.check_box :spotlight, class: 'form-control'
+
+
+
+= button_tag t('buttons.save'), class: 'btn btn-primary'
+= link_to t('buttons.cancel'), registrations_path, class: 'btn btn-default'

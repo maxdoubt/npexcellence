@@ -1,0 +1,56 @@
+/ - content_for :js_onready do
+/   = err_supply(@page)
+
+%fieldset.well
+  .row
+    .col-md-4
+      .form-group
+        = f.label :email
+        = f.text_field :email, class: 'form-control'
+
+    .col-md-4
+      .form-group
+        = f.label :first_name
+        = f.text_field :first_name, class: 'form-control'
+
+    .col-md-4
+      .form-group
+        = f.label :last_name
+        = f.text_field :last_name, class: 'form-control'
+
+  .row
+    .col-md-4
+      .form-group
+        = f.label :phone
+        = f.text_field :phone, class: 'form-control'
+
+    .col-md-4
+      .form-group
+        = f.label :address
+        = f.text_field :address, class: 'form-control'
+
+    .col-md-4
+      .form-group
+        = f.label :title
+        = f.text_field :title, class: 'form-control'
+
+  .row
+    .col-md-12
+      .form-group
+        = f.label :submitted_org
+        = f.text_field :submitted_org, class: 'form-control'
+
+  .row
+    .col-md-12
+      .form-group
+        = f.label :password
+        = f.password_field :password, class: 'form-control'
+
+    .col-md-12
+      .form-group
+        = f.label :password_confirmation
+        = f.password_field :password_confirmation, class: 'form-control'
+
+
+= button_tag t('buttons.save'), class: 'btn btn-primary'
+= link_to t('buttons.cancel'), admin_users_path, class: 'btn btn-default'

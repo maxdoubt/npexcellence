@@ -77,7 +77,8 @@ class Admin::TrainingsController < Admin::ApplicationController
                                      :max_registrations,
                                      :active,
                                      :featured,
-                                     :fee)
+                                     :fee,
+                                     :training_category_id)
   end
 
 

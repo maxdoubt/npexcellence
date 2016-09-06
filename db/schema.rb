@@ -11,10 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160826014744) do
+ActiveRecord::Schema.define(version: 20160906002809) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "orders", force: :cascade do |t|
+    t.integer  "user_id",        null: false
+    t.integer  "payment_method", null: false
+    t.string   "state",          null: false
+    t.text     "order_notes"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+  end
 
   create_table "orgs", force: :cascade do |t|
     t.string   "name",                     null: false
@@ -97,14 +106,11 @@ ActiveRecord::Schema.define(version: 20160826014744) do
   end
 
   create_table "registrations", force: :cascade do |t|
-    t.integer  "user_id",         null: false
-    t.integer  "training_id",     null: false
-    t.integer  "attendees",       null: false
-    t.boolean  "paid",            null: false
-    t.boolean  "current_payment", null: false
-    t.string   "payment_method",  null: false
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.integer  "training_id", null: false
+    t.integer  "attendees",   null: false
+    t.integer  "order_id",    null: false
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
   create_table "settings", force: :cascade do |t|
@@ -123,30 +129,21 @@ ActiveRecord::Schema.define(version: 20160826014744) do
   end
 
   create_table "trainings", force: :cascade do |t|
-    t.string   "name",              null: false
-    t.string   "location",          null: false
+    t.string   "name",                 null: false
+    t.string   "location",             null: false
     t.string   "slug"
-    t.text     "description",       null: false
-    t.text     "facilitators",      null: false
-    t.datetime "begin_date",        null: false
-    t.datetime "end_date",          null: false
-    t.integer  "max_registrations", null: false
-    t.boolean  "active",            null: false
-    t.boolean  "featured",          null: false
-    t.float    "fee",               null: false
-    t.datetime "created_at",        null: false
-    t.datetime "updated_at",        null: false
-  end
-
-  create_table "trainings_training_categories", force: :cascade do |t|
-    t.integer  "training_category_id"
-    t.integer  "training_id"
+    t.text     "description",          null: false
+    t.text     "facilitators",         null: false
+    t.datetime "begin_date",           null: false
+    t.datetime "end_date",             null: false
+    t.integer  "max_registrations",    null: false
+    t.boolean  "active",               null: false
+    t.boolean  "featured",             null: false
+    t.decimal  "fee",                  null: false
+    t.integer  "training_category_id", null: false
     t.datetime "created_at",           null: false
     t.datetime "updated_at",           null: false
   end
-
-  add_index "trainings_training_categories", ["training_category_id"], name: "index_trainings_training_categories_on_training_category_id", using: :btree
-  add_index "trainings_training_categories", ["training_id"], name: "index_trainings_training_categories_on_training_id", using: :btree
 
   create_table "uploads", force: :cascade do |t|
     t.string   "upload_file_name"
@@ -175,11 +172,13 @@ ActiveRecord::Schema.define(version: 20160826014744) do
     t.string   "first_name",                          null: false
     t.string   "last_name",                           null: false
     t.boolean  "banned",              default: false, null: false
+    t.boolean  "validated",           default: false, null: false
     t.string   "phone"
     t.string   "address"
     t.string   "title"
     t.string   "bio"
     t.integer  "org_id"
+    t.string   "submitted_org"
     t.string   "avatar_file_name"
     t.string   "avatar_content_type"
     t.integer  "avatar_file_size"
@@ -204,6 +203,4 @@ ActiveRecord::Schema.define(version: 20160826014744) do
 
   add_index "versions", ["item_type", "item_id"], name: "index_versions_on_item_type_and_item_id", using: :btree
 
-  add_foreign_key "trainings_training_categories", "training_categories"
-  add_foreign_key "trainings_training_categories", "trainings"
 end

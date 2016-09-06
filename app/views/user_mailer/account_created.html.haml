@@ -1,0 +1,6 @@
+%p
+  = @title
+
+%p
+  A new account has been created. Please validate your email by following this link or copying and pasting it into your browser:
+  = link_to confirm_url(confirmation_code: @user.single_access_token), confirm_url(confirmation_code: @user.single_access_token)

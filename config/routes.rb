@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   resources :orgs,            only: [:index, :show]
   resources :posts,           only: [:show]
   resources :trainings,       only: [:index, :show]
+  resources :users,           only: [:new, :create]
+  resources :registrations
 
 
   # named routes (sessions)

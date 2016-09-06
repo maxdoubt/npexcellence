@@ -38,8 +38,6 @@ class Admin::UsersController < Admin::ApplicationController
   # This method creates a record with the supplied parameters.
   #
   def create
-    @user.reset_password
-    
     if @user.save
       flash[:notice] = t("users.create.flash.success")
       Admin::UserMailer.account_created(@user).deliver
@@ -167,6 +165,7 @@ class Admin::UsersController < Admin::ApplicationController
       :email,
       :role,
       :org_id,
+      :submitted_org,
       :first_name,
       :last_name,
       :banned,
