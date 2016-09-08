@@ -1,0 +1,12 @@
+%section
+  %h1.text-center Upcoming Events
+- @events = Event.where('state = ? AND begin_date >= ?', 'featured', Date.today).order(:begin_date)
+
+%br
+.container
+  .row
+    - @events.each_with_index do |event,i|
+      - if i%2 == 0
+        </div><div class='row'>
+      .col-md-6
+        = render partial: 'events/show', locals: { event: event }

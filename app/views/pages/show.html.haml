@@ -1,29 +1,35 @@
-.page-body= @page.body.html_safe
-
-- if current_user
-  = link_to 'Edit', edit_admin_page_path(@page), class: 'btn btn-default'
-
 - if params[:id] == 'who-we-are'
+  = render partial: 'shared/layouts/carousel'
+  .page-body= @page.body.html_safe
+  %br
+  %br
+  = render partial: 'events/index'
   = render partial: 'posts/index'
   = render partial: 'orgs/spotlight_summary'
 
-- if params[:id] == 'member-spotlights'
-  - Org.where(spotlight: true).order(:name).each do |org|
+- else
+  .page-body= @page.body.html_safe
+
+  - if current_user
+    = link_to 'Edit', edit_admin_page_path(@page), class: 'btn btn-default'
+
+  - if params[:id] == 'member-spotlights'
+    - Org.where(spotlight: true).order(:name).each do |org|
+      .container
+        = render partial: 'orgs/spotlight_short', locals: {org: org}
+      %br
+      %br
+
+  - if params[:id] == 'members'
     .container
-      = render partial: 'orgs/spotlight_short', locals: {org: org}
-    %br
-    %br
+      .row
+        - Org.where(role: 'nonprofit').order(:name).each_with_index do |org, i|
+          = render partial: 'orgs/nonprofit', locals: {org: org}
 
-- if params[:id] == 'members'
-  .container
-    .row
-      - Org.where(role: 'nonprofit').order(:name).each_with_index do |org, i|
-        = render partial: 'orgs/nonprofit', locals: {org: org}
-
-- if params[:id] == 'trainings'
-  %br
-  .container
-    = render partial: 'trainings/index', locals: {trainings: Training.all.where(active: true)}
+  - if params[:id] == 'trainings'
+    %br
+    .container
+      = render partial: 'trainings/index', locals: {trainings: Training.all.where(active: true)}
 
 - if @page.menu
   :css

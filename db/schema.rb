@@ -11,10 +11,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160906002809) do
+ActiveRecord::Schema.define(version: 20160908005947) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "events", force: :cascade do |t|
+    t.string   "name",               null: false
+    t.string   "state",              null: false
+    t.string   "url"
+    t.text     "description",        null: false
+    t.datetime "begin_date",         null: false
+    t.datetime "end_date",           null: false
+    t.string   "photo_file_name"
+    t.string   "photo_content_type"
+    t.integer  "photo_file_size"
+    t.datetime "photo_updated_at"
+    t.integer  "user_id",            null: false
+    t.integer  "org_id"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+  end
 
   create_table "orders", force: :cascade do |t|
     t.integer  "user_id",        null: false
@@ -118,6 +135,8 @@ ActiveRecord::Schema.define(version: 20160906002809) do
     t.string   "address",           default: "123 S. Main",  null: false
     t.string   "footer",            default: "The footer",   null: false
     t.string   "title",             default: "Website",      null: false
+    t.string   "facebook"
+    t.string   "twitter"
     t.string   "logo_file_name"
     t.string   "logo_content_type"
     t.integer  "logo_file_size"

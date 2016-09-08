@@ -1,74 +1,224 @@
 
 ---
-users:
+versions:
   columns:
   - id
-  - email
-  - crypted_password
-  - password_salt
-  - persistence_token
-  - single_access_token
-  - perishable_token
-  - login_count
-  - failed_login_count
-  - current_login_at
-  - last_login_at
-  - current_login_ip
-  - last_login_ip
-  - role
-  - first_name
-  - last_name
-  - banned
-  - validated
-  - phone
-  - address
-  - title
-  - bio
-  - org_id
-  - avatar_file_name
-  - avatar_content_type
-  - avatar_file_size
-  - avatar_updated_at
+  - item_type
+  - item_id
+  - event
+  - whodunnit
+  - object
   - created_at
-  - updated_at
   records: 
   - - '1'
-    - admin@example.com
-    - "$2a$10$BCHQcL0VqHezMOunqNrNyehrmU1OHa6dpmiF5sElywkLqRDe.H0Gm"
-    - IxcwrAbCbml8xWDxKy26
-    - 9774c62649250c9375fd020a173d6defa12946c571bb5d4b0b9ec9d87487bbec8e067b3dc73663a754883bc5f368ad70e0a085f3263834e9ba6e60934021481a
-    - 4Tv1ms5aFsZBhvZcueP
-    - 1OnpNafdAgzZBMTckrS2
+    - User
     - '2'
-    - '0'
-    - '2016-08-24 23:37:24.738975'
-    - '2016-08-15 02:08:10.686099'
-    - "::1"
-    - "::1"
-    - admin
-    - Paul
-    - Newmann
-    - false
-    - false
-    - ''
-    - ''
-    - Philanthropist
-    - 'Newman''s Own is a food company founded by actor Paul Newman and author A.E.
-      Hotchner in 1982. The company gives 100% of the after-tax profits from the sale
-      of its products to Newman''s Own Foundation (a private non-profit foundation)
-      which in turn, gives the money to various educational and charitable organizations.
-      In 1982 Newman summarized his initial intentions regarding distribution of his
-      company''s profits: "My profits will be divided between a number of tax-deductible
-      charities and causes, some church-related, others for conservation and ecology
-      and things like that.""'
+    - create
     - 
-    - pnewman.jpg
-    - image/jpeg
-    - '1078302'
-    - '2016-08-25 12:25:12.448589'
-    - '2016-08-15 02:07:27.660194'
-    - '2016-08-25 12:25:14.991485'
-
+    - 
+    - '2016-09-06 04:06:23.345925'
+  - - '2'
+    - User
+    - '3'
+    - create
+    - 
+    - 
+    - '2016-09-06 04:30:14.824561'
+  - - '3'
+    - User
+    - '4'
+    - create
+    - 
+    - 
+    - '2016-09-06 04:31:39.15242'
+  - - '4'
+    - User
+    - '5'
+    - create
+    - 
+    - 
+    - '2016-09-06 04:32:30.003373'
+  - - '5'
+    - User
+    - '6'
+    - create
+    - 
+    - 
+    - '2016-09-06 04:46:10.500534'
+  - - '6'
+    - User
+    - '7'
+    - create
+    - 
+    - 
+    - '2016-09-06 04:47:57.926815'
+  - - '7'
+    - User
+    - '8'
+    - create
+    - 
+    - 
+    - '2016-09-06 04:49:49.510569'
+  - - '8'
+    - User
+    - '9'
+    - create
+    - 
+    - 
+    - '2016-09-06 04:53:14.808016'
+  - - '9'
+    - User
+    - '10'
+    - create
+    - 
+    - 
+    - '2016-09-06 04:57:47.901681'
+  - - '10'
+    - User
+    - '11'
+    - create
+    - 
+    - 
+    - '2016-09-06 12:36:01.714585'
+  - - '11'
+    - User
+    - '11'
+    - update
+    - '11'
+    - "---\nid: 11\nemail: test@test.net\ncrypted_password: \"$2a$10$VMUeWFbJ3bCZpnjaURI4SugrUvkQBlehAUuR4R061VnJr94Ytvqze\"\npassword_salt:
+      WvFXgAFAROkY5oou71x\npersistence_token: 2eacc264f726d6bfa59d29efe6a033b28683131063e4d1f2f84fab31f1a238d51460462b110cc8450d12ce3a812ed2dac8d87a21ec7c9019a88e50c031a3add9\nsingle_access_token:
+      3anKSFV7q9KnBRz7XqLE\nperishable_token: Q6qUNuLtzMSodFFsxmC\nlogin_count: 1\nfailed_login_count:
+      0\ncurrent_login_at: 2016-09-06 12:36:01.713894000 Z\nlast_login_at: \ncurrent_login_ip:
+      \"::1\"\nlast_login_ip: \nrole: signup\nfirst_name: Test\nlast_name: Test\nbanned:
+      false\nvalidated: false\nphone: '9012222222'\naddress: 123 St\ntitle: Test Title\nbio:
+      \norg_id: \nsubmitted_org: \navatar_file_name: \navatar_content_type: \navatar_file_size:
+      \navatar_updated_at: \ncreated_at: 2016-09-06 12:36:01.714585000 Z\nupdated_at:
+      2016-09-06 12:36:01.714585000 Z\n"
+    - '2016-09-06 12:48:20.220149'
+  - - '12'
+    - User
+    - '12'
+    - create
+    - 
+    - 
+    - '2016-09-06 12:53:33.835656'
+  - - '13'
+    - User
+    - '12'
+    - update
+    - '12'
+    - "---\nid: 12\nemail: test@test.net\ncrypted_password: \"$2a$10$Tdzv8qkUErm7DnI4kdDj..iD8ji3hnogd69b8yC25W8gRGKeGhEbm\"\npassword_salt:
+      mvCJrdHT5gP3n88hNI\npersistence_token: aade77803f931edcad58d2fbf166c26e6c054b8dc932f5f1fdd3fb7453610910d9a3965c2b6d31f11f8c84154509affdd60e1e9a4b4d11d3f735b6fe4ccc655b\nsingle_access_token:
+      17Y7li05rYp5sjUy2iXm\nperishable_token: 47K3jHzy8twQ8v8Qf51J\nlogin_count: 1\nfailed_login_count:
+      0\ncurrent_login_at: 2016-09-06 12:53:33.835170000 Z\nlast_login_at: \ncurrent_login_ip:
+      \"::1\"\nlast_login_ip: \nrole: signup\nfirst_name: Test\nlast_name: Test\nbanned:
+      false\nvalidated: false\nphone: '9012222222'\naddress: 123 St\ntitle: Test Title\nbio:
+      \norg_id: \nsubmitted_org: \navatar_file_name: \navatar_content_type: \navatar_file_size:
+      \navatar_updated_at: \ncreated_at: 2016-09-06 12:53:33.835656000 Z\nupdated_at:
+      2016-09-06 12:53:33.835656000 Z\n"
+    - '2016-09-06 12:54:59.178451'
+  - - '14'
+    - User
+    - '1'
+    - update
+    - 
+    - "---\nid: 1\nemail: admin@example.com\ncrypted_password: \"$2a$10$BCHQcL0VqHezMOunqNrNyehrmU1OHa6dpmiF5sElywkLqRDe.H0Gm\"\npassword_salt:
+      IxcwrAbCbml8xWDxKy26\npersistence_token: 9774c62649250c9375fd020a173d6defa12946c571bb5d4b0b9ec9d87487bbec8e067b3dc73663a754883bc5f368ad70e0a085f3263834e9ba6e60934021481a\nsingle_access_token:
+      4Tv1ms5aFsZBhvZcueP\nperishable_token: 1OnpNafdAgzZBMTckrS2\nlogin_count: 2\nfailed_login_count:
+      0\ncurrent_login_at: 2016-08-24 23:37:24.738975000 Z\nlast_login_at: 2016-08-15
+      02:08:10.686099000 Z\ncurrent_login_ip: \"::1\"\nlast_login_ip: \"::1\"\nrole:
+      admin\nfirst_name: Paul\nlast_name: Newmann\nbanned: false\nvalidated: false\nphone:
+      ''\naddress: ''\ntitle: Philanthropist\nbio: 'Newman''s Own is a food company
+      founded by actor Paul Newman and author A.E.\n  Hotchner in 1982. The company
+      gives 100% of the after-tax profits from the sale\n  of its products to Newman''s
+      Own Foundation (a private non-profit foundation) which\n  in turn, gives the
+      money to various educational and charitable organizations. In\n  1982 Newman
+      summarized his initial intentions regarding distribution of his company''s\n
+      \ profits: \"My profits will be divided between a number of tax-deductible charities\n
+      \ and causes, some church-related, others for conservation and ecology and things\n
+      \ like that.\"\"'\norg_id: \nsubmitted_org: \navatar_file_name: pnewman.jpg\navatar_content_type:
+      image/jpeg\navatar_file_size: 1078302\navatar_updated_at: 2016-08-25 12:25:12.448589000
+      Z\ncreated_at: 2016-08-15 02:07:27.660194000 Z\nupdated_at: 2016-08-25 12:25:14.991485000
+      Z\n"
+    - '2016-09-08 01:29:56.894554'
+  - - '15'
+    - Setting
+    - '1'
+    - update
+    - '1'
+    - "---\nid: 1\nphone: 901.684.6605\naddress: '1919 Lynnfield Rd #200, Memphis,
+      TN 38119'\nfooter: The Alliance helps nonprofit organizations build operational
+      excellence in\n  the areas of people, revenue, and impact, and helps transform
+      board and staff members’\n  passion into know how, providing a way to move their
+      missions and goals forward\n  and meet community needs.\ntitle: The Alliance
+      for Nonprofit Excellence\nfacebook: \ntwitter: \nlogo_file_name: logo.png\nlogo_content_type:
+      image/png\nlogo_file_size: 33732\nlogo_updated_at: 2016-02-05 17:09:01.579871000
+      Z\n"
+    - '2016-09-08 02:34:38.046577'
+  - - '16'
+    - Org
+    - '3'
+    - update
+    - '1'
+    - "---\nid: 3\nname: Bridges\nabbreviation: \nslug: bridges\nrole: nonprofit\nactive:
+      true\nphone: '9014525600'\naddress: 477 N 5th St, Memphis, TN 38105\ncity: \ncontact:
+      Cynthia Ham\nemail: info@bridgesusa.org\nwebsite: http://bridgesusa.org/\norg_type:
+      \ndescription: \"Through our Bridge Builders program we unite and inspire diverse
+      young\n  people to become confident and courageous leaders. Our philosophy is
+      that youth\n  deserve to be respected and acknowledged for the positive difference
+      they can make\n  in Memphis. In the course of a year, we impact 6,000 students
+      in 144 schools and\n  in 57 zip codes.\\r\\n\\r\\nSome people think that because
+      we're a social service agency,\n  we target under-served youth.  In fact, the
+      point of Bridge Builders is to bring\n  together youth from all walks of life
+      to get to know one another and appreciate\n  what they have in common and how
+      they may think differently.\"\ninspiration: 'When I came to BRIDGES I was challenged
+      by the business challenges:\n  clarity of focus and mission,creating the strategy,
+      building a sustainable business\n  and finanical model, etc. However, working
+      with the youth and watching them evole\n  into leaders has been the most gratifying.
+      I’ve had an opportunity to coach some\n  of our youth and it was really inspiring.
+      Throughout my career I hadn’t had much\n  interaction with youth in large numbers.
+      Our youth really are amazing; adults need\n  to think of them as an asset to
+      the community.'\npride: 'I am most proud of the Bridge Builders CHANGE program.
+      CHANGE brings 24 students\n  together to study social problems in Memphis, particularly
+      as it relates to youth,\n  because there are lots of issues that youth identify
+      in schools and in the community\n  that adults might miss. Youth are best equipped
+      to identify youth problems and they\n  work together to analyze the problem
+      and develop a strategy for creating grassroots\n  change. Instead of one-time
+      volunteer service projects, this is a year-long project\n  that addresses much
+      more systemic issues. BRIDGES is unique in that it’s all about\n  youth leading
+      other youth: we believe that once you equip them with good practices\n  and
+      methodologies, they can figure out what to do and act on it. For example, through\n
+      \ this program, our Bridge Builders recommended a policy to the Shelby County
+      Schools\n  Board of Education to establish a student congress so that youth
+      voice could be\n  heard. They lobbied every member of the school board and worked
+      closely with the\n  administration to develop the policy. The policy recommendation
+      was passed and now\n  the Bridge Builders working to make sure it’s implemented.'\ninvolvement:
+      We received an amazing challenge grant of $10 million to match with $10\n  million,
+      creativng a $20 million  endowment, ensuring BRIDGES will never go away\n  and
+      that it will always serve the youth in the Memphis area... We are in the home\n
+      \ stretch and we would love people to consider donating to the matching grant
+      so we\n  can reach our goal very soon!\nfunding: ''\nalliance: \"We love all
+      of the professional development opportunities through the Alliance\n  that are
+      unique to non-profit work. I personally enjoy the CEO round tables because\n
+      \ I get the opportunity to interact with my fellow CEOs. When we get together,
+      we\n  compare notes about challenges we have and talk about best practices.
+      It’s a great\n  opportunity to seek advice from colleagues who have had similar
+      experiences.\\r\\n\\r\\nIt’s\n  a great resource for inexpensive and effective
+      trainings and great networking opportunities\n  for your entire staff. Our CFO
+      and Vice President of HR both enjoy participating\n  in their networking groups.\"\ninterviewee:
+      Cynthia Ham\ninterviewee_title: President & CEO\nlogo_file_name: logo.png\nlogo_content_type:
+      image/png\nlogo_file_size: 91382\nlogo_updated_at: 2016-08-25 14:55:36.258398000
+      Z\nstaff_photo_file_name: \nstaff_photo_content_type: \nstaff_photo_file_size:
+      \nstaff_photo_updated_at: \nphoto_file_name: Bridges_kids.jpg\nphoto_content_type:
+      image/jpeg\nphoto_file_size: 114064\nphoto_updated_at: 2016-04-25 12:49:48.333031000
+      Z\nphoto_two_file_name: bridgedebate2.jpg\nphoto_two_content_type: image/jpeg\nphoto_two_file_size:
+      259725\nphoto_two_updated_at: 2016-04-25 12:49:49.779927000 Z\nphoto_three_file_name:
+      collaborate-728x390.jpg\nphoto_three_content_type: image/jpeg\nphoto_three_file_size:
+      126234\nphoto_three_updated_at: 2016-04-25 12:49:51.295532000 Z\nphoto_four_file_name:
+      Bridges_staff.JPG\nphoto_four_content_type: image/jpeg\nphoto_four_file_size:
+      215129\nphoto_four_updated_at: 2016-04-25 12:49:52.661936000 Z\nspotlight: true\ncreated_at:
+      2016-04-25 12:31:14.248621000 Z\nupdated_at: 2016-08-25 14:55:36.724787000 Z\n"
+    - '2016-09-08 04:04:02.180653'
 
 ---
 orgs:
@@ -285,10 +435,10 @@ orgs:
     - 
     - 
     - 
-    - Bridges_kids.jpg
+    - bridges.jpeg
     - image/jpeg
-    - '114064'
-    - '2016-04-25 12:49:48.333031'
+    - '289554'
+    - '2016-09-08 04:04:00.831977'
     - bridgedebate2.jpg
     - image/jpeg
     - '259725'
@@ -303,7 +453,7 @@ orgs:
     - '2016-04-25 12:49:52.661936'
     - true
     - '2016-04-25 12:31:14.248621'
-    - '2016-08-25 14:55:36.724787'
+    - '2016-09-08 04:04:02.180653'
   - - '4'
     - ABA Development, Inc.
     - ABA
@@ -10102,6 +10252,309 @@ orgs:
     - '2016-05-23 04:21:25.992392'
 
 ---
+trainings:
+  columns:
+  - id
+  - name
+  - location
+  - slug
+  - description
+  - facilitators
+  - begin_date
+  - end_date
+  - max_registrations
+  - active
+  - featured
+  - fee
+  - training_category_id
+  - created_at
+  - updated_at
+  records: 
+  - - '1'
+    - Innovative Marketing in Hospitality
+    - 26127 Murphy Track
+    - datacentre-investment-forum
+    - Consequatur blanditiis fuga placeat veniam sed et eum sint. Ipsum sed ad velit
+      eos. Voluptatum quibusdam voluptas perspiciatis vero est accusantium beatae.
+    - Dario Ledner
+    - '2012-09-03 05:00:00'
+    - '2013-10-01 05:00:00'
+    - '50'
+    - true
+    - false
+    - '20.15'
+    - '3'
+    - '2016-09-06 04:05:10.704737'
+    - '2016-09-06 04:05:10.704737'
+  - - '2'
+    - Datacentre Investment Forum
+    - 859 Schaden Field
+    - autumn-conference-on-european-state-aid-law-2012
+    - Explicabo neque adipisci corporis qui rem rerum et. Voluptas quasi pariatur
+      consequatur autem velit non nemo sunt. Similique perspiciatis totam magni soluta
+      ex expedita consequatur. Magni aut quos nesciunt commodi fuga fugiat quae.
+    - Lance Ankunding
+    - '2014-07-28 05:00:00'
+    - '2013-09-19 05:00:00'
+    - '50'
+    - true
+    - false
+    - '20.15'
+    - '3'
+    - '2016-09-06 04:05:10.726048'
+    - '2016-09-06 04:05:10.726048'
+  - - '3'
+    - LatAm Pipeline Integrity Management Summit
+    - 54978 Elwin Drives
+    - the-canadian-instituteas-7th-annual-forum-on-payments-compliance-in-canada
+    - Labore non et vel eius in dolores nihil dicta. Quis nisi cumque officia assumenda
+      aut. Harum ratione quaerat nesciunt et similique.
+    - Leonora Hand
+    - '2012-08-03 05:00:00'
+    - '2016-01-30 06:00:00'
+    - '50'
+    - true
+    - false
+    - '20.15'
+    - '3'
+    - '2016-09-06 04:05:10.729019'
+    - '2016-09-06 04:05:10.729019'
+  - - '4'
+    - The 2010 Caribbean New Media Conference Expo.
+    - 3106 Ruecker Burg
+    - rail-infrastructure-middle-east-2010
+    - Cumque doloribus sed inventore sint dicta officia. Qui dolorem magni eos beatae
+      tenetur. Non aut et recusandae dolorem dolores natus velit.
+    - Lorna Stoltenberg
+    - '2014-01-09 06:00:00'
+    - '2014-12-01 06:00:00'
+    - '50'
+    - true
+    - false
+    - '20.15'
+    - '3'
+    - '2016-09-06 04:05:10.731628'
+    - '2016-09-06 04:05:10.731628'
+  - - '5'
+    - 4th Annual Utility Scale Solar 2011
+    - 33720 Richie Cape
+    - dealing-with-harassment-in-the-workplace---hr-webinar-by-complianceonline
+    - Impedit deserunt quod illum itaque amet. Odit architecto animi sit expedita
+      laudantium. Sit deleniti nostrum reiciendis beatae harum. Maxime qui commodi
+      laudantium quod perspiciatis. Ut provident impedit consequuntur possimus neque
+      error.
+    - Rodger Terry
+    - '2015-09-29 05:00:00'
+    - '2015-04-06 05:00:00'
+    - '50'
+    - true
+    - false
+    - '20.15'
+    - '3'
+    - '2016-09-06 04:05:10.734062'
+    - '2016-09-06 04:05:10.734062'
+  - - '6'
+    - Dow Jones Global Compliance Symposium 2011
+    - 9261 Vivian Center
+    - restaurant-development-summit
+    - Provident qui quaerat totam omnis. Quia rem rerum et iste. Et eaque eos optio
+      saepe voluptates. Aliquam qui quia nisi reiciendis nihil dignissimos iure. Laudantium
+      alias saepe eos sed soluta aut odio fuga.
+    - Shanny Bruen
+    - '2013-08-19 05:00:00'
+    - '2016-05-31 05:00:00'
+    - '50'
+    - true
+    - false
+    - '20.15'
+    - '3'
+    - '2016-09-06 04:05:10.736349'
+    - '2016-09-06 04:05:10.736349'
+  - - '7'
+    - Platts 16th annual Mexican Energy conference
+    - 930 Jayne Villages
+    - innovative-marketing-in-hospitality
+    - Adipisci cumque corrupti aspernatur eaque recusandae fuga ex sunt. Illum perferendis
+      accusantium tempore itaque illo laborum. Accusamus fugiat repellat sint ullam
+      similique voluptatem voluptatem fugit. Qui alias itaque velit maxime.
+    - Brendan Ledner
+    - '2012-10-07 05:00:00'
+    - '2016-02-13 06:00:00'
+    - '50'
+    - true
+    - false
+    - '20.15'
+    - '3'
+    - '2016-09-06 04:05:10.73876'
+    - '2016-09-06 04:05:10.73876'
+  - - '8'
+    - Device Master Record Device History Record a requirements, contents and implementation
+      - Webinar
+    - 336 Ernser Overpass
+    - latam-hse-in-oil,-gas-and-petrochemicals
+    - Consequatur neque enim sequi unde cumque aut aut aliquid. Nisi ut est quo est
+      veniam. Nobis quidem deleniti cumque ipsa suscipit. Illum aliquid quas quidem
+      vel ratione dolores quis.
+    - Mayra Nienow
+    - '2013-01-11 06:00:00'
+    - '2015-12-29 06:00:00'
+    - '50'
+    - true
+    - false
+    - '20.15'
+    - '3'
+    - '2016-09-06 04:05:10.741309'
+    - '2016-09-06 04:05:10.741309'
+  - - '9'
+    - The Canadian Institutes Eastern Canada Shale Gas Symposium
+    - 70651 Tamia Courts
+    - advanced-manufacturing-technology-show
+    - Sapiente magni fugit sunt hic voluptas porro officia quam. Et est non esse eos
+      accusantium ab. Nulla adipisci nostrum temporibus alias officia quo.
+    - Santos Ledner
+    - '2015-06-09 05:00:00'
+    - '2012-07-17 05:00:00'
+    - '50'
+    - true
+    - false
+    - '20.15'
+    - '3'
+    - '2016-09-06 04:05:10.744241'
+    - '2016-09-06 04:05:10.744241'
+  - - '10'
+    - 18th Annual Sloan Consortium International Conference on Online Learning
+    - 63245 Lubowitz Parkway
+    - latam-hse-in-oil,-gas-and-petrochemicals
+    - Odio magnam atque rerum quaerat nulla distinctio. Ullam sed quisquam non beatae.
+      Non deserunt ipsam accusamus hic ut rerum sunt excepturi. Sunt aut et accusamus
+      voluptas delectus voluptates.
+    - Casimer Kohler
+    - '2015-05-07 05:00:00'
+    - '2012-06-08 05:00:00'
+    - '50'
+    - true
+    - false
+    - '20.15'
+    - '3'
+    - '2016-09-06 04:05:10.746798'
+    - '2016-09-06 04:05:10.746798'
+
+---
+users:
+  columns:
+  - id
+  - email
+  - crypted_password
+  - password_salt
+  - persistence_token
+  - single_access_token
+  - perishable_token
+  - login_count
+  - failed_login_count
+  - current_login_at
+  - last_login_at
+  - current_login_ip
+  - last_login_ip
+  - role
+  - first_name
+  - last_name
+  - banned
+  - validated
+  - phone
+  - address
+  - title
+  - bio
+  - org_id
+  - submitted_org
+  - avatar_file_name
+  - avatar_content_type
+  - avatar_file_size
+  - avatar_updated_at
+  - created_at
+  - updated_at
+  records: 
+  - - '1'
+    - admin@example.com
+    - "$2a$10$BCHQcL0VqHezMOunqNrNyehrmU1OHa6dpmiF5sElywkLqRDe.H0Gm"
+    - IxcwrAbCbml8xWDxKy26
+    - 9774c62649250c9375fd020a173d6defa12946c571bb5d4b0b9ec9d87487bbec8e067b3dc73663a754883bc5f368ad70e0a085f3263834e9ba6e60934021481a
+    - 4Tv1ms5aFsZBhvZcueP
+    - xzsMjptsi4Mac94bEKGo
+    - '3'
+    - '0'
+    - '2016-09-08 01:29:56.893144'
+    - '2016-08-24 23:37:24.738975'
+    - "::1"
+    - "::1"
+    - admin
+    - Paul
+    - Newmann
+    - false
+    - false
+    - ''
+    - ''
+    - Philanthropist
+    - 'Newman''s Own is a food company founded by actor Paul Newman and author A.E.
+      Hotchner in 1982. The company gives 100% of the after-tax profits from the sale
+      of its products to Newman''s Own Foundation (a private non-profit foundation)
+      which in turn, gives the money to various educational and charitable organizations.
+      In 1982 Newman summarized his initial intentions regarding distribution of his
+      company''s profits: "My profits will be divided between a number of tax-deductible
+      charities and causes, some church-related, others for conservation and ecology
+      and things like that.""'
+    - 
+    - 
+    - pnewman.jpg
+    - image/jpeg
+    - '1078302'
+    - '2016-08-25 12:25:12.448589'
+    - '2016-08-15 02:07:27.660194'
+    - '2016-09-08 01:29:56.894554'
+  - - '12'
+    - test@test.net
+    - "$2a$10$Tdzv8qkUErm7DnI4kdDj..iD8ji3hnogd69b8yC25W8gRGKeGhEbm"
+    - mvCJrdHT5gP3n88hNI
+    - aade77803f931edcad58d2fbf166c26e6c054b8dc932f5f1fdd3fb7453610910d9a3965c2b6d31f11f8c84154509affdd60e1e9a4b4d11d3f735b6fe4ccc655b
+    - Wlt6GcOhsMTyJy3neWUI
+    - ojgA0vApJv7LJlY56FmR
+    - '1'
+    - '0'
+    - '2016-09-06 12:53:33.83517'
+    - 
+    - "::1"
+    - 
+    - signup
+    - Test
+    - Test
+    - false
+    - true
+    - '9012222222'
+    - 123 St
+    - Test Title
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2016-09-06 12:53:33.835656'
+    - '2016-09-06 12:54:59.178451'
+
+---
+training_categories:
+  columns:
+  - id
+  - name
+  records: 
+  - - '1'
+    - People
+  - - '2'
+    - Revenue
+  - - '3'
+    - Impact
+
+---
 posts:
   columns:
   - id
@@ -10419,6 +10872,8 @@ settings:
   - address
   - footer
   - title
+  - facebook
+  - twitter
   - logo_file_name
   - logo_content_type
   - logo_file_size
@@ -10432,6 +10887,8 @@ settings:
       passion into know how, providing a way to move their missions and goals forward
       and meet community needs.
     - The Alliance for Nonprofit Excellence
+    - https://www.facebook.com/npexcellence/
+    - https://twitter.com/npexcellence
     - logo.png
     - image/png
     - '33732'
@@ -10456,55 +10913,23 @@ pages:
   records: 
   - - '1'
     - Who We Are
-    - '<div class="carousel slide" data-ride="carousel" id="carousel-example-generic"><!--
-      Indicators --><!-- Wrapper for slides --><div class="carousel-inner"><div class="item"><img
-      src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/028/original/MIFA-Meals-on-Wheels.jpg?1459218847"
-      alt="..." class="fr-dib fr-draggable"><div class="carousel-caption"><h1>MIFA,
-      Alliance Member</h1></div></div><div class="item"><img src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/027/original/JIFF.jpg?1459218838"
-      alt="..." class="fr-dib fr-draggable"><div class="carousel-caption"><h1>JIFF
-      Inc., Alliance Member</h1></div></div><div class="item"><img src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/026/original/Girl''s-Inc-Girls-at-Tea-Banner.jpg?1459218827"
-      alt="..." class="fr-dib fr-draggable"><div class="carousel-caption"><h1>Girls
-      Inc., Alliance Member</h1></div></div><div class="item active"><img src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/023/original/Baddour-Banner.jpg?1459218783"
-      alt="..." class="fr-dib fr-draggable"><div class="carousel-caption"><h1>The
-      Baddour Center, Alliance Member</h1></div></div><div class="item"><img src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/024/original/Bridges-staff.jpg?1459218794"
-      alt="..." class="fr-dib fr-draggable"><div class="carousel-caption"><h1>Bridges
-      USA, Alliance Member</h1></div></div><div class="item"><img src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/025/original/delta-arts.jpg?1459218806"
-      alt="..." class="fr-dib fr-draggable"><div class="carousel-caption"><h1>DeltaArts,
-      Alliance Member</h1></div></div></div><!-- Controls --><a class="left carousel-control"
-      data-slide="prev" href="#carousel-example-generic"><span class="sr-only">Previous</span></a><a
-      class="right carousel-control" data-slide="next" href="#carousel-example-generic"><span
-      class="sr-only">Next</span></a></div><section><h1>Our Strategy</h1></section><p><br></p><p><br></p><div
-      class="container"><div class="row"><div class="col-md-4"><div class="well text-center"><h1><div
-      class="fa fa-users"><br></div>People</h1><h3>Strengthen board and staff leadership
-      while building the human resources systems to move your nonprofit forward.</h3></div></div><div
-      class="col-md-4"><div class="well text-center"><h1><div class="fa fa-balance-scale"><br></div>Revenue</h1><h3>Strike
-      a balance between mission and money, developing new revenue strategies and enhancing
-      financial management.</h3></div></div><div class="col-md-4"><div class="well
-      text-center"><h1><div class="fa fa-line-chart"><br></div>Impact</h1><h3>Align
+    - <div class="container"><div class="row"><div class="col-md-12 text-center"><br><br><br><h4>Our
+      Mission</h4><hr><h1><em>Strengthening Nonprofits Towards Excellence</em></h1><hr><br></div></div><br><div
+      class="row"><div class="col-md-4"><div class="panel panel-success text-center"><div
+      class="panel-body"><h3>Strengthen board and staff leadership while building
+      the human resources systems to move your nonprofit forward.</h3></div><div class="panel-heading"><h1><div
+      class="fa fa-users"><br></div>People</h1></div></div></div><div class="col-md-4"><div
+      class="panel panel-info text-center"><div class="panel-body"><h3>Strike a balance
+      between mission and money, developing new revenue strategies and enhancing financial
+      management.</h3></div><div class="panel-heading"><h1><div class="fa fa-balance-scale"><br></div>Revenue</h1></div></div></div><div
+      class="col-md-4"><div class="panel panel-warning text-center"><div class="panel-body"><h3>Align
       vision to impact as you measure change, develop better solutions, and establish
-      a compelling story.</h3></div></div></div><br><br></div><p><br></p><section><h1
-      style="text-align: center;">Guiding the Path Towards Collaboration</h1></section><p><br></p><div
-      class="container"><br><br><div class="row"><div class="col-md-6"><h2>Consulting
-      and Training</h2><h3>Our Consulting services help you challenge your assumptions,
-      discover new solutions, and enhance your capacity while strengthening the impact
-      of your work.</h3></div><div class="col-md-6"><img class="img-responsive fr-dii
-      fr-draggable" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/016/original/consulting.jpg?1456281924"></div></div><hr><div
-      class="row"><div class="col-md-6"><img class="img-responsive fr-dib fr-draggable"
-      src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/017/original/community_engagement3.jpg?1456281938"></div><div
-      class="col-md-6"><h2>Convening</h2><h3>The Alliance believes that nonprofits
-      are the heartbeat of our community. A vibrant nonprofit sector strengthens our
-      community and increases our collective potential to make a meaningiful difference.</h3><h3>The
-      Alliance builds community and connections through its membership network and
-      through special events such as member sessions, community forums, and our Annual
-      Conference, that create opprotunities for peer learning and sharing.</h3></div></div><hr><div
-      class="row"><div class="col-md-6"><h2>Gateway Programs</h2><h3>The Alliance
-      provides online tools and resources that are available to any organization,
-      including connections and access to resources provided by national partners.</h3><h2>Systems
-      Impact</h2><h3>The Alliance contributes to and continues to learn from sector
-      research, guiding the work we do and the services we offer. We provide organizations
-      access to current research and knowledge of key trends and important advocacy
-      issues.</h3></div><div class="col-md-6"><img class="img-responsive fr-dib fr-draggable"
-      src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/018/original/resources3.jpg?1456281951"></div></div></div>'
+      a compelling story.</h3></div><div class="panel-heading"><h1><div class="fa
+      fa-line-chart"><br></div>Impact</h1></div></div></div></div><br><br><br><hr><br><br><br><div
+      class="row"><div class="col-md-12 embed-responsive embed-responsive-16by9 text-center"><span
+      class="fr-video fr-dvi fr-draggable" contenteditable="false" style=""><iframe
+      class="embed-responsive-item" src="https://www.youtube.com/embed/7UYKAVOutI8"
+      width="560" height="315" frameborder="0" allowfullscreen=""></iframe></span></div></div></div>
     - who-we-are
     - true
     - true
@@ -10514,7 +10939,7 @@ pages:
     - '0'
     - '0'
     - '2015-10-30 17:43:21.170909'
-    - '2016-08-15 02:36:20.658775'
+    - '2016-09-08 03:30:26.199971'
   - - '2'
     - History
     - <div><img class="fr-dib img-responsive fr-draggable" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/032/original/10-year-celebration.jpg?1459222452"></div><p><br></p><section><h1
@@ -10962,3 +11387,92 @@ pages:
     - '0'
     - '2016-09-06 01:43:54.103662'
     - '2016-09-06 01:43:54.103662'
+
+---
+events:
+  columns:
+  - id
+  - name
+  - state
+  - url
+  - description
+  - begin_date
+  - end_date
+  - photo_file_name
+  - photo_content_type
+  - photo_file_size
+  - photo_updated_at
+  - user_id
+  - org_id
+  - created_at
+  - updated_at
+  records: 
+  - - '1'
+    - First Featured Event
+    - featured
+    - http://testevent.com
+    - Suspendisse sit amet tortor in nisi blandit tempus sit amet vel tellus. Suspendisse
+      rhoncus in eros id volutpat. Integer ligula purus, pharetra non aliquam a, sollicitudin
+      in nisl. Etiam congue a dolor ornare porta. Donec sagittis velit magna, nec
+      vestibulum neque vulputate sed. Donec id mauris id eros ornare ultrices. Aliquam
+      nec mauris viverra, facilisis ex sed, gravida neque. Donec id massa scelerisque,
+      accumsan arcu quis, vulputate lacus. Pellentesque nisi nisi, egestas non purus
+      sit amet, hendrerit congue nulla. Ut eget sagittis lacus. Pellentesque ex ligula,
+      aliquet eget quam vitae, tristique consectetur purus. Aenean tincidunt ante
+      at ipsum iaculis, quis sollicitudin nunc convallis.
+    - '2016-09-16 19:00:00'
+    - '2016-09-16 21:00:00'
+    - Advance_Memphis.jpg
+    - image/jpeg
+    - '2697641'
+    - '2016-09-08 01:52:24.653167'
+    - '1'
+    - '13'
+    - '2016-09-08 01:43:54.786853'
+    - '2016-09-08 01:55:12.386584'
+  - - '2'
+    - Website Party
+    - featured
+    - http://party.com
+    - Mauris vel est feugiat, fermentum dui ut, rutrum enim. Maecenas sed nunc ante.
+      Ut id condimentum diam. Pellentesque elementum orci id nisl ullamcorper, et
+      lobortis sapien commodo. Sed placerat vehicula est, quis convallis turpis tincidunt
+      ac. Vestibulum eros turpis, dignissim sed pellentesque at, rutrum ut lorem.
+      Nulla vehicula blandit posuere. Cras condimentum at tellus vel bibendum. Aenean
+      purus dui, ultrices at tempus nec, efficitur nec metus.
+    - '2016-09-25 00:30:00'
+    - '2016-09-25 03:00:00'
+    - Latino_Memphis_Dia_de_Los_Muertos.jpg
+    - image/jpeg
+    - '537459'
+    - '2016-09-08 01:56:52.308315'
+    - '1'
+    - '18'
+    - '2016-09-08 01:56:53.477166'
+    - '2016-09-08 01:56:53.477166'
+  - - '3'
+    - Greet and Meet
+    - featured
+    - http://complete.com
+    - Pellentesque rutrum odio sed tristique sodales. Duis ultricies magna eu est
+      vestibulum blandit. Fusce eget turpis eu sapien suscipit varius nec ac tellus.
+      Suspendisse a dolor tincidunt, tincidunt metus sit amet, suscipit metus. Maecenas
+      tellus leo, mattis in ultricies sed, iaculis a quam. Aliquam sollicitudin in
+      arcu ut vestibulum. Vestibulum ac tempus augue, sed viverra sem. Morbi metus
+      justo, accumsan a ex at, pellentesque tincidunt velit. Aliquam eu aliquet velit.
+      Mauris vitae leo volutpat, hendrerit orci non, blandit augue. Nulla tincidunt
+      convallis venenatis. Nulla eleifend pretium enim, in viverra eros accumsan vel.
+      Pellentesque gravida, enim at convallis ultrices, urna nisi consequat lorem,
+      aliquam volutpat leo libero et lacus. Fusce tincidunt semper tincidunt. Quisque
+      efficitur quam et sapien sagittis, vel euismod massa gravida. Cras nec mattis
+      sapien.
+    - '2016-09-30 23:00:00'
+    - '2016-10-01 00:00:00'
+    - SRVS.png
+    - image/png
+    - '2953581'
+    - '2016-09-08 01:58:47.968949'
+    - '1'
+    - 
+    - '2016-09-08 01:58:50.491714'
+    - '2016-09-08 01:58:50.491714'

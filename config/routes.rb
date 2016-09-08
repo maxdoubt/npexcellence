@@ -34,6 +34,7 @@ Rails.application.routes.draw do
     end
     resources :settings
     resources :trainings
+    resources :events
     resources :uploads
     resources :users
 

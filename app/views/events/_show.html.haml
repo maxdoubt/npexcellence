@@ -1,0 +1,16 @@
+.panel.panel-default
+  .panel-heading
+    %h1= link_to event.name, event.url
+    %h4
+      = event.begin_date.strftime('%b %d')
+      = " - "
+      = event.begin_date.strftime('%l:%M %P')
+      = " - "
+      = event.end_date.strftime('%l:%M %P')
+
+  .panel-body
+    .row
+      .col-md-6
+        = image_tag event.photo.url(:square), class: 'img img-responsive img-rounded center-block'
+      .col-md-6
+        = event.description

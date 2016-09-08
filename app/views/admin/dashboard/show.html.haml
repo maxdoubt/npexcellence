@@ -1,9 +1,12 @@
 .page-header
   %h1 Admin Dashboard
 
+%p= link_to 'Manage Events',          admin_events_path,      class: 'btn btn-default'
 %p= link_to 'Manage Organizations',   admin_orgs_path,        class: 'btn btn-default'
 %p= link_to 'Manage Pages',           admin_pages_path,       class: 'btn btn-default'
 %p= link_to 'Manage Posts',           admin_posts_path,       class: 'btn btn-default'
+%p= link_to 'Manage Trainings',       admin_trainings_path,   class: 'btn btn-default'
 %p= link_to 'Manage Uploads',         admin_uploads_path,     class: 'btn btn-default'
 %p= link_to 'Manage Users',           admin_users_path,       class: 'btn btn-default'
+%hr
 %p= link_to 'Manage Settings',        admin_settings_path,    class: 'btn btn-default'

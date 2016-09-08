@@ -3,5 +3,13 @@
     %h4= current_setting.title
     %h4= current_setting.address
     %h4= current_setting.phone
+    %h1
+      = link_to current_setting.facebook, :target => "_blank" do
+        %i.fa.fa-facebook-official
+
+      = link_to current_setting.twitter, :target => "_blank" do
+        %i.fa.fa-twitter-square
+
+
   .col-sm-6.text-right
     %h4= current_setting.footer

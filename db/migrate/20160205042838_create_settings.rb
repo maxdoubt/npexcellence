@@ -5,6 +5,8 @@ class CreateSettings < ActiveRecord::Migration
       t.string      :address,   null: false, default: '123 S. Main'
       t.string      :footer,    null: false, default: 'The footer'
       t.string      :title,     null: false, default: 'Website'
+      t.string      :facebook
+      t.string      :twitter
       t.attachment  :logo
     end
   end
