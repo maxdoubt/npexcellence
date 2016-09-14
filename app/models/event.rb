@@ -37,7 +37,7 @@ class Event < ActiveRecord::Base
   has_attached_file :photo, styles: {
     square: '300x300#',
     medium: '300x300>',
-    large:  '1920x1080'
+    large:  '1920x1080#'
   }
   validates_attachment_content_type :photo, :content_type => /\Aimage\/.*\Z/
 
