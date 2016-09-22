@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 20160908005947) do
 
   create_table "events", force: :cascade do |t|
     t.string   "name",               null: false
+    t.string   "slug"
     t.string   "state",              null: false
     t.string   "url"
     t.text     "description",        null: false

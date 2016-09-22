@@ -2,6 +2,7 @@ class CreateEvents < ActiveRecord::Migration
   def change
     create_table :events do |t|
       t.string        :name,           null: false
+      t.string        :slug,           unique: true
       t.string		    :state,       	 null: false
       t.string        :url
       t.text		      :description,		 null: false

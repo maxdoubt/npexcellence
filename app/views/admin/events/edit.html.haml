@@ -1,4 +1,4 @@
-= form_for @event, url: admin_event_path(@event) do |f|
+= form_for @event, url: admin_event_path(@event.id) do |f|
   %h2.form-header
     = t('events.edit.header')
   = render partial: 'form', locals: { f: f }

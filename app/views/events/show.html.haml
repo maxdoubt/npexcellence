@@ -1,0 +1,18 @@
+.container.text-center
+  .page-header
+    %h1= link_to @event.name, @event.url
+    %h3
+      = @event.begin_date.strftime('%b %d')
+      = " - "
+      = @event.begin_date.strftime('%l:%M %P')
+      = " - "
+      = @event.end_date.strftime('%l:%M %P')
+
+  .row
+    .col-md-4
+      = image_tag @event.photo.url(:square), class: 'img img-responsive img-rounded center-block'
+    .col-md-8.text-justify
+      = @event.description
+%br
+%br
+%br

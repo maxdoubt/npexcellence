@@ -19,6 +19,7 @@
         = image_tag event.photo.url(:large)
         .carousel-caption
           %h1= event.name
+          = link_to 'Learn More', event, class: 'btn btn-default btn-primary'
           %h2
             = event.begin_date.strftime('%b %d')
             = " - "

@@ -3,6 +3,10 @@ class Event < ActiveRecord::Base
   # mixins
   include AASM
 
+  # configuration
+  extend FriendlyId
+  friendly_id :name, use: :slugged
+
   # assocations
   belongs_to    :user
 
