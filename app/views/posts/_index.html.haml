@@ -1,6 +1,6 @@
 %section
   %h1.text-center Posts & Articles
-- @posts = Post.where(published: true).order('updated_at DESC')
+- @posts = Post.where(published: true).order('updated_at DESC').limit(3)
 - @posts.each do |post|
   .container
     .row

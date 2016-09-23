@@ -1,15 +1,18 @@
 .container
   .page-header
     .row
-      .col-md-12
+      .col-md-12.text-center
         %h1= "“#{@post.title}”"
-        %h3
-          %i= "#{@post.user.first_name} #{@post.user.last_name} - #{@post.updated_at.strftime('%b %d')}"
+        %h3= @post.updated_at.strftime('%B %d')
 
-      .col-md-1
-        = image_tag @post.user.avatar(:square), class: 'img img-responsive img-circle'
+      .col-md-5
+      .col-md-2.text-center
+        = image_tag @post.user.avatar(:square), class: 'img img-responsive img-circle center-block'
+        %p= "#{@post.user.first_name} #{@post.user.last_name}"
+      .col-md-5
+
 
   .row
     .col-md-12
-      %h3
+      %p
         = @post.body.html_safe

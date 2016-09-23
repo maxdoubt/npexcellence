@@ -1,14 +1,12 @@
-.col-md-12
+.col-md-12.text-center
   %hr
   = link_to post do
-    %h1= "\“#{post.title}\”"
+    %h2= "\“#{post.title}\”"
 
-  %h3
-    %div= post.abstract
-    %div= link_to 'Continue Reading', post
+  %h4
+    = post.updated_at.strftime('%B %d')
 
-  %h3
-    %i= "#{post.user.first_name} #{post.user.last_name} - #{post.updated_at.strftime('%b %d')}"
 
-.col-sm-1
-  = image_tag post.user.avatar(:square), class: 'img img-responsive img-circle'
+  %div= post.abstract
+  %br
+  %div= link_to 'Continue Reading', post, class: 'btn btn-default'

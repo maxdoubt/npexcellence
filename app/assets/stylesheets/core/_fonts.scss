@@ -23,3 +23,35 @@
     font-weight: normal;
     font-style: normal;
 }
+
+.spartan {
+  font-family: spartan;
+}
+
+@font-face {
+  font-family: 'spartan';
+  src: url('LeagueSpartan-Bold.eot'); /* IE9 Compat Modes */
+  src: url('LeagueSpartan-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('LeagueSpartan-Bold.woff') format('woff'), /* Modern Browsers */
+       url('LeagueSpartan-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('LeagueSpartan-Bold.svg#211ac8f8a3bc529cc41961980dffd6dd') format('svg'); /* Legacy iOS */       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+.bebas {
+  font-family: bebas;
+}
+
+@font-face {
+  font-family: 'bebas';
+  src: url('BebasNeue.eot'); /* IE9 Compat Modes */
+  src: url('BebasNeue.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('BebasNeue.woff') format('woff'), /* Modern Browsers */
+       url('BebasNeue.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('BebasNeue.svg#971508b09718b6144e128af2335b709c') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

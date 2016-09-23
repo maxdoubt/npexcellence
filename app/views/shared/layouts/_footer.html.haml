@@ -1,9 +1,9 @@
 .row
   .col-sm-6
-    %h4= current_setting.title
-    %h4= current_setting.address
-    %h4= current_setting.phone
-    %h1
+    %p= current_setting.title
+    %p= current_setting.address
+    %p= current_setting.phone
+    %h3
       = link_to current_setting.facebook, :target => "_blank" do
         %i.fa.fa-facebook-official
 
@@ -12,4 +12,4 @@
 
 
   .col-sm-6.text-right
-    %h4= current_setting.footer
+    %p= current_setting.footer

@@ -13,6 +13,8 @@
   - if current_user
     = link_to 'Edit', edit_admin_page_path(@page), class: 'btn btn-default'
 
+  / ---------------------------
+
   - if params[:id] == 'member-spotlights'
     - Org.where(spotlight: true).order(:name).each do |org|
       .container
@@ -20,16 +22,31 @@
       %br
       %br
 
+  / ---------------------------
+
   - if params[:id] == 'members'
     .container
       .row
         - Org.where(role: 'nonprofit').order(:name).each_with_index do |org, i|
           = render partial: 'orgs/nonprofit', locals: {org: org}
 
+  / ---------------------------
+
   - if params[:id] == 'trainings'
     %br
     .container
       = render partial: 'trainings/index', locals: {trainings: Training.all.where(active: true)}
+
+
+  / ---------------------------
+
+  - if params[:id] == 'blog'
+    %br
+    .container
+      = render partial: 'posts/vertical_index', locals: {posts: Post.all.where(published: true).order(updated_at: :desc)}
+
+  / ---------------------------
+
 
 - if @page.menu
   :css

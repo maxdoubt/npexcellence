@@ -1,11 +1,15 @@
-%br
-%br
+.page-header.text-center
+  %h1= org.name
 
 .row
-  .col-sm-12.text-center
-    %img.img-responsive.center-block{src: org.logo(:medium)}
-    %h1= org.name
+  .col-sm-6.text-center
+    %img.img-responsive.img-circle.center-block{src: org.staff_photo(:medium)}
+    %h2= "#{org.interviewee} - #{org.interviewee_title}"
 
+  .col-sm-6.text-center
+    %img.img-responsive.center-block{src: org.logo(:medium)}
+
+%hr
 
 .row.text-center
   .col-sm-6

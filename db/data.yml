@@ -219,6 +219,723 @@ versions:
       215129\nphoto_four_updated_at: 2016-04-25 12:49:52.661936000 Z\nspotlight: true\ncreated_at:
       2016-04-25 12:31:14.248621000 Z\nupdated_at: 2016-08-25 14:55:36.724787000 Z\n"
     - '2016-09-08 04:04:02.180653'
+  - - '17'
+    - User
+    - '13'
+    - create
+    - 
+    - 
+    - '2016-09-23 00:46:30.556855'
+  - - '18'
+    - User
+    - '14'
+    - create
+    - 
+    - 
+    - '2016-09-23 00:46:30.661908'
+  - - '19'
+    - User
+    - '15'
+    - create
+    - 
+    - 
+    - '2016-09-23 00:46:30.735642'
+  - - '20'
+    - Org
+    - '3'
+    - update
+    - '1'
+    - "---\nid: 3\nname: Bridges\nabbreviation: \nslug: bridges\nrole: nonprofit\nactive:
+      true\nphone: '9014525600'\naddress: 477 N 5th St, Memphis, TN 38105\ncity: \ncontact:
+      Cynthia Ham\nemail: info@bridgesusa.org\nwebsite: http://bridgesusa.org/\norg_type:
+      \ndescription: \"Through our Bridge Builders program we unite and inspire diverse
+      young\n  people to become confident and courageous leaders. Our philosophy is
+      that youth\n  deserve to be respected and acknowledged for the positive difference
+      they can make\n  in Memphis. In the course of a year, we impact 6,000 students
+      in 144 schools and\n  in 57 zip codes.\\r\\n\\r\\nSome people think that because
+      we're a social service agency,\n  we target under-served youth.  In fact, the
+      point of Bridge Builders is to bring\n  together youth from all walks of life
+      to get to know one another and appreciate\n  what they have in common and how
+      they may think differently.\"\ninspiration: 'When I came to BRIDGES I was challenged
+      by the business challenges:\n  clarity of focus and mission,creating the strategy,
+      building a sustainable business\n  and finanical model, etc. However, working
+      with the youth and watching them evole\n  into leaders has been the most gratifying.
+      I’ve had an opportunity to coach some\n  of our youth and it was really inspiring.
+      Throughout my career I hadn’t had much\n  interaction with youth in large numbers.
+      Our youth really are amazing; adults need\n  to think of them as an asset to
+      the community.'\npride: 'I am most proud of the Bridge Builders CHANGE program.
+      CHANGE brings 24 students\n  together to study social problems in Memphis, particularly
+      as it relates to youth,\n  because there are lots of issues that youth identify
+      in schools and in the community\n  that adults might miss. Youth are best equipped
+      to identify youth problems and they\n  work together to analyze the problem
+      and develop a strategy for creating grassroots\n  change. Instead of one-time
+      volunteer service projects, this is a year-long project\n  that addresses much
+      more systemic issues. BRIDGES is unique in that it’s all about\n  youth leading
+      other youth: we believe that once you equip them with good practices\n  and
+      methodologies, they can figure out what to do and act on it. For example, through\n
+      \ this program, our Bridge Builders recommended a policy to the Shelby County
+      Schools\n  Board of Education to establish a student congress so that youth
+      voice could be\n  heard. They lobbied every member of the school board and worked
+      closely with the\n  administration to develop the policy. The policy recommendation
+      was passed and now\n  the Bridge Builders working to make sure it’s implemented.'\ninvolvement:
+      We received an amazing challenge grant of $10 million to match with $10\n  million,
+      creativng a $20 million  endowment, ensuring BRIDGES will never go away\n  and
+      that it will always serve the youth in the Memphis area... We are in the home\n
+      \ stretch and we would love people to consider donating to the matching grant
+      so we\n  can reach our goal very soon!\nfunding: ''\nalliance: \"We love all
+      of the professional development opportunities through the Alliance\n  that are
+      unique to non-profit work. I personally enjoy the CEO round tables because\n
+      \ I get the opportunity to interact with my fellow CEOs. When we get together,
+      we\n  compare notes about challenges we have and talk about best practices.
+      It’s a great\n  opportunity to seek advice from colleagues who have had similar
+      experiences.\\r\\n\\r\\nIt’s\n  a great resource for inexpensive and effective
+      trainings and great networking opportunities\n  for your entire staff. Our CFO
+      and Vice President of HR both enjoy participating\n  in their networking groups.\"\ninterviewee:
+      Cynthia Ham\ninterviewee_title: President & CEO\nlogo_file_name: logo.png\nlogo_content_type:
+      image/png\nlogo_file_size: 91382\nlogo_updated_at: 2016-08-25 14:55:36.258398000
+      Z\nstaff_photo_file_name: \nstaff_photo_content_type: \nstaff_photo_file_size:
+      \nstaff_photo_updated_at: \nphoto_file_name: bridges.jpeg\nphoto_content_type:
+      image/jpeg\nphoto_file_size: 289554\nphoto_updated_at: 2016-09-08 04:04:00.831977000
+      Z\nphoto_two_file_name: bridgedebate2.jpg\nphoto_two_content_type: image/jpeg\nphoto_two_file_size:
+      259725\nphoto_two_updated_at: 2016-04-25 12:49:49.779927000 Z\nphoto_three_file_name:
+      collaborate-728x390.jpg\nphoto_three_content_type: image/jpeg\nphoto_three_file_size:
+      126234\nphoto_three_updated_at: 2016-04-25 12:49:51.295532000 Z\nphoto_four_file_name:
+      Bridges_staff.JPG\nphoto_four_content_type: image/jpeg\nphoto_four_file_size:
+      215129\nphoto_four_updated_at: 2016-04-25 12:49:52.661936000 Z\nspotlight: true\ncreated_at:
+      2016-04-25 12:31:14.248621000 Z\nupdated_at: 2016-09-08 04:04:02.180653000 Z\n"
+    - '2016-09-23 01:00:07.700923'
+  - - '21'
+    - Org
+    - '25'
+    - update
+    - '1'
+    - "---\nid: 25\nname: DeltaARTS\nabbreviation: CAC\nslug: deltaarts\nrole: nonprofit\nactive:
+      true\nphone: 870-732-6260\naddress: P.O. Box 1434 West Memphis, AR 72303\ncity:
+      West Memphis\ncontact: Amelia Barton\nemail: abarton@deltaarts.org\nwebsite:
+      http://www.deltaarts.org\norg_type: United Way, Children & Youth\ndescription:
+      'The Delta Arts Mission is transforming the delta through imaginative\n  arts
+      education. Our programs are grounded in two national arts education philosophies-\n
+      \ the Lincoln Center and WolfTrap. We work in the schools by beginning with
+      teacher\n  training around aesthetic education. Teachers work with professional
+      artists and\n  they find connections within their curriculum to arts, which
+      gives students the\n  opportunity to be creative, imagine, and explore. The
+      teachers make incredibly authentic\n  connections that are rich and deep. Right
+      now they are working on the philosophies\n  of Maxine Green and Howard Gardener.
+      Maxine says that imagination is, “the ability\n  to think of things as if they
+      could be otherwise”. As we work with teachers, we\n  encourage them to think
+      of their teaching as just that. We actually had a teacher\n  who  came to our
+      workshop and was planning to retire- she was a great teacher, but\n  she was
+      burned out. Because of our aesthetic education workshop, she was renewed-\n
+      \ she had discovered this new way of teaching and it inspired her to stay another\n
+      \ five years.  '\ninspiration: I know how needed the arts are in our community.
+      The people in West Memphis\n  and Crittenden will get to participate in the
+      arts in a way they wouldn’t otherwise\n  because of DeltaArts and I feel very
+      inspired by the opportunities we are creating.\n  We change perceptions about
+      the arts and people come to find that the arts are for\n  everyone.\npride:
+      I am very proud of the work we have done with the Wolf Trap Institute for Early\n
+      \ Learning through the Arts. Recently, because of a generous grant from the
+      King Foundation,\n  we were able to implement STEAM (Science, Technology, Engineering,
+      Arts, and Math)\n  integration training in our work which has been really incredible.
+      Through our program,\n  we used the arts as a vehicle to teach science and math
+      concepts to students. The\n  principals and teachers did comprehensive training
+      on how to utilize these concepts\n  in their classrooms and schools and they
+      were assigned a resident artist who helped\n  them in their classrooms. Being
+      able to see students connect to math and science\n  concepts through the arts
+      was very inspiring and the teachers really captured the\n  concept and continue
+      to use it even now. It was probably one of my highlights of\n  the year.\ninvolvement:
+      'We have over 150 volunteers, but we always need more! We need people\n  to
+      help particularly with our Crittenden Youth theatre program around production.\n
+      \ We also encourage people to become a member of DeltaArts and be a strong advocate\n
+      \ and ambassador when you have a great arts experience. We always need that
+      support\n  from the community. '\nfunding: ''\nalliance: 'From our inception,
+      we have grown dramatically- both philosophically and\n  in breadth and depth.
+      I attribute that growth to our participation in the Alliance’s\n  PNE program
+      (Program for Nonprofit Excellence). It made us stop and really examine\n  the
+      inner-workings of our organization and if we had not had the leadership of the\n
+      \ Alliance, we would have never done that. Through our participation in PNE,
+      we created\n  an outstanding strategic plan that guides everything we do- it
+      is a living document\n  and we utilize it daily. We also really strengthened
+      the quality and engagement\n  of our board which has dramatically changed us
+      for the better. To have the guidance\n  of the Alliance throughout that process
+      was instrumental. '\ninterviewee: ''\ninterviewee_title: ''\nlogo_file_name:
+      logo.png\nlogo_content_type: image/png\nlogo_file_size: 98185\nlogo_updated_at:
+      2016-08-25 14:58:20.136797000 Z\nstaff_photo_file_name: \nstaff_photo_content_type:
+      \nstaff_photo_file_size: \nstaff_photo_updated_at: \nphoto_file_name: Educator_Workshop_2015_active.jpg\nphoto_content_type:
+      image/jpeg\nphoto_file_size: 194181\nphoto_updated_at: 2016-08-25 00:22:08.658593000
+      Z\nphoto_two_file_name: Group_with_Dr_West_WEB.jpg\nphoto_two_content_type:
+      image/jpeg\nphoto_two_file_size: 228059\nphoto_two_updated_at: 2016-08-25 00:22:10.033565000
+      Z\nphoto_three_file_name: Kenneth_Wolf_Trap_1.jpg\nphoto_three_content_type:
+      image/jpeg\nphoto_three_file_size: 224961\nphoto_three_updated_at: 2016-08-25
+      00:22:11.418777000 Z\nphoto_four_file_name: Ugly_duckling_for_PNE.jpg\nphoto_four_content_type:
+      image/jpeg\nphoto_four_file_size: 213500\nphoto_four_updated_at: 2016-08-25
+      00:22:12.848168000 Z\nspotlight: true\ncreated_at: 2016-05-23 04:21:24.546444000
+      Z\nupdated_at: 2016-08-25 14:58:20.621140000 Z\n"
+    - '2016-09-23 01:06:46.00804'
+  - - '22'
+    - Org
+    - '25'
+    - update
+    - '1'
+    - |
+      ---
+      id: 25
+      name: DeltaARTS
+      abbreviation: CAC
+      slug: deltaarts
+      role: nonprofit
+      active: true
+      phone: 870-732-6260
+      address: P.O. Box 1434 West Memphis, AR 72303
+      city: West Memphis
+      contact: Amelia Barton
+      email: abarton@deltaarts.org
+      website: http://www.deltaarts.org
+      org_type: United Way, Children & Youth
+      description: 'The Delta Arts Mission is transforming the delta through imaginative
+        arts education. Our programs are grounded in two national arts education philosophies-
+        the Lincoln Center and WolfTrap. We work in the schools by beginning with teacher
+        training around aesthetic education. Teachers work with professional artists and
+        they find connections within their curriculum to arts, which gives students the
+        opportunity to be creative, imagine, and explore. The teachers make incredibly authentic
+        connections that are rich and deep. Right now they are working on the philosophies
+        of Maxine Green and Howard Gardener. Maxine says that imagination is, “the ability
+        to think of things as if they could be otherwise”. As we work with teachers, we
+        encourage them to think of their teaching as just that. We actually had a teacher
+        who  came to our workshop and was planning to retire- she was a great teacher, but
+        she was burned out. Because of our aesthetic education workshop, she was renewed-
+        she had discovered this new way of teaching and it inspired her to stay another
+        five years.  '
+      inspiration: I know how needed the arts are in our community. The people in West Memphis
+        and Crittenden will get to participate in the arts in a way they wouldn’t otherwise
+        because of DeltaArts and I feel very inspired by the opportunities we are creating.
+        We change perceptions about the arts and people come to find that the arts are for
+        everyone.
+      pride: I am very proud of the work we have done with the Wolf Trap Institute for Early
+        Learning through the Arts. Recently, because of a generous grant from the King Foundation,
+        we were able to implement STEAM (Science, Technology, Engineering, Arts, and Math)
+        integration training in our work which has been really incredible. Through our program,
+        we used the arts as a vehicle to teach science and math concepts to students. The
+        principals and teachers did comprehensive training on how to utilize these concepts
+        in their classrooms and schools and they were assigned a resident artist who helped
+        them in their classrooms. Being able to see students connect to math and science
+        concepts through the arts was very inspiring and the teachers really captured the
+        concept and continue to use it even now. It was probably one of my highlights of
+        the year.
+      involvement: 'We have over 150 volunteers, but we always need more! We need people
+        to help particularly with our Crittenden Youth theatre program around production.
+        We also encourage people to become a member of DeltaArts and be a strong advocate
+        and ambassador when you have a great arts experience. We always need that support
+        from the community. '
+      funding: ''
+      alliance: 'From our inception, we have grown dramatically- both philosophically and
+        in breadth and depth. I attribute that growth to our participation in the Alliance’s
+        PNE program (Program for Nonprofit Excellence). It made us stop and really examine
+        the inner-workings of our organization and if we had not had the leadership of the
+        Alliance, we would have never done that. Through our participation in PNE, we created
+        an outstanding strategic plan that guides everything we do- it is a living document
+        and we utilize it daily. We also really strengthened the quality and engagement
+        of our board which has dramatically changed us for the better. To have the guidance
+        of the Alliance throughout that process was instrumental. '
+      interviewee: ''
+      interviewee_title: ''
+      logo_file_name: logo.png
+      logo_content_type: image/png
+      logo_file_size: 98185
+      logo_updated_at: 2016-08-25 14:58:20.136797000 Z
+      staff_photo_file_name: amelia_cropped.jpeg
+      staff_photo_content_type: image/jpeg
+      staff_photo_file_size: 66090
+      staff_photo_updated_at: 2016-09-23 01:06:45.416127000 Z
+      photo_file_name: Educator_Workshop_2015_active.jpg
+      photo_content_type: image/jpeg
+      photo_file_size: 194181
+      photo_updated_at: 2016-08-25 00:22:08.658593000 Z
+      photo_two_file_name: Group_with_Dr_West_WEB.jpg
+      photo_two_content_type: image/jpeg
+      photo_two_file_size: 228059
+      photo_two_updated_at: 2016-08-25 00:22:10.033565000 Z
+      photo_three_file_name: Kenneth_Wolf_Trap_1.jpg
+      photo_three_content_type: image/jpeg
+      photo_three_file_size: 224961
+      photo_three_updated_at: 2016-08-25 00:22:11.418777000 Z
+      photo_four_file_name: Ugly_duckling_for_PNE.jpg
+      photo_four_content_type: image/jpeg
+      photo_four_file_size: 213500
+      photo_four_updated_at: 2016-08-25 00:22:12.848168000 Z
+      spotlight: true
+      created_at: 2016-05-23 04:21:24.546444000 Z
+      updated_at: 2016-09-23 01:06:46.008040000 Z
+    - '2016-09-23 01:09:20.017403'
+  - - '23'
+    - Org
+    - '69'
+    - update
+    - '1'
+    - "---\nid: 69\nname: Girls Incorporated of Memphis\nabbreviation: GIM\nslug:
+      girls-incorporated-of-memphis\nrole: nonprofit\nactive: true\nphone: 901-523-0217\naddress:
+      2670 Union Avenue Extended, Suite 606 Memphis, TN 38112\ncity: Memphis\ncontact:
+      Lisa Moore\nemail: lmoore@girlsincmemphis.org\nwebsite: http://www.girlsincmemphis.org\norg_type:
+      United Way, Children & Youth\ndescription: We inspire all girls to be strong
+      smart and bold.   Strong, emotional\n  and physical health; Smart, academic
+      success and career aspirations; and Bold, effective\n  life skills.  Over 2400
+      girls ages 6-18 from over 60 zip codes in Shelby County\n  participant annually
+      in our programs.  Regardless of the program you join, all girls\n  get the Girls
+      Inc. Experience of trained professionals and volunteers that take\n  their mentoring
+      role seriously, programs that are hands on, minds on research based,\n  age
+      sequential programs that focus on our outcomes, and place that is a pro-girl/girl-only\n
+      \ environment that provides a safe place for girls to explore and tap into their
+      strengths\n  and abilities.\ninspiration: I want to serve more girls and I am
+      always asking myself how we can do\n  that by being the most creative, innovative,
+      effective and efficient. How can we\n  impact the lives of not just our girls,
+      but all the girls in Shelby County? How\n  can we be a voice for all girls in
+      the community? There are roughly 88,000 school\n  age girls in Shelby County
+      and they need us to provide them with the support, family,\n  and pro-girl environment
+      that Girls Inc. has to offer. I want all girls to know\n  their own strength
+      and use it for good. This is what gets me out of bed in the morning.\npride:
+      \"The beauty of Girls Inc. programming is that no matter what you participate\n
+      \ in, every girl is going to get the rich Girls Inc. experience throughout their
+      whole\n  lives. Once you’re a Girls Inc. girl you’re always a Girls Inc. girl.
+      \\r\\nWe provide\n  direct programming throughout a girl’s schooling years but
+      we are always here to\n  support them even as they grow up. We have a number
+      of alumni full-time staff members\n  .  They’ve come back to give back. We even
+      have an alumni who is a PhD holding leader\n  in the community who serves on
+      our board. If you ask any Girls Inc. girl what we\n  meant to them, somewhere
+      in the course of that sharing they will most likely mention\n  that Girls Inc.
+      is their family. Much like their biological family, they stay connected\n  long
+      after their childhood years. You move away, you do great things, but you always\n
+      \ come home at Thanksgiving.\"\ninvolvement: \" would love for community members
+      to come learn more about the work\n  we do. We are more than just a “nice afterschool
+      program”- the environment we create\n  for girls is very intentional. People
+      are really surprised by the breadth and depth\n  of our programs.  The outcomes-driven
+      work we do to equip girls is real and I would\n  love for people to see it in
+      action and join us to inspire girls to be strong, smart\n  and bold.\"\nfunding:
+      ''\nalliance: \"No one of us can serve everybody, but together, with our unique
+      gifts that\n  we provide we can accomplish a great deal. The Alliance provides
+      us the opportunity\n  to unite together around a shared vision of how we can
+      impact the city in a greater\n  way.\\r\\n\\r\\nThe Alliance also provided invaluable
+      support by acting as our temporary\n  CFO when that position became vacant.
+      It’s made it possible for me to not be in\n  a rush to hire- I can take my time
+      and find the right fit. The Career Center has\n  also been a huge help- all
+      of our openings go on the job board and it’s a really\n  great resource. That’s
+      the #1 thing we use most and we’ve gotten some great candidates\n  from it.\\r\\n\\r\\nThere’s
+      such a variety of resources available to you that inevitably\n  something will
+      be helpful. For us at Girls Inc., the temporary staffing and career\n  center
+      resources have been invaluable.\"\ninterviewee: ''\ninterviewee_title: ''\nlogo_file_name:
+      logo.png\nlogo_content_type: image/png\nlogo_file_size: 66940\nlogo_updated_at:
+      2016-08-25 14:58:51.339228000 Z\nstaff_photo_file_name: \nstaff_photo_content_type:
+      \nstaff_photo_file_size: \nstaff_photo_updated_at: \nphoto_file_name: IMG_0359.JPG\nphoto_content_type:
+      image/jpeg\nphoto_file_size: 125433\nphoto_updated_at: 2016-08-25 01:52:14.788888000
+      Z\nphoto_two_file_name: Lisa_Moore-_Girl's_Inc_banner.jpg\nphoto_two_content_type:
+      image/jpeg\nphoto_two_file_size: 196803\nphoto_two_updated_at: 2016-08-25 01:52:16.141221000
+      Z\nphoto_three_file_name: IMG_0420.JPG\nphoto_three_content_type: image/jpeg\nphoto_three_file_size:
+      196102\nphoto_three_updated_at: 2016-08-25 01:52:17.641633000 Z\nphoto_four_file_name:
+      IMG_0376.JPG\nphoto_four_content_type: image/jpeg\nphoto_four_file_size: 163307\nphoto_four_updated_at:
+      2016-08-25 01:52:19.028883000 Z\nspotlight: true\ncreated_at: 2016-05-23 04:21:24.912528000
+      Z\nupdated_at: 2016-08-25 14:58:51.803582000 Z\n"
+    - '2016-09-23 01:14:35.410157'
+  - - '24'
+    - Org
+    - '136'
+    - update
+    - '1'
+    - "---\nid: 136\nname: JIFF, Inc.\nabbreviation: MSYC\nslug: jiff-inc\nrole: nonprofit\nactive:
+      true\nphone: ''\naddress: 254 South Lauderdale Street Memphis, TN 38126-1614\ncity:
+      Memphis\ncontact: Richard Graham\nemail: richard@jiffyouth.org\nwebsite: http://www.JIFFyouth.org\norg_type:
+      Human Services\ndescription: We work with court assigned young men, ages 12
+      to 17, which are referred\n  to us through juvenile court. On average, our youth
+      have been through the juvenile\n  court system at least three times before they
+      come to us. Once enrolled at JIFF,\n  they participate in a 16 week mentoring
+      program that’s designed to redirect their\n  value system and their behaviors.
+      \ We focus on the H’s- head, heart, health (mind,\n  body, and spiritual), home,
+      hobbies, and hire-ability. Ultimately we are trying\n  to get them to realize
+      they have God given gifts. We help them develop a life plan\n  and get them
+      started on the right track. We do this through several tracks- mentoring,\n
+      \ afterschool programming, and strategic partnerships like CBU’s Enactus program
+      that\n  promotes financial health, Visible Music College that teaches music
+      production,\n  and Sweet La Las Bakery that provides on-the-job skills training.
+      Our vision is\n  to see our youth flourish, free from a life of crime.\ninspiration:
+      I was on the JIFF board for 6 years and frankly I was content being the\n  east
+      Memphis guy on the board focusing on fundraising. To be totally honest- I was\n
+      \ afraid of our kids and I didn’t know if I wanted to get involved on a deep
+      level.\n  When I moved into the Executive Director position, we had an incident
+      where we had\n  to call the police to report a JIFF youth because he carried
+      a pocket knife into\n  the facility. It was against our policy and against his
+      probation, and even though\n  the knife was small, we knew we had to uphold
+      the expectations and rules. As I watched\n  him get in a police car, it crushed
+      me. I hated that it had to happen and I knew\n  I needed to do something.  I
+      made a decision at that moment to start mentoring him.\n  For 2 years now, every
+      other Saturday I see him and we live life together and through\n  our relationship
+      I’ve learned that I need him as much as he needs me. I am happy\n  to report
+      that after being pushed out of the traditional school system, he is returning\n
+      \ to get his high school diploma through the Excel Center program.\npride: Three
+      weeks ago I was on Live at 9 and there was a message waiting for me when\n  I
+      got back. The message was from a mother of a former JIFF youth. She told me
+      she\n  saw our interview and she wanted to let us know that JIFF saved her son
+      Akeem’s\n  life. When he was 14, he was referred to JIFF by juvenile court,
+      and had been locked\n  up 26 times and shot multiple times. After going through
+      the JIFF program, he decided\n  to turn his life away from crime and he got
+      a job working at McDonalds. Eventually\n  he worked his way up to manager and
+      from there he got a job in the trucking industry.\n  Now he does long distance
+      hauling for a local freight company called Equity Transportation\n  and he makes
+      a great living. I called Akeem and asked him if he would come and speak\n  to
+      the kids and he agreed. Akeem even takes his rig out to Raleigh Springs Mall\n
+      \ on Saturdays to teach kids how to drive so they can go into the trucking industry\n
+      \ too.\ninvolvement: JIFF needs Education tutors, specifically reading and math,
+      to help our\n  youth academically. We also need Live Life Together mentors to
+      be a life coach to\n  our graduating kids as they leave the program so we can
+      stay a part of their lives.\nfunding: ''\nalliance: \"The Alliance is my safe
+      haven, particularly the CEO Roundtable. It allows\n  me to connect with my peers
+      and as a new executive director it was a God-send. Membership\n  in the Alliance
+      helps me have the resources and assistance I need as I serve this\n  organization.\\r\\n\\r\\nIt’s
+      in the community’s best interest to collaborate. It’s\n  an overused word but
+      it’s so important that we aren’t duplicating services and that\n  we are bonding
+      together and delivering the services that the community needs in\n  the most
+      efficient way possible. The Alliance facilitates that collaboration.\"\ninterviewee:
+      ''\ninterviewee_title: ''\nlogo_file_name: logo.png\nlogo_content_type: image/png\nlogo_file_size:
+      108279\nlogo_updated_at: 2016-08-25 15:00:18.278412000 Z\nstaff_photo_file_name:
+      \nstaff_photo_content_type: \nstaff_photo_file_size: \nstaff_photo_updated_at:
+      \nphoto_file_name: IMG_0434.JPG\nphoto_content_type: image/jpeg\nphoto_file_size:
+      148205\nphoto_updated_at: 2016-08-25 01:10:20.029869000 Z\nphoto_two_file_name:
+      IMG_0439.JPG\nphoto_two_content_type: image/jpeg\nphoto_two_file_size: 176808\nphoto_two_updated_at:
+      2016-08-25 01:10:21.521935000 Z\nphoto_three_file_name: fuzball.jpg\nphoto_three_content_type:
+      image/jpeg\nphoto_three_file_size: 190251\nphoto_three_updated_at: 2016-08-25
+      01:10:23.013618000 Z\nphoto_four_file_name: IMG_0470.JPG\nphoto_four_content_type:
+      image/jpeg\nphoto_four_file_size: 154356\nphoto_four_updated_at: 2016-08-25
+      01:10:24.522582000 Z\nspotlight: true\ncreated_at: 2016-05-23 04:21:25.538449000
+      Z\nupdated_at: 2016-08-25 15:00:18.743663000 Z\n"
+    - '2016-09-23 01:19:10.670777'
+  - - '25'
+    - Org
+    - '123'
+    - update
+    - '1'
+    - "---\nid: 123\nname: Metropolitan Inter-Faith Association\nabbreviation: MIFA\nslug:
+      metropolitan-inter-faith-association\nrole: nonprofit\nactive: true\nphone:
+      901-527-0208\naddress: 910 Vance Avenue Memphis, TN 38126-0130\ncity: Memphis\ncontact:
+      Sally Heinz\nemail: sheinz@mifa.org\nwebsite: http://www.mifa.org\norg_type:
+      Human Services\ndescription: MIFA supports the independence of vulnerable seniors
+      and families in\n  crisis. Our senior programs promote independence, health
+      companionship, and dignity.\n  For example, these programs include Meals on
+      Wheels and senior transit services,\n  which allows seniors to stay in their
+      homes. For families in crisis, we offer a\n  continuum of services designed
+      to prevent homelessness.  This might include interventions\n  ranging from one
+      time utility assistance, to shelter placement, to rapid rehousing.\n  The beauty
+      of rapid rehousing is that we can house a family in the neighborhood\n  that
+      they want to live in and the family receives a Family Housing Advocate, which\n
+      \ is a MIFA staff member that keeps in touch with the families and helps them
+      connect\n  to social services.\ninspiration: In the morning at MIFA- both volunteers
+      and people seeking services are\n  brought together under one roof. It reminds
+      me daily that we are all in it together.\npride: 'I am most proud of MIFA’s
+      staff and our strategic innovation—something we\n  as an organization have always
+      strived for. Much of our progress has been driven\n  by our three-year strategic
+      plan, which began in FY13 and ended in FY15. In the\n  plan, we challenged ourselves
+      to build on our solid foundation and find creative\n  ways to respond to a difficult
+      environment: one where funding is flat or declining,\n  and a growing number
+      of our neighbors need our help. In three short years, we have\n  changed our
+      course in some substantial ways, and as a result, we’re better equipped\n  to
+      meet that growing need.  I am proud that during this time we were able to transition\n
+      \ our housing program to a rapid re-housing model, take on the homeless hotline
+      program,\n  increase our meals delivery to homebound seniors AND launch an endowment
+      campaign.  We\n  would not be able to do all of this without a talented staff,
+      generous donors and\n  volunteers, and trusted partners.'\ninvolvement: We need
+      volunteers for Meals on Wheels because we are increasing our\n  service thanks
+      to a grant from the Plough Foundation.  Right now we deliver 1400\n  meals a
+      day to home-bound seniors. Our seniors get one hot meal every week day that\n
+      \ meets the nutritional requirements. We even deliver pet food when we know
+      they have\n  pets so they won’t feel as though they need to share their meal
+      with their furry\n  companions. We also deliver shelf stable meals when we are
+      afraid of inclement weather\n  so our seniors never miss a meal.  Right now
+      it takes 100 volunteers daily to deliver\n  meals, but we need to recruit approximately
+      100 new volunteers over the next two\n  years.  We hear lots of stories because
+      we have so many volunteers that serve and\n  universally they all agree, it’s
+      as beneficial to them as it is to the senior. The\n  senior is receiving a meal
+      and a check in, but the person who is delivering is getting\n  back the opportunity
+      to meet people who have stories of a lifetime. We had a volunteer\n  that was
+      delivering a meal and she found out that the client knew her mother, and\n  they
+      really connected over that. Sometimes we make assumptions about who receives\n
+      \ these services, and volunteering disrupts those assumptions.\nfunding: ''\nalliance:
+      \"The opportunity to participate in networking, like the CEO roundtable,\n  is
+      so valuable. It really helps you build relationships so you feel comfortable\n
+      \ calling a colleague and saying “this is challenging for me” and getting advice.\n
+      \ The networking groups are priceless. \\r\\n\\r\\n“As nonprofit professionals,
+      we are\n  in an ever-changing environment and it’s so hard to keep up with all
+      the new trends,\n  rules and regulations, and research on your own. With the
+      networking groups you\n  aren’t alone. It’s amazing- it’s the best thing I have
+      seen come along to pool resources.\n  No one individual has to know it all.
+      In nonprofits right now, we have decreased\n  funding and increased accountability.
+      The networking groups help you be more cost\n  effective because you can share
+      best practices and problem solve together to increase\n  efficiency. There are
+      always limited resources, and this is a great investment.\n  You can’t afford
+      not to be a part of the Alliance. ”- Cecil McGee, MIFA CFO and\n  Chair of the
+      Finance Networking Group\\r\\n\\r\\nWhen MIFA undertook our strategic plan,\n
+      \ one of the things that rose to the top of our conversations with our departments\n
+      \ was staff development. The Alliance offers this wonderful opportunity to be
+      able\n  to fulfill that for our staff. People on the MIFA staff are our most
+      important asset,\n  and the Alliance affords us the ability to invest in them.
+      We have found it’s been\n  great to send multiple people to a training because
+      they band together as a cadre\n  and share learning with the rest of the staff.
+      \\r\\n\\r\\nOne wonderful thing that\n  the Alliance does is make members partners.
+      They have brought people together to\n  brainstorm about their strategic plan
+      and services and it has made us all feel like\n  the Alliance is really committed
+      to serving us. We feel a shared leadership and\n  a shared effort. Kudos to
+      you all for prioritizing that.\"\ninterviewee: ''\ninterviewee_title: ''\nlogo_file_name:
+      logo.png\nlogo_content_type: image/png\nlogo_file_size: 30163\nlogo_updated_at:
+      2016-08-25 15:00:40.104493000 Z\nstaff_photo_file_name: \nstaff_photo_content_type:
+      \nstaff_photo_file_size: \nstaff_photo_updated_at: \nphoto_file_name: SallyJonesHeinz_MIFAexecutivedirector.jpg\nphoto_content_type:
+      image/jpeg\nphoto_file_size: 135224\nphoto_updated_at: 2016-08-25 00:54:51.823670000
+      Z\nphoto_two_file_name: 800_2608.jpg\nphoto_two_content_type: image/jpeg\nphoto_two_file_size:
+      146434\nphoto_two_updated_at: 2016-08-25 00:54:53.416386000 Z\nphoto_three_file_name:
+      MIFA_volunteers.JPG\nphoto_three_content_type: image/jpeg\nphoto_three_file_size:
+      233895\nphoto_three_updated_at: 2016-08-25 00:54:55.004548000 Z\nphoto_four_file_name:
+      mifa_transit.jpg\nphoto_four_content_type: image/jpeg\nphoto_four_file_size:
+      129767\nphoto_four_updated_at: 2016-08-25 00:54:56.572948000 Z\nspotlight: true\ncreated_at:
+      2016-05-23 04:21:25.428206000 Z\nupdated_at: 2016-08-25 15:00:40.580831000 Z\n"
+    - '2016-09-23 01:23:01.611106'
+  - - '26'
+    - Org
+    - '20'
+    - update
+    - '1'
+    - "---\nid: 20\nname: The Baddour Center\nabbreviation: BMC\nslug: the-baddour-center\nrole:
+      nonprofit\nactive: true\nphone: ''\naddress: 3297 Hwy. 51 South                    Senatobia,
+      MS 38668-0097\ncity: Senatobia\ncontact: Parke Pepper\nemail: ppepper@baddour.org\nwebsite:
+      http://www.baddour.org\norg_type: United Way, Children & Youth\ndescription:
+      'The Baddour Center is dedicated to providing a model residential community\n
+      \ for adults with mild and moderate intellectual disabilities in an environment
+      that\n  promotes maximum growth intellectually, spiritually, physically, socially,
+      emotionally\n  and vocationally. In short, we help people grow. We help them
+      reach their potential-\n  it’s not just a buzz line when we say that we help
+      people live, work, worship, and\n  play. '\ninspiration: \"For me, watching
+      the success that residents experience daily. I get\n  to see people develop
+      social relationships and earn paycheck for the first time-\n  and they are on
+      top of the world because they achieved something. The Baddour Center\n  is dedicated
+      to finding people’s abilities, even if they have disabilities. We find\n  where
+      they excel, what are they passionate about, what they love to do- that’s where\n
+      \ we start. \\r\\nWe have a young lady from Arizona who really struggled when
+      she first\n  arrived. She’s new and we couldn’t get her to participate or even
+      leave her room.\n  We were seriously debating if were we the right place and
+      fit for her, but through\n  the determination of our staff and their talent,
+      they worked with her and she eventually\n  blossomed. Our folks earned her trust
+      and were there for her. They helped her develop\n  a schedule- she needed a
+      new structure that made her feel safe. Every day now, I\n  can sit in my office,
+      and from my window I can see her smiling and walking by and\n  say Hi to the
+      other residents. She went from refusing to speak to anyone to being\n  voted
+      Homecoming Queen by the residents! We weren’t even sure if we could serve\n
+      \ her, and now she calls this home. I am blessed to be around these people.\"\npride:
+      'Homecoming night. Homecoming night for us is almost like Homecoming night\n
+      \ in high school and our residents really love it. It’s a staff resident flag
+      football\n  game. It’s preceded by a parade, a pep rally, a tailgate, and even
+      Northwest Community\n  College will send their pep band out to play. We have
+      a Homecoming presentation\n  where the ladies are dressed in gowns and accompanied
+      by their fathers, and there\n  is an announcing of the Queen (who is voted on
+      by their peers). Afterward, there\n  is a dance with a live band. It’s a family
+      weekend and everybody comes in town to\n  be here. I’m most attached to it because
+      it is the most fun, laid back thing we\n  do. It’s simply a weekend with the
+      residents and their families. Everybody enjoys\n  the evening and celebrates
+      their children. The look in the eye of the fathers when\n  they are walking
+      their daughters across the ball field is priceless. Many of them\n  have never
+      had an experience like that with their child before. Families send their\n  children
+      here and they are happy- we give their children their own life and Homecoming\n
+      \ is a great example of that. That’s what they appreciate most. Baddour is the
+      residents’\n  own place and it allows the parents to rest from caregiving and
+      the gives the residents\n  a real purpose in their lives. '\ninvolvement: \"Come
+      take a tour:\\r\\nExperiencing the Baddour is much different than\n  simply
+      hearing about it or seeing it in pictures- we would love for you to come\n  take
+      a tour. We hope it will inspire you to support the Baddour Center as a volunteer\n
+      \ or donor, and you’ll never leave without a hug! To learn more about taking
+      a tour\n  or volunteer opportunities, contact us at volunteerinfo@baddour.org.\\r\\n\\r\\nVisit\n
+      \ our Garden Center\\r\\nCome visit and shop at our Garden Center, where we’re
+      growing\n  residents and residents are growing plants. We have tons of selection
+      of indoor\n  and outdoor plans.\\r\\n\\r\\nRefer Someone to our Programming:\\r\\nRefer
+      someone to\n  our programming, like our Y.O.U.R. Summer Program, which allows
+      parents, families,\n  and caregivers of people with intellectual disabilities
+      a unique respite and the\n  resident a fun and inclusive summer experience.
+      \\r\\n\\r\\nHave the Miracles Perform:\\r\\nSpeak\n  with someone at your church
+      or organization about inviting the nationally recognized\n  choir, The Miracles
+      to perform/sing.  Contact director John Matlach for more information.\\r\\n\\r\\nOne\n
+      \ thing you would want someone to know about Baddour:\\r\\nBaddour Center provides
+      a\n  full and whole life for the people it serves.  \"\nfunding: ''\nalliance:
+      \"They provided us an avenue to expertise. You all are a one-stop-shop umbrella\n
+      \ where we can find an expert in whatever we might need.\\r\\nAs a member, we
+      are exposed\n  to networking opportunities and I meet other nonprofits that
+      I wouldn’t otherwise\n  and we can share our challenges and successes. It keeps
+      us from having to recreate\n  the wheel- I’ve heard so much organizational and
+      nonprofit wisdom through the different\n  people I’ve met.\\r\\nThe Annual Conference-
+      the speakers are the best.\\r\\nGetting\n  a membership to the Nonprofit Quarterly,
+      just reading that alone is super helpful\n  and we get that for free. I would
+      buy that subscription anyway and now I get the\n  benefit of that and the membership.\\r\\n\\r\\nAny
+      organization can benefit by being\n  in the fellowship of other similar organizations.
+      While there are clearly individual,\n  unique challenges that organizations
+      face, there are probably exponentially more\n  that nonprofits face that are
+      standard operating procedure.  We can share solutions\n  and best practices.
+      There’s strength in numbers and diversity of ideas and opinions.\n  The Alliance
+      is knowledgeable about what they do.\"\ninterviewee: ''\ninterviewee_title:
+      ''\nlogo_file_name: logo.png\nlogo_content_type: image/png\nlogo_file_size:
+      31084\nlogo_updated_at: 2016-08-25 15:01:09.776022000 Z\nstaff_photo_file_name:
+      \nstaff_photo_content_type: \nstaff_photo_file_size: \nstaff_photo_updated_at:
+      \nphoto_file_name: Baddour_work_gardening.JPG\nphoto_content_type: image/jpeg\nphoto_file_size:
+      244110\nphoto_updated_at: 2016-08-25 00:32:15.167670000 Z\nphoto_two_file_name:
+      Baddour.JPG\nphoto_two_content_type: image/jpeg\nphoto_two_file_size: 127197\nphoto_two_updated_at:
+      2016-08-25 00:32:16.562467000 Z\nphoto_three_file_name: Parke_Pepper_Baddour_profile.JPG\nphoto_three_content_type:
+      image/jpeg\nphoto_three_file_size: 133678\nphoto_three_updated_at: 2016-08-25
+      00:32:17.881824000 Z\nphoto_four_file_name: The_Miracles.jpg\nphoto_four_content_type:
+      image/jpeg\nphoto_four_file_size: 175750\nphoto_four_updated_at: 2016-08-25
+      00:32:19.348908000 Z\nspotlight: true\ncreated_at: 2016-05-23 04:21:24.514005000
+      Z\nupdated_at: 2016-08-25 15:01:10.225293000 Z\n"
+    - '2016-09-23 01:26:55.960804'
+  - - '27'
+    - Org
+    - '20'
+    - update
+    - '1'
+    - |
+      ---
+      id: 20
+      name: The Baddour Center
+      abbreviation: BMC
+      slug: the-baddour-center
+      role: nonprofit
+      active: true
+      phone: ''
+      address: 3297 Hwy. 51 South                    Senatobia, MS 38668-0097
+      city: Senatobia
+      contact: Parke Pepper
+      email: ppepper@baddour.org
+      website: http://www.baddour.org
+      org_type: United Way, Children & Youth
+      description: 'The Baddour Center is dedicated to providing a model residential community
+        for adults with mild and moderate intellectual disabilities in an environment that
+        promotes maximum growth intellectually, spiritually, physically, socially, emotionally
+        and vocationally. In short, we help people grow. We help them reach their potential-
+        it’s not just a buzz line when we say that we help people live, work, worship, and
+        play. '
+      inspiration: "For me, watching the success that residents experience daily. I get
+        to see people develop social relationships and earn paycheck for the first time-
+        and they are on top of the world because they achieved something. The Baddour Center
+        is dedicated to finding people’s abilities, even if they have disabilities. We find
+        where they excel, what are they passionate about, what they love to do- that’s where
+        we start. \r\nWe have a young lady from Arizona who really struggled when she first
+        arrived. She’s new and we couldn’t get her to participate or even leave her room.
+        We were seriously debating if were we the right place and fit for her, but through
+        the determination of our staff and their talent, they worked with her and she eventually
+        blossomed. Our folks earned her trust and were there for her. They helped her develop
+        a schedule- she needed a new structure that made her feel safe. Every day now, I
+        can sit in my office, and from my window I can see her smiling and walking by and
+        say Hi to the other residents. She went from refusing to speak to anyone to being
+        voted Homecoming Queen by the residents! We weren’t even sure if we could serve
+        her, and now she calls this home. I am blessed to be around these people."
+      pride: 'Homecoming night. Homecoming night for us is almost like Homecoming night
+        in high school and our residents really love it. It’s a staff resident flag football
+        game. It’s preceded by a parade, a pep rally, a tailgate, and even Northwest Community
+        College will send their pep band out to play. We have a Homecoming presentation
+        where the ladies are dressed in gowns and accompanied by their fathers, and there
+        is an announcing of the Queen (who is voted on by their peers). Afterward, there
+        is a dance with a live band. It’s a family weekend and everybody comes in town to
+        be here. I’m most attached to it because it is the most fun, laid back thing we
+        do. It’s simply a weekend with the residents and their families. Everybody enjoys
+        the evening and celebrates their children. The look in the eye of the fathers when
+        they are walking their daughters across the ball field is priceless. Many of them
+        have never had an experience like that with their child before. Families send their
+        children here and they are happy- we give their children their own life and Homecoming
+        is a great example of that. That’s what they appreciate most. Baddour is the residents’
+        own place and it allows the parents to rest from caregiving and the gives the residents
+        a real purpose in their lives. '
+      involvement: "Come take a tour:\r\nExperiencing the Baddour is much different than
+        simply hearing about it or seeing it in pictures- we would love for you to come
+        take a tour. We hope it will inspire you to support the Baddour Center as a volunteer
+        or donor, and you’ll never leave without a hug! To learn more about taking a tour
+        or volunteer opportunities, contact us at volunteerinfo@baddour.org.\r\n\r\nVisit
+        our Garden Center\r\nCome visit and shop at our Garden Center, where we’re growing
+        residents and residents are growing plants. We have tons of selection of indoor
+        and outdoor plans.\r\n\r\nRefer Someone to our Programming:\r\nRefer someone to
+        our programming, like our Y.O.U.R. Summer Program, which allows parents, families,
+        and caregivers of people with intellectual disabilities a unique respite and the
+        resident a fun and inclusive summer experience. \r\n\r\nHave the Miracles Perform:\r\nSpeak
+        with someone at your church or organization about inviting the nationally recognized
+        choir, The Miracles to perform/sing.  Contact director John Matlach for more information.\r\n\r\nOne
+        thing you would want someone to know about Baddour:\r\nBaddour Center provides a
+        full and whole life for the people it serves.  "
+      funding: ''
+      alliance: "They provided us an avenue to expertise. You all are a one-stop-shop umbrella
+        where we can find an expert in whatever we might need.\r\nAs a member, we are exposed
+        to networking opportunities and I meet other nonprofits that I wouldn’t otherwise
+        and we can share our challenges and successes. It keeps us from having to recreate
+        the wheel- I’ve heard so much organizational and nonprofit wisdom through the different
+        people I’ve met.\r\nThe Annual Conference- the speakers are the best.\r\nGetting
+        a membership to the Nonprofit Quarterly, just reading that alone is super helpful
+        and we get that for free. I would buy that subscription anyway and now I get the
+        benefit of that and the membership.\r\n\r\nAny organization can benefit by being
+        in the fellowship of other similar organizations. While there are clearly individual,
+        unique challenges that organizations face, there are probably exponentially more
+        that nonprofits face that are standard operating procedure.  We can share solutions
+        and best practices. There’s strength in numbers and diversity of ideas and opinions.
+        The Alliance is knowledgeable about what they do."
+      interviewee: Parke Pepper
+      interviewee_title: Director
+      logo_file_name: logo.png
+      logo_content_type: image/png
+      logo_file_size: 31084
+      logo_updated_at: 2016-08-25 15:01:09.776022000 Z
+      staff_photo_file_name: Parke_Pepper_cropped.jpeg
+      staff_photo_content_type: image/jpeg
+      staff_photo_file_size: 69134
+      staff_photo_updated_at: 2016-09-23 01:26:55.339147000 Z
+      photo_file_name: Baddour_work_gardening.JPG
+      photo_content_type: image/jpeg
+      photo_file_size: 244110
+      photo_updated_at: 2016-08-25 00:32:15.167670000 Z
+      photo_two_file_name: Baddour.JPG
+      photo_two_content_type: image/jpeg
+      photo_two_file_size: 127197
+      photo_two_updated_at: 2016-08-25 00:32:16.562467000 Z
+      photo_three_file_name: Parke_Pepper_Baddour_profile.JPG
+      photo_three_content_type: image/jpeg
+      photo_three_file_size: 133678
+      photo_three_updated_at: 2016-08-25 00:32:17.881824000 Z
+      photo_four_file_name: The_Miracles.jpg
+      photo_four_content_type: image/jpeg
+      photo_four_file_size: 175750
+      photo_four_updated_at: 2016-08-25 00:32:19.348908000 Z
+      spotlight: true
+      created_at: 2016-05-23 04:21:24.514005000 Z
+      updated_at: 2016-09-23 01:26:55.960804000 Z
+    - '2016-09-23 01:30:24.556166'
+  - - '28'
+    - Org
+    - '2'
+    - destroy
+    - '1'
+    - "---\nid: 2\nname: Test Funder\nabbreviation: \nslug: test-funder\nrole: funder\nactive:
+      true\nphone: '9011231234'\naddress: 123 Test Address\ncity: \ncontact: John
+      Doe\nemail: john@doe.com\nwebsite: testnonprofit.org\norg_type: \ndescription:
+      Test Org\ninspiration: \npride: \ninvolvement: \nfunding: no funding\nalliance:
+      \ninterviewee: \ninterviewee_title: \nlogo_file_name: \nlogo_content_type: \nlogo_file_size:
+      \nlogo_updated_at: \nstaff_photo_file_name: \nstaff_photo_content_type: \nstaff_photo_file_size:
+      \nstaff_photo_updated_at: \nphoto_file_name: \nphoto_content_type: \nphoto_file_size:
+      \nphoto_updated_at: \nphoto_two_file_name: \nphoto_two_content_type: \nphoto_two_file_size:
+      \nphoto_two_updated_at: \nphoto_three_file_name: \nphoto_three_content_type:
+      \nphoto_three_file_size: \nphoto_three_updated_at: \nphoto_four_file_name: \nphoto_four_content_type:
+      \nphoto_four_file_size: \nphoto_four_updated_at: \nspotlight: false\ncreated_at:
+      2016-04-25 12:10:49.979586000 Z\nupdated_at: 2016-04-25 12:10:49.979586000 Z\n"
+    - '2016-09-23 01:31:39.46834'
+  - - '29'
+    - Org
+    - '1'
+    - destroy
+    - '1'
+    - "---\nid: 1\nname: Test Nonprofit\nabbreviation: \nslug: test-nonprofit\nrole:
+      nonprofit\nactive: true\nphone: '9011231234'\naddress: 123 Test Address\ncity:
+      \ncontact: John Doe\nemail: john@doe.com\nwebsite: testnonprofit.org\norg_type:
+      \ndescription: Test Org\ninspiration: \npride: \ninvolvement: \nfunding: no
+      funding\nalliance: \ninterviewee: \ninterviewee_title: \nlogo_file_name: \nlogo_content_type:
+      \nlogo_file_size: \nlogo_updated_at: \nstaff_photo_file_name: \nstaff_photo_content_type:
+      \nstaff_photo_file_size: \nstaff_photo_updated_at: \nphoto_file_name: \nphoto_content_type:
+      \nphoto_file_size: \nphoto_updated_at: \nphoto_two_file_name: \nphoto_two_content_type:
+      \nphoto_two_file_size: \nphoto_two_updated_at: \nphoto_three_file_name: \nphoto_three_content_type:
+      \nphoto_three_file_size: \nphoto_three_updated_at: \nphoto_four_file_name: \nphoto_four_content_type:
+      \nphoto_four_file_size: \nphoto_four_updated_at: \nspotlight: false\ncreated_at:
+      2016-04-25 12:10:49.951012000 Z\nupdated_at: 2016-04-25 12:10:49.951012000 Z\n"
+    - '2016-09-23 01:31:49.44411'
 
 ---
 orgs:
@@ -272,102 +989,6 @@ orgs:
   - created_at
   - updated_at
   records: 
-  - - '1'
-    - Test Nonprofit
-    - 
-    - test-nonprofit
-    - nonprofit
-    - true
-    - '9011231234'
-    - 123 Test Address
-    - 
-    - John Doe
-    - john@doe.com
-    - testnonprofit.org
-    - 
-    - Test Org
-    - 
-    - 
-    - 
-    - no funding
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - false
-    - '2016-04-25 12:10:49.951012'
-    - '2016-04-25 12:10:49.951012'
-  - - '2'
-    - Test Funder
-    - 
-    - test-funder
-    - funder
-    - true
-    - '9011231234'
-    - 123 Test Address
-    - 
-    - John Doe
-    - john@doe.com
-    - testnonprofit.org
-    - 
-    - Test Org
-    - 
-    - 
-    - 
-    - no funding
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - false
-    - '2016-04-25 12:10:49.979586'
-    - '2016-04-25 12:10:49.979586'
   - - '3'
     - Bridges
     - 
@@ -431,10 +1052,10 @@ orgs:
     - image/png
     - '91382'
     - '2016-08-25 14:55:36.258398'
-    - 
-    - 
-    - 
-    - 
+    - cynthia_cropped.JPG
+    - image/jpeg
+    - '70869'
+    - '2016-09-23 01:00:07.06765'
     - bridges.jpeg
     - image/jpeg
     - '289554'
@@ -453,7 +1074,7 @@ orgs:
     - '2016-04-25 12:49:52.661936'
     - true
     - '2016-04-25 12:31:14.248621'
-    - '2016-09-08 04:04:02.180653'
+    - '2016-09-23 01:00:07.700923'
   - - '4'
     - ABA Development, Inc.
     - ABA
@@ -1338,16 +1959,16 @@ orgs:
       procedure.  We can share solutions and best practices. There’s strength in numbers
       and diversity of ideas and opinions. The Alliance is knowledgeable about what
       they do."
-    - ''
-    - ''
+    - Parke Pepper
+    - Director
     - logo.png
     - image/png
     - '31084'
     - '2016-08-25 15:01:09.776022'
-    - 
-    - 
-    - 
-    - 
+    - Parke_Pepper_cropped.jpeg
+    - image/jpeg
+    - '69134'
+    - '2016-09-23 01:26:55.339147'
     - Baddour_work_gardening.JPG
     - image/jpeg
     - '244110'
@@ -1356,17 +1977,17 @@ orgs:
     - image/jpeg
     - '127197'
     - '2016-08-25 00:32:16.562467'
-    - Parke_Pepper_Baddour_profile.JPG
+    - Baddour_homecoming_edited.JPG
     - image/jpeg
-    - '133678'
-    - '2016-08-25 00:32:17.881824'
+    - '197269'
+    - '2016-09-23 01:30:22.926412'
     - The_Miracles.jpg
     - image/jpeg
     - '175750'
     - '2016-08-25 00:32:19.348908'
     - true
     - '2016-05-23 04:21:24.514005'
-    - '2016-08-25 15:01:10.225293'
+    - '2016-09-23 01:30:24.556166'
   - - '21'
     - Baptist Memorial Health Care Foundation
     - BMHCF
@@ -1627,20 +2248,20 @@ orgs:
       the quality and engagement of our board which has dramatically changed us for
       the better. To have the guidance of the Alliance throughout that process was
       instrumental. '
-    - ''
-    - ''
+    - Amelia Barton
+    - CEO
     - logo.png
     - image/png
     - '98185'
     - '2016-08-25 14:58:20.136797'
-    - 
-    - 
-    - 
-    - 
-    - Educator_Workshop_2015_active.jpg
+    - amelia_cropped.jpeg
     - image/jpeg
-    - '194181'
-    - '2016-08-25 00:22:08.658593'
+    - '66090'
+    - '2016-09-23 01:06:45.416127'
+    - delta-arts.jpg
+    - image/jpeg
+    - '78018'
+    - '2016-09-23 01:09:18.819163'
     - Group_with_Dr_West_WEB.jpg
     - image/jpeg
     - '228059'
@@ -1655,7 +2276,7 @@ orgs:
     - '2016-08-25 00:22:12.848168'
     - true
     - '2016-05-23 04:21:24.546444'
-    - '2016-08-25 14:58:20.62114'
+    - '2016-09-23 01:09:20.017403'
   - - '26'
     - Christian Brothers High School
     - CBHS
@@ -3866,24 +4487,24 @@ orgs:
       resources available to you that inevitably something will be helpful. For us
       at Girls Inc., the temporary staffing and career center resources have been
       invaluable."
-    - ''
-    - ''
+    - Lisa Moore
+    - CEO
     - logo.png
     - image/png
     - '66940'
     - '2016-08-25 14:58:51.339228'
-    - 
-    - 
-    - 
-    - 
+    - lisa_moore_cropped.jpg
+    - image/jpeg
+    - '72713'
+    - '2016-09-23 01:14:30.465451'
+    - Girl's-Inc-Girls-at-Tea-Banner.jpg
+    - image/jpeg
+    - '58581'
+    - '2016-09-23 01:14:32.426076'
     - IMG_0359.JPG
     - image/jpeg
     - '125433'
-    - '2016-08-25 01:52:14.788888'
-    - Lisa_Moore-_Girl's_Inc_banner.jpg
-    - image/jpeg
-    - '196803'
-    - '2016-08-25 01:52:16.141221'
+    - '2016-09-23 01:14:34.000304'
     - IMG_0420.JPG
     - image/jpeg
     - '196102'
@@ -3894,7 +4515,7 @@ orgs:
     - '2016-08-25 01:52:19.028883'
     - true
     - '2016-05-23 04:21:24.912528'
-    - '2016-08-25 14:58:51.803582'
+    - '2016-09-23 01:14:35.410157'
   - - '70'
     - Greater Memphis Greenline
     - GMGL
@@ -6625,20 +7246,20 @@ orgs:
       about their strategic plan and services and it has made us all feel like the
       Alliance is really committed to serving us. We feel a shared leadership and
       a shared effort. Kudos to you all for prioritizing that."
-    - ''
-    - ''
+    - Sally Heinz
+    - Director
     - logo.png
     - image/png
     - '30163'
     - '2016-08-25 15:00:40.104493'
-    - 
-    - 
-    - 
-    - 
-    - SallyJonesHeinz_MIFAexecutivedirector.jpg
+    - sally_heinz_cropped.jpg
     - image/jpeg
-    - '135224'
-    - '2016-08-25 00:54:51.82367'
+    - '78783'
+    - '2016-09-23 01:22:58.25938'
+    - MIFA-Meals-on-Wheels.jpg
+    - image/jpeg
+    - '113566'
+    - '2016-09-23 01:23:00.430983'
     - 800_2608.jpg
     - image/jpeg
     - '146434'
@@ -6653,7 +7274,7 @@ orgs:
     - '2016-08-25 00:54:56.572948'
     - true
     - '2016-05-23 04:21:25.428206'
-    - '2016-08-25 15:00:40.580831'
+    - '2016-09-23 01:23:01.611106'
   - - '124'
     - Memphis Leadership Foundation
     - MLF
@@ -7319,20 +7940,20 @@ orgs:
       services and that we are bonding together and delivering the services that the
       community needs in the most efficient way possible. The Alliance facilitates
       that collaboration."
-    - ''
-    - ''
+    - Richard Graham
+    - CEO
     - logo.png
     - image/png
     - '108279'
     - '2016-08-25 15:00:18.278412'
-    - 
-    - 
-    - 
-    - 
-    - IMG_0434.JPG
+    - richard-graham-cropped.JPG
     - image/jpeg
-    - '148205'
-    - '2016-08-25 01:10:20.029869'
+    - '84612'
+    - '2016-09-23 01:19:07.645464'
+    - JIFF.jpg
+    - image/jpeg
+    - '75939'
+    - '2016-09-23 01:19:09.476401'
     - IMG_0439.JPG
     - image/jpeg
     - '176808'
@@ -7347,7 +7968,7 @@ orgs:
     - '2016-08-25 01:10:24.522582'
     - true
     - '2016-05-23 04:21:25.538449'
-    - '2016-08-25 15:00:18.743663'
+    - '2016-09-23 01:19:10.670777'
   - - '137'
     - Memphis Urban League
     - MUL
@@ -10540,6 +11161,96 @@ users:
     - 
     - '2016-09-06 12:53:33.835656'
     - '2016-09-06 12:54:59.178451'
+  - - '13'
+    - employee@example.com
+    - "$2a$10$jxVUiaCvYeB.pj4NsFhygu2xWBTbdipuuq5I4HlfWlCtwO63gbxti"
+    - nqDYULFnf7KEar2JpKL5
+    - 51e7f25b3902f613f243cce59d46fa70886b894e509e93354a3930c872c9f7f98d11240353a9e52e81cbf4241524112e7e67a7dba0d1434dfaf3e5f83bdfd269
+    - NHCplDWyQq6X1PW0YEAr
+    - RY20AOZD62xBtzkHwU7
+    - '0'
+    - '0'
+    - 
+    - 
+    - 
+    - 
+    - employee
+    - Employee
+    - User
+    - false
+    - false
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2016-09-23 00:46:30.556855'
+    - '2016-09-23 00:46:30.556855'
+  - - '14'
+    - org_admin@example.com
+    - "$2a$10$.7jpKwNzYeo1n.uEby9n4e3jmIn6RsQF.sT55gDNq0rUKLaxDbI4q"
+    - j2ZrnzeFAr79ST280Rl
+    - e27197a04fb9650c6b53bc5d65558c3734bb822f9b223c364fd023890eab86cfae904341a08347335c705031fa7f3b00b04581b70a7f16c1aeb01b9dbd15aff0
+    - i0kHIGRCtPjOxBsyIJeP
+    - M7FAIlEyPigs5DF2kCqZ
+    - '0'
+    - '0'
+    - 
+    - 
+    - 
+    - 
+    - org_admin
+    - Org Admin
+    - User
+    - false
+    - false
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2016-09-23 00:46:30.661908'
+    - '2016-09-23 00:46:30.661908'
+  - - '15'
+    - member@example.com
+    - "$2a$10$TMBFg3FFAcjCAmQepCGX7.Bsg8I5NWsMLFKtqbmocbHcG7L6bZ0vW"
+    - BpKSbIPioGKG3D6mztE
+    - 5ee5f0179e5600d71412fecc4465a7a12235f0bd77fff4697818ec3936922da4a93ec34a822f6b69a95bd596395841ef76f2b7f270725fba1fa50c360a5c8641
+    - ZTBeIAS6UXUi1Kt5TkE
+    - mxdGqXJ8kr6SFfmti8U5
+    - '0'
+    - '0'
+    - 
+    - 
+    - 
+    - 
+    - member
+    - Member
+    - User
+    - false
+    - false
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2016-09-23 00:46:30.735642'
+    - '2016-09-23 00:46:30.735642'
 
 ---
 training_categories:
@@ -10569,49 +11280,240 @@ posts:
   records: 
   - - '1'
     - Giving Back to the Community
-    - 
-    - "It’s important that we’re giving back to communities in need. And my take is
-      that it’s most important for people to put food on the table, and then a roof
-      over that table. To help facilitate this, I supported the Memphis Central Kitchen.
-      One way I did that was to help ‘em get some new ovens that we’re just delivered.\r\n\r\nSince
-      the founding of Memphis Central Kitchen in 1989, they’ve prepared 27 million
-      meals for their low-income and at-risk neighbors. That’s a lot of meals, and
-      the real deal, but they don’t want you to mistake them for a soup kitchen. (Here’s
-      stories from some of the folks who have gone through Memphis Central Kitchen’s
-      programs...)\r\n\r\nMemphis Central Kitchen (MemphisCK) was founded by a young
-      nightclub manager, Robert Egger. Egger was frustrated with the programs that
-      fed Memphis residents who were homeless, and wanted to rearrange Memphis’s existing
+    - 'Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+      Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+      Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+      Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah '
+    - "<p>It&rsquo;s important that we&rsquo;re giving back to communities in need.
+      And my take is that it&rsquo;s most important for people to put food on the
+      table, and then a roof over that table. To help facilitate this, I supported
+      the Memphis Central Kitchen. One way I did that was to help &lsquo;em get some
+      new ovens that we&rsquo;re just delivered. Since the founding of Memphis Central
+      Kitchen in 1989, they&rsquo;ve prepared 27 million meals for their low-income
+      and at-risk neighbors. That&rsquo;s a lot of meals, and the real deal, but they
+      don&rsquo;t want you to mistake them for a soup kitchen. (Here&rsquo;s stories
+      from some of the folks who have gone through Memphis Central Kitchen&rsquo;s
+      programs...) Memphis Central Kitchen (MemphisCK) was founded by a young nightclub
+      manager, Robert Egger. Egger was frustrated with the programs that fed Memphis
+      residents who were homeless, and wanted to rearrange Memphis&rsquo;s existing
       resources in ways that would ultimately liberate hungry and homeless individuals
-      from poverty.\r\n\r\nOperations began with the leftover food from George H.W.
-      Bush’s inauguration, a refrigerated van, and deliveries to area shelters. A
-      few months later, MemphisCK secured its own kitchen space and launched a Culinary
-      Job Training program for residents of those shelters. This is about giving resources
-      and access to more opportunities for people who could use it.\r\n\r\nThe org
-      continued to grow, and helped start more than 60 like-minded community kitchens
-      nationwide through the 1990s. In 2001, Egger launched The Campus Kitchens Project,
-      a project to replicate MemphisCK’s core activities at college and high schools
-      across the country. In this last academic year alone, they’ve empowered 23,000
+      from poverty. Operations began with the leftover food from George H.W. Bush&rsquo;s
+      inauguration, a refrigerated van, and deliveries to area shelters. A few months
+      later, MemphisCK secured its own kitchen space and launched a Culinary Job Training
+      program for residents of those shelters. This is about giving resources and
+      access to more opportunities for people who could use it. The org continued
+      to grow, and helped start more than 60 like-minded community kitchens nationwide
+      through the 1990s. In 2001, Egger launched The Campus Kitchens Project, a project
+      to replicate MemphisCK&rsquo;s core activities at college and high schools across
+      the country. In this last academic year alone, they&rsquo;ve empowered 23,000
       student volunteers to implement their model on 53 high school and college campuses
-      across the country.\r\n\r\nEvery single day, despite not having any AC, Memphis
-      Central Kitchen provides 5,000 meals, distributed at little or no cost to 82
-      nearby homeless shelters, transitional homes, and nonprofit organizations, saving
-      them money and feeding the community.\r\n\r\nMentioned earlier, the Culinary
-      Job Training program is still running, and is for unemployed folks who want
-      to replace homelessness, addiction, and incarceration with new careers and a
-      different way of life. These are the folks who are making sure that MemphisCK’s
-      recipes are cooked and the ovens are filled with food.\r\n\r\nMemphis Central
-      Kitchen’s School Food Program serves 6,800 healthy, locally-sourced, scratch-cooked
-      meals to 3,600 low-income Memphis schoolchildren every day, helping to ensure
-      that school meals are nutritious, affordable, and sustainable. And their Healthy
-      Corners program delivers fresh produce and healthy snacks to 67 corner stores
-      in Memphis’s ‘food deserts,’ where access to nutritious food options is limited.
+      across the country. Every single day, despite not having any AC, Memphis Central
+      Kitchen provides 5,000 meals, distributed at little or no cost to 82 nearby
+      homeless shelters, transitional homes, and nonprofit organizations, saving them
+      money and feeding the community. Mentioned earlier, the Culinary Job Training
+      program is still running, and is for unemployed folks who want to replace homelessness,
+      addiction, and incarceration with new careers and a different way of life. These
+      are the folks who are making sure that MemphisCK&rsquo;s recipes are cooked
+      and the ovens are filled with food. Memphis Central Kitchen&rsquo;s School Food
+      Program serves 6,800 healthy, locally-sourced, scratch-cooked meals to 3,600
+      low-income Memphis schoolchildren every day, helping to ensure that school meals
+      are nutritious, affordable, and sustainable. And their Healthy Corners program
+      delivers fresh produce and healthy snacks to 67 corner stores in Memphis&rsquo;s
+      &lsquo;food deserts,&rsquo; where access to nutritious food options is limited.
       Because of these initiatives, more than half of their income is through social
-      enterprise, but they’ve still got a pretty big monthly budget..."
+      enterprise, but they&rsquo;ve still got a pretty big monthly budget...</p>"
     - giving-back-to-the-community
     - '1'
     - true
     - '2016-08-25 12:25:58.232659'
-    - '2016-08-25 12:26:10.015822'
+    - '2016-09-23 00:16:40.326759'
+  - - '2'
+    - Another Post
+    - Testing
+    - "<p>Fun</p>"
+    - another-post
+    - '1'
+    - true
+    - '2016-09-23 00:23:20.984259'
+    - '2016-09-23 00:23:20.984259'
+  - - '3'
+    - Doloremque eius fugit non eos.
+    - Nihil minus et sed et dolorem in inventore. Sed et ut laboriosam qui laudantium.
+      Officiis reiciendis qui expedita quia tenetur quaerat. Ex molestias nam aliquam
+      sapiente eos fuga esse earum.
+    - '["Quo earum id dolores impedit sed et ipsa nam. Aut molestiae voluptate iusto
+      cupiditate est ex veritatis quod. Aut vel ab architecto ut qui voluptate in
+      cupiditate.", "Ab natus sapiente esse inventore aperiam rem. Repudiandae fuga
+      et aut sed illum. Laboriosam pariatur aspernatur excepturi deleniti aut sit.
+      Qui fuga perspiciatis quae quo dolores.", "Magnam pariatur harum expedita et
+      nisi aliquam. Veritatis hic deserunt earum sed non. Qui aliquid provident illum
+      laudantium quia molestiae aliquam. Aut rerum maiores aut est aspernatur saepe
+      nihil omnis. Dignissimos tempore omnis corrupti ea voluptatem."]'
+    - doloremque-eius-fugit-non-eos
+    - '1'
+    - true
+    - '2016-09-23 00:46:30.878109'
+    - '2016-09-23 00:46:30.878109'
+  - - '4'
+    - Delectus commodi tenetur dolore qui animi ut sunt enim.
+    - Ad animi officiis impedit repellat sapiente sint. Cupiditate eos illo esse fugiat
+      sint totam. Ea voluptate rerum cum architecto quos et adipisci nemo. Et impedit
+      cumque totam placeat excepturi et. Dignissimos dolores molestiae et qui qui
+      quod natus.
+    - '["Qui eaque distinctio non eius. Pariatur quo exercitationem est ex commodi.
+      Non earum eveniet mollitia ut molestias qui vitae. Dolores rerum vel exercitationem
+      enim repudiandae. Possimus sint illo totam deserunt sit dicta.", "Tenetur accusamus
+      necessitatibus assumenda vero corporis reiciendis sit. Sapiente natus nihil
+      non asperiores inventore ratione. Et repudiandae similique et odio ratione deleniti.",
+      "Quia corrupti voluptas exercitationem aut ut non. Sint qui rerum quam eligendi
+      fugiat. Dolor sunt at in quisquam totam et. Blanditiis harum rem reiciendis
+      distinctio culpa praesentium in rerum."]'
+    - delectus-commodi-tenetur-dolore-qui-animi-ut-sunt-enim
+    - '1'
+    - true
+    - '2016-09-23 00:46:30.888823'
+    - '2016-09-23 00:46:30.888823'
+  - - '5'
+    - Aut voluptas iusto fuga et itaque est illum.
+    - Quo ipsam minima veniam quasi sit maxime. Nisi ex voluptates fugiat aut porro
+      commodi. Ad eaque voluptas neque occaecati quis vitae temporibus.
+    - '["Est omnis repudiandae voluptatem repellat. Deleniti molestiae similique enim
+      sit delectus quas quam sunt. Consectetur vitae ut placeat nihil excepturi at
+      incidunt. Consequatur animi fugit enim sapiente.", "Qui cumque magnam est numquam
+      animi. Nostrum placeat ut quos error corrupti iusto vel. Ea beatae molestias
+      debitis sed consequuntur. Deserunt labore voluptatem est rerum.", "Culpa consequatur
+      est doloribus officiis debitis. Dicta laboriosam porro aperiam eaque occaecati
+      quia itaque. Officiis iusto est molestiae ut nihil ea aut ex. Totam deserunt
+      et nesciunt earum odit quae. Amet ducimus consectetur consequatur et."]'
+    - aut-voluptas-iusto-fuga-et-itaque-est-illum
+    - '1'
+    - true
+    - '2016-09-23 00:46:30.900983'
+    - '2016-09-23 00:46:30.900983'
+  - - '6'
+    - Aperiam sit neque omnis cupiditate iste laborum hic delectus.
+    - Voluptatum ipsa reiciendis quis est quaerat molestias corporis. Quo pariatur
+      saepe ipsum aut hic natus in. Asperiores iste aut eaque et voluptas nulla est
+      quia. Voluptas ut et illo maiores. Corporis occaecati sed rem eum et laboriosam
+      officiis.
+    - '["Velit dolor aperiam illum ad voluptatem id eum deserunt. Et similique qui
+      laudantium voluptatem omnis est. Perferendis soluta ducimus aut est iure officiis.",
+      "Et libero non sed alias. Atque eos voluptatum qui est eveniet. Quas nihil ea
+      eos voluptatem aut. Iure eos nesciunt odio vero voluptatibus.", "Minima optio
+      velit molestias minus quaerat non totam. Mollitia et dolor voluptates saepe
+      consequuntur labore et rem. Autem est et sit nobis quos quisquam dicta at. Amet
+      quisquam rerum occaecati est vel totam nisi recusandae. Unde exercitationem
+      consectetur saepe repudiandae libero."]'
+    - aperiam-sit-neque-omnis-cupiditate-iste-laborum-hic-delectus
+    - '1'
+    - true
+    - '2016-09-23 00:46:30.904782'
+    - '2016-09-23 00:46:30.904782'
+  - - '7'
+    - Molestias dignissimos et aut ut illo.
+    - Et rem natus voluptatem sit dolorem facere. Qui modi rerum ut debitis dolores
+      voluptatem. Est saepe aspernatur in incidunt ea dignissimos. Reiciendis deleniti
+      et fuga libero ipsa aut eius. Consequatur voluptas suscipit voluptatem aut est
+      voluptatem possimus.
+    - '["Dolores nisi dolorum consequatur debitis repudiandae earum. Explicabo ut
+      qui eum eaque aut consequuntur at laudantium. Et qui aut aut aut vel inventore
+      et. Fugit ducimus et omnis sed necessitatibus assumenda ex.", "Et aperiam necessitatibus
+      tenetur ab dolore. Dolor aliquid autem cum consectetur. Voluptas optio et atque
+      ea eius laborum ut culpa.", "Error et sed voluptas aut velit quisquam consectetur
+      assumenda. Animi facere dignissimos tenetur similique labore quia quasi. Accusamus
+      animi necessitatibus amet aliquid sit dolor sint vero. Corrupti officia doloribus
+      enim et. Repellat eum et sint veniam recusandae commodi."]'
+    - molestias-dignissimos-et-aut-ut-illo
+    - '1'
+    - true
+    - '2016-09-23 00:46:30.907779'
+    - '2016-09-23 00:46:30.907779'
+  - - '8'
+    - Optio consequatur in autem nihil.
+    - Nobis aut et quo reprehenderit unde sint enim dolor. Vel est nesciunt animi
+      quam. Et qui sed quia maiores.
+    - '["Accusamus eum facere ullam at unde. Facilis placeat ducimus similique voluptatum
+      ad voluptate consequatur. Nemo temporibus libero natus omnis sit maxime laborum
+      nihil.", "Omnis quis aut ducimus voluptate corrupti eos. Labore accusamus earum
+      non recusandae aut. Omnis animi aut commodi eius explicabo assumenda vitae.
+      Temporibus eum nihil nihil necessitatibus modi aliquid. Vel deleniti eius quas
+      id exercitationem.", "Qui ea ut quam illo sed consequuntur numquam. Similique
+      et rem maxime totam placeat. Veniam eum esse sit deserunt quis. Reprehenderit
+      non facilis ipsam vitae officia. Autem necessitatibus quam voluptatum dolores
+      ea."]'
+    - optio-consequatur-in-autem-nihil
+    - '1'
+    - true
+    - '2016-09-23 00:46:30.910706'
+    - '2016-09-23 00:46:30.910706'
+  - - '9'
+    - Sed doloribus eligendi voluptates quia nulla.
+    - Iste ea ipsum sint hic libero sed consequuntur possimus. Quia ipsa est voluptatem
+      error ex voluptate. Inventore ab et ut laborum non eum aut. Nulla iure deleniti
+      odit est laboriosam perspiciatis. Officiis eaque voluptatem sint ipsa incidunt
+      corrupti nihil.
+    - '["Qui dignissimos iure est rem omnis. Et quia ratione molestiae vero veritatis
+      praesentium iste. Voluptas est placeat qui sint eveniet sunt occaecati.", "Rem
+      pariatur sit occaecati optio laudantium nisi voluptatum. Dolorum dolore dolor
+      fugit tenetur. Quia distinctio dolore ut ipsam tenetur minima ut. Quod ut cum
+      ut voluptas sint.", "Nulla nihil assumenda incidunt expedita maxime. Sint id
+      esse omnis officia sed ullam aut. Porro et quas quis temporibus deleniti vitae.
+      Ullam autem eum incidunt voluptatum aut est fugiat."]'
+    - sed-doloribus-eligendi-voluptates-quia-nulla
+    - '1'
+    - true
+    - '2016-09-23 00:46:30.913503'
+    - '2016-09-23 00:46:30.913503'
+  - - '10'
+    - Minus aut id soluta earum nihil laborum veniam sed.
+    - Eius laborum ea est velit. Sequi minima id quo veniam laborum laboriosam adipisci.
+      Quasi sunt voluptates dignissimos laborum adipisci dolorum omnis ea. Vitae quasi
+      quia molestias aut laboriosam. Corrupti aut aliquid quas ratione.
+    - '["Qui maxime quam nihil cum. Nam corporis consequatur ut nulla consequatur
+      dolore eos. Debitis repellat ipsum pariatur illum provident id. Iure facilis
+      beatae non unde a nulla. Ut laborum aliquam occaecati non eos deserunt perspiciatis.",
+      "Architecto eius est dolores non aliquid iure error dignissimos. Ducimus recusandae
+      est dolor at nulla iusto. Aut dolorum voluptatibus aliquam et. Nihil voluptatibus
+      tempora architecto porro. Quidem esse cumque inventore et.", "Soluta occaecati
+      nemo quo et error ut libero dicta. Pariatur commodi dolor facilis ut sed. Ut
+      consequatur ut ea eum quae deserunt et quia."]'
+    - minus-aut-id-soluta-earum-nihil-laborum-veniam-sed
+    - '1'
+    - true
+    - '2016-09-23 00:46:30.916461'
+    - '2016-09-23 00:46:30.916461'
+  - - '11'
+    - Et atque magni excepturi commodi esse dolore expedita.
+    - Error quas facilis suscipit voluptas sed nobis autem. Sit neque perferendis
+      natus sit quaerat dolores repellat ex. Molestias ratione similique harum necessitatibus.
+    - '["Eveniet provident maxime enim sit. Accusantium corrupti voluptatum sit ut
+      nam velit consectetur at. Eum reiciendis odit ut at.", "Voluptatum omnis est
+      fugiat quia. Nulla ea corporis nam vitae quis atque eaque enim. Et praesentium
+      adipisci delectus quos.", "Non beatae dolorem iure facere. Quo rem dicta est
+      nam architecto. Nesciunt voluptatum saepe doloremque possimus est. Sint ullam
+      et molestias enim."]'
+    - et-atque-magni-excepturi-commodi-esse-dolore-expedita
+    - '1'
+    - true
+    - '2016-09-23 00:46:30.91956'
+    - '2016-09-23 00:46:30.91956'
+  - - '12'
+    - Similique mollitia ipsam voluptatem minima.
+    - Voluptas id exercitationem earum ea quibusdam. Eum praesentium eos voluptate
+      neque voluptatem veritatis est. Molestiae ex voluptate modi minus itaque recusandae
+      ut ut. Architecto nobis aut at sit quam molestias consequatur.
+    - '["Et sit vel quibusdam necessitatibus. Aut ipsam sed temporibus aliquam itaque.
+      Error saepe molestias porro similique asperiores qui. Voluptatem est numquam
+      dolorum ea sed eum non laudantium.", "Nihil minima voluptas et et impedit. Pariatur
+      aut vel nulla quia voluptas ut saepe et. Sed omnis quia aliquam a beatae iusto.",
+      "Quaerat quae enim recusandae modi. Quis corrupti qui iusto dignissimos laudantium
+      occaecati odit. Occaecati enim aut itaque eum error. Autem et ipsa dolorum ut
+      aspernatur dignissimos. Quis non id sunt dolorum fuga qui iure."]'
+    - similique-mollitia-ipsam-voluptatem-minima
+    - '1'
+    - true
+    - '2016-09-23 00:46:30.922347'
+    - '2016-09-23 00:46:30.922347'
 
 ---
 uploads:
@@ -10863,6 +11765,18 @@ uploads:
     - '190464'
     - '2016-08-15 01:49:21.193945'
     - 
+  - - '52'
+    - Training.jpeg
+    - image/jpeg
+    - '189819'
+    - '2016-09-23 04:40:47.333417'
+    - 
+  - - '53'
+    - Consulting.jpg
+    - image/jpeg
+    - '158838'
+    - '2016-09-23 04:41:08.92448'
+    - 
 
 ---
 settings:
@@ -10913,8 +11827,8 @@ pages:
   records: 
   - - '1'
     - Who We Are
-    - <div class="container"><div class="row"><div class="col-md-12 text-center"><br><br><br><h4>Our
-      Mission</h4><hr><h1><em>Strengthening Nonprofits Towards Excellence</em></h1><hr><br></div></div><br><div
+    - <div class="container"><div class="row"><div class="col-md-12 text-center"><br><br><br><p>Our
+      Mission</p><hr><h1><em>Strengthening Nonprofits Towards Excellence</em></h1><hr><br></div></div><br><div
       class="row"><div class="col-md-4"><div class="panel panel-success text-center"><div
       class="panel-body"><h3>Strengthen board and staff leadership while building
       the human resources systems to move your nonprofit forward.</h3></div><div class="panel-heading"><h1><div
@@ -10939,7 +11853,7 @@ pages:
     - '0'
     - '0'
     - '2015-10-30 17:43:21.170909'
-    - '2016-09-08 03:30:26.199971'
+    - '2016-09-23 03:14:11.242154'
   - - '2'
     - History
     - <div><img class="fr-dib img-responsive fr-draggable" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/032/original/10-year-celebration.jpg?1459222452"></div><p><br></p><section><h1
@@ -10991,23 +11905,47 @@ pages:
     - '2016-08-15 02:42:45.829941'
   - - '3'
     - Mission & Theory of Change
-    - '<div><img class="fr-dib img-responsive fr-draggable" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/029/original/DSC_1166.jpg?1459219851"></div><section><h3><strong>Our
+    - '<div style="text-align: center;"><img class="fr-dib img-responsive fr-draggable"
+      src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/029/original/DSC_1166.jpg?1459219851"></div><section><h3><strong>Our
       Mission</strong></h3><h1 class="text-center">Strengthening Nonprofits Toward
-      Excellence</h1></section><p><br></p><div class="container"><div class="history"><div
-      class="page-header"><h2 class="text-center"><br>Why: Strong Nonprofits mean
-      Strong Communities</h2></div><h3>Nonprofits have an incredible economic impact,
-      and often step in the gap to provide social services and support that other
-      entities cannot. Nonprofits make the Mid-South a great place to live and work,
-      and they are critical to our local economy.</h3><br><br></div></div><div class="container"><img
-      class="fr-dib img-responsive fr-draggable" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/030/original/DOH-infographic-with-contact-info.png?1459219870"><br></div><div
-      class="container"><div class="page-header"><h2 class="text-center">How: People,
-      Revenue, Impact</h2></div><h3>We strengthen nonprofits by focusing on the things
-      that matter most when creating a thriving organization: people, revenue, and
-      impact. We offer customized training and consulting in these areas to help our
-      member organizations increase their impact and adapt to change. To learn more
-      about what types of training and consulting we offer, visit our training and
-      consulting pages.</h3><div><br><br><br></div></div><div class="container"><img
-      class="fr-dib img-responsive fr-draggable" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/031/original/theory-of-change.jpg?1459219886"><br></div>'
+      Excellence</h1></section><p><br></p><div class="container"><div class="row"><div
+      class="col-md-12"><h2 style="text-align: center;">Why: Strong Nonprofits mean
+      Strong Communities</h2><hr><p class="lead">Nonprofits have an incredible economic
+      impact, and often step in the gap to provide social services and support that
+      other entities cannot. Nonprofits make the Mid-South a great place to live and
+      work, and they are critical to our local economy.<br><br><br></p></div><br><br></div></div><div
+      class="container"><div class="col-md-2"><br></div><div class="col-md-8"><img
+      class="fr-dib img-responsive fr-draggable" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/030/original/DOH-infographic-with-contact-info.png?1459219870"></div><div
+      class="col-md-2"><br></div></div><div class="container"><div class="row"><div
+      class="col-md-12"><h2 class="text-center"><br>How: People, Revenue, Impact</h2><hr><p
+      class="lead">We strengthen nonprofits by focusing on the things that matter
+      most when creating a thriving organization: people, revenue, and impact. We
+      offer customized training and consulting in these areas to help our member organizations
+      increase their impact and adapt to change. To learn more about what types of
+      training and consulting we offer, visit our training and consulting pages.<br><br></p></div><br><br></div><div
+      class="row"><div class="col-md-4"><div class="panel panel-success text-center"><div
+      class="panel-body"><h3>Strengthen board and staff leadership while building
+      the human resources systems to move your nonprofit forward.</h3></div><div class="panel-heading"><h1><div
+      class="fa fa-users"><br></div>People</h1></div></div></div><div class="col-md-4"><div
+      class="panel panel-info text-center"><div class="panel-body"><h3>Strike a balance
+      between mission and money, developing new revenue strategies and enhancing financial
+      management.</h3></div><div class="panel-heading"><h1><div class="fa fa-balance-scale"><br></div>Revenue</h1></div></div></div><div
+      class="col-md-4"><div class="panel panel-warning text-center"><div class="panel-body"><h3>Align
+      vision to impact as you measure change, develop better solutions, and establish
+      a compelling story.</h3></div><div class="panel-heading"><h1><div class="fa
+      fa-line-chart"><br></div>Impact</h1></div></div></div></div><div class="row"><div
+      class="col-md-12"><p class="lead"><br>We offer customized training and consulting
+      in these areas to help our member organizations increase their impact and adapt
+      to change.</p><p class="lead">To learn more about what types of training and
+      consulting we offer, visit our training and consulting pages.</p></div></div><div
+      class="row"><div class="col-md-6 text-center"><a class="btn btn-default btn-lg"
+      href="">Training Opportunities</a><br><br><br><img class="img-responsive fr-dib
+      fr-draggable img-rounded" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/052/original/Training.jpeg?1474605647"></div><div
+      class="col-md-6 text-center"><a class="btn btn-default btn-lg" href="">Consulting
+      Information</a><br><br><br><img class="img-responsive fr-dib fr-draggable img-rounded"
+      src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/053/original/Consulting.jpg?1474605668"></div><p><br></p></div></div><p><br></p><div
+      class="container"><div class="col-md-12"><img class="fr-dib img-responsive fr-draggable"
+      src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/031/original/theory-of-change.jpg?1459219886"></div><br></div>'
     - mission-theory-of-change
     - false
     - true
@@ -11017,22 +11955,90 @@ pages:
     - '1'
     - '0'
     - '2015-10-30 18:58:42.141497'
-    - '2016-08-25 03:03:33.329746'
+    - '2016-09-23 04:53:17.467666'
   - - '4'
     - Staff
     - <div class="container"><div class="row"><div class="col-md-12"><div class="page-header
       text-center"><h1>Our Staff</h1></div></div></div><div class="row"><div class="col-sm-4
-      text-center"><img class="img-responsive img-circle fr-dib fr-draggable" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/050/original/Nancy.jpg?1470018853"><h2><strong>Nancy
-      McGee</strong></h2><h3>Executive Director</h3></div><div class="col-sm-4 text-center"><img
-      class="img-responsive img-circle fr-dib fr-draggable" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/049/original/john.jpg?1470018842"><h2><strong>John
-      Bazzanella</strong></h2><h3>Manager</h3></div><div class="col-sm-4 text-center"><img
-      class="img-responsive img-circle fr-dib fr-draggable" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/047/original/aprilcarter.jpg?1470018816"><h2><strong>April
-      Carter</strong></h2><h3>Membership and Events</h3></div></div><br><br><div class="row"><div
-      class="col-sm-4 text-center"><img class="img-responsive img-circle fr-dib fr-draggable"
-      src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/020/original/jsuffel.jpeg?1456283646"><h2><strong>Jaclyn
-      Suffel</strong></h2><h3>Director of Communications</h3></div><div class="col-sm-4
-      text-center"><img class="img-responsive img-circle fr-dib fr-draggable" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/048/original/jody.jpg?1470018831"><h2><strong>Jody
-      Graddy</strong></h2><h3>Administrative Assistant</h3></div></div></div>
+      text-center" data-target="#nancyModal" data-toggle="modal"><img class="img-responsive
+      img-circle fr-dib fr-draggable" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/050/original/Nancy.jpg?1470018853"><h2><strong>Nancy
+      McGee</strong></h2><p>Chief Executive Officer</p></div><div class="modal fade"
+      id="nancyModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div
+      class="modal-header"><button class="close" data-dismiss="modal" type="button"><span>&times;</span></button><h4
+      class="modal-title" id="myModalLabel"><br></h4><h1 class="text-center"><strong>Nancy
+      McGee</strong></h1><p class="text-center">CEO</p></div><div class="modal-body"><p>Nancy
+      McGee began with the Alliance (then known as the Grant Information Center) in
+      1992 as Associate Director and was appointed Executive Director in 1995. She
+      has over twenty-five years of experience in working with public and private
+      nonprofit organizations in the areas of organizational development, planning,
+      collaboration, and securing and managing grants. She has a Bachelor&rsquo;s
+      degree in Political Science and a Masters in Public Administration.</p><p>Nancy
+      is responsible for providing direction to and leadership in the achievement
+      of the Alliance&rsquo;s vision, mission, strategic goals and objectives.</p></div><div
+      class="modal-footer"><button class="btn btn-default" data-dismiss="modal" type="button">Close</button></div></div></div></div><div
+      class="col-sm-4"><br></div><div class="col-sm-4 text-center" data-target="#johnModal"
+      data-toggle="modal"><img class="img-responsive img-circle fr-dib fr-draggable"
+      src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/049/original/john.jpg?1470018842"><h1><strong>John
+      Bazzanella</strong></h1><p>Director of Programs</p></div><div class="modal fade"
+      id="johnModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div
+      class="modal-header"><button class="close" data-dismiss="modal" type="button"><span>&times;</span></button><h4
+      class="modal-title" id="myModalLabel"><br></h4><h1 class="text-center"><strong>John
+      Bazzanella</strong></h1><p class="text-center">Director of Programs</p></div><div
+      class="modal-body"><p>John Bazzanella joined the Alliance in December 2010.
+      Prior to relocating to Memphis and joining the Alliance staff, John spent six
+      years as the Director of Camp ReCreation, a nonprofit residential camp program
+      in northern California, serving children and adults with developmental disabilities.
+      John has also served as a nonprofit board chair and done consulting work with
+      nonprofits in areas of strategic and business planning, team building, board
+      governance, and fundraising. John holds a Bachelor&rsquo;s degree in English,
+      a Master of Business Administration degree, and a Master of Nonprofit Administration
+      degree. Since 1996, John has been a women&rsquo;s lacrosse umpire, earning a
+      national rating in 2004, and serves as an umpire training clinician for United
+      States Lacrosse and a member of the US Lacrosse Women&apos;s Game Officials
+      Sub-Committee.</p><p><br></p>John is responsible for the management of the Alliance&apos;s
+      Consulting and Training Programs and the Program for Nonprofit Excellence. John
+      oversees the pool of consultants that contract with the Alliance and manages
+      and monitors all Alliance consulting engagements. John also facilitates a range
+      of consulting projects and develops and presents training classes for the Alliance,
+      including the Alliance&rsquo;s Executive Director Boot Camp series<p><br></p></div><div
+      class="modal-footer"><button class="btn btn-default" data-dismiss="modal" type="button">Close</button></div></div></div></div></div><br><br><div
+      class="row"><div class="col-sm-4 text-center" data-target="#aprilModal" data-toggle="modal"><img
+      class="img-responsive img-circle fr-dib fr-draggable" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/047/original/aprilcarter.jpg?1470018816"><h1><strong>April
+      Carter</strong></h1><p>Membership &amp; Events Administrator</p></div><div class="modal
+      fade" id="aprilModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div
+      class="modal-header"><button class="close" data-dismiss="modal" type="button"><span>&times;</span></button><h4
+      class="modal-title" id="myModalLabel"><br></h4><h1 class="text-center"><strong>April
+      Carter</strong></h1><p class="text-center">Membership &amp; Events Administrator</p></div><div
+      class="modal-body"><p>&ldquo;Unless someone like you cares an awful lot. Nothing
+      is going to get better. It&rsquo;s not.&rdquo;- Dr. Seuss</p><p>April Carter
+      has been with the Alliance for over a decade and serves in the role of Membership
+      &amp; Events Administrator. As a native Memphian, April has spent her entire
+      career working and volunteering in the nonprofit sector and for several years
+      served as the first face many people saw when entering the Alliance doors. Outside
+      of the Alliance, April loves to write and recite spoken word poetry, work with
+      teens in after school drama club programs and host couples&rsquo; game night
+      for her friends and family. April is responsible for overseeing the membership
+      department and assisting with the development of community events.</p></div><div
+      class="modal-footer"><button class="btn btn-default" data-dismiss="modal" type="button">Close</button></div></div></div></div><div
+      class="col-sm-4"><br></div><div class="col-sm-4 text-center" data-target="#jacklynModal"
+      data-toggle="modal"><img class="img-responsive img-circle fr-dib fr-draggable"
+      src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/020/original/jsuffel.jpeg?1456283646"><h1><strong>Jaclyn
+      Suffel</strong></h1><p>Strategic Communications Manager</p></div><div class="modal
+      fade" id="jacklynModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div
+      class="modal-header"><button class="close" data-dismiss="modal" type="button"><span>&times;</span></button><h4
+      class="modal-title" id="myModalLabel"><br></h4><h1 class="text-center"><strong>Jaclyn
+      Suffel</strong></h1><p class="text-center">Strategic Communications Manager</p></div><div
+      class="modal-body">Jaclyn joined the Alliance in 2015 after almost 10 years
+      of working in public education nonprofits. Since arriving in Memphis in 2007,
+      she has worn the hats of a Teach for America teacher, education community organizer,
+      trainer and curriculum developer, and communications professional. Jaclyn holds
+      a BA in Theatre and Gender studies from Southwestern University and she has
+      expertise in advocacy, campaign management, social media and online strategy,
+      curriculum creation and execution, and brand development. In addition to nonprofit
+      work, Jaclyn volunteers in the local theatre community where she has performed
+      in several award-winning productions and serves on the board of Voices of the
+      South.</div><div class="modal-footer"><button class="btn btn-default" data-dismiss="modal"
+      type="button">Close</button></div></div></div></div></div></div>
     - staff
     - false
     - true
@@ -11042,7 +12048,7 @@ pages:
     - '1'
     - '0'
     - '2016-01-22 20:36:46.920638'
-    - '2016-08-25 03:06:16.044198'
+    - '2016-09-23 03:35:21.359073'
   - - '11'
     - Training
     - '<div><img class="fr-dib img-responsive fr-draggable" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/033/original/D3X_6974.jpg?1459223655"></div><section
@@ -11166,17 +12172,61 @@ pages:
     - '2016-02-04 16:43:45.485174'
     - '2016-08-15 02:46:52.922264'
   - - '16'
-    - Become a Member
+    - Membership
     - <div><img class="img-responsive fr-dib fr-draggable" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/043/original/Soulsville.jpg?1461385635"></div><section><h1>Membership
       Benefits</h1></section><p><br></p><div class="container"><div class="row"><div
-      class="col-md-12"><h3>&bull; Discounts and Partnerships</h3><h3>&bull; Publications</h3><h3>&bull;
-      Alerts and Information (Grants Alert, Policy Action Alerts)</h3><h3>&bull; Free
-      events and opportunities</h3><h3>&bull; Access to Tools via the Membership Portal</h3></div></div><hr><div
+      class="col-md-12"><p class="lead">Members enjoy a diverse set of benefits that
+      are always growing! There is something for everyone in an Alliance membership.</p></div><div
+      class="col-md-4"><div class="panel panel-default"><div class="panel-heading"><h1
+      class="text-center">Convening</h1></div><div class="panel-body"><h3>Monthly
+      networking meetings for everyone.</h3><ul><li>CEO Roundtable</li><li>Board Chair
+      Council</li><li>Financial Executives</li><li>Development and Communications</li><li>Human
+      Resources</li></ul></div></div></div><div class="col-md-4"><div class="panel
+      panel-default"><div class="panel-heading"><h1 class="text-center">Advocacy</h1></div><div
+      class="panel-body"><ul><li>Annual Nonprofit Day on the Hill</li><li>Exclusive
+      advocacy opportunities with federal, state, and local policy makers</li><li>Policy
+      Action Alerts regarding issues impacting the sector</li></ul></div></div></div><div
+      class="col-md-4"><div class="panel panel-default"><div class="panel-heading"><h1
+      class="text-center">Free Member-Only Events</h1></div><div class="panel-body"><ul><li><strong>Free
+      Friday Series:</strong> Informational sessions with partner organizations and
+      vendors featuring nonprofit discounts &amp; benefits</li><li><strong>Meet the
+      Media:</strong> Exclusive event with media partners to strengthen communication
+      practices and media relationships</li></ul></div></div></div></div><div class="row"><div
+      class="col-md-4"><div class="panel panel-default"><div class="panel-heading"><h1
+      class="text-center">Promotion</h1></div><div class="panel-body"><ul><li>Online
+      promotion of your organization via email blasts, social media, the Alliance
+      website, and shared/promoted videos</li><li><br></li><li>Attending the Lipscomb
+      Pitts Signature Breakfast</li><li>Participate in Volunteer Fairs and Board Matching
+      events</li><li>Promotion of events via the Alliance Website and networks</li><li>Opportunity
+      to be nominated for Alliance awards</li></ul></div></div></div><div class="col-md-4"><div
+      class="panel panel-default"><div class="panel-heading"><h1 class="text-center">Funding
+      Resources</h1></div><div class="panel-body"><ul><li>Access to &quot;Members
+      Only&quot; section of our website that includes a Local Funder Directory and
+      Grants Database</li><li>Weekly Grants Alert highlighting new grant opportunities
+      and grant resources</li><li>Eligibility to apply for the Grant Writing Assistance
+      Fund, a fund for assistance with hiring a grant writer to seek federal grants</li></ul></div></div></div><div
+      class="col-md-4"><div class="panel panel-default"><div class="panel-heading"><h1
+      class="text-center">Services</h1></div><div class="panel-body"><ul><li>Access
+      to high quality Alliance training and consulting at a discounted rate</li><li>Strategic
+      partnerships with other Alliance organizations for services Nonprofit Help Desk</li><li>Opportunity
+      to apply for the Program for Nonprofit Excellence</li></ul></div></div></div></div><div
+      class="row"><div class="col-md-4"><div class="panel panel-default"><div class="panel-heading"><h1
+      class="text-center">Subscriptions</h1></div><div class="panel-body"><ul><li>Discounted
+      subscription to the electronic Nonprofit Quarterly, the &quot;Harvard Business
+      Review of the Nonprofit Sector&quot;</li><li>Member of the National Committee
+      for Responsive Philanthropy which includes access to research, resources, and
+      webinars</li></ul></div></div></div><div class="col-md-4"><div class="panel
+      panel-default"><div class="panel-heading"><h1 class="text-center">Discounts</h1></div><div
+      class="panel-body"><ul><li>Discount on Alliance Training and Consulting rates</li><li>Discount
+      on Annual Conference tickets</li><li>2% Discount on medical insurance for organizations
+      with 50+ employees via BlueCross BlueShield of TN</li><li>50% Wellness Care
+      at Choices</li><li>Discount on promotional products with Boomerang</li><li>Mission
+      Partner Discounts with various vendors</li></ul></div></div></div></div><hr><div
       class="row text-center"><div class="col-sm-12"><h1><a href="https://www.surveymonkey.com/r/Preview/?sm=l1dl9vZDhTSPZAgurVymQidInCeuNxO0bm1jB7jjkCsaw1OgkLbNNIdgeLMgCgGMfdjg38Va1eXxHjn_2BhQc_2BcBeRrjZ_2Fp6cx_2FaP48_2BskUFg_3D">Ready
       to join?</a></h1><a class="btn btn-primary btn-lg" href="https://www.surveymonkey.com/r/Preview/?sm=l1dl9vZDhTSPZAgurVymQidInCeuNxO0bm1jB7jjkCsaw1OgkLbNNIdgeLMgCgGMfdjg38Va1eXxHjn_2BhQc_2BcBeRrjZ_2Fp6cx_2FaP48_2BskUFg_3D">Get
       Started Here</a></div></div><br><br><br></div><div><img class="img-responsive
       fr-dib fr-draggable" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/044/original/St._Columba_Camp.JPG?1461385645"></div>
-    - become-a-member
+    - membership
     - false
     - true
     - 
@@ -11185,7 +12235,7 @@ pages:
     - '0'
     - '0'
     - '2016-02-04 16:46:21.684151'
-    - '2016-08-25 00:08:34.72651'
+    - '2016-09-23 05:19:55.459855'
   - - '17'
     - Member Spotlights
     - <div><img class="img-responsive fr-dib" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/045/original/Change-Group.jpg?1461387728"
@@ -11270,14 +12320,15 @@ pages:
     - What We Do
     - '<div><img class="fr-dib img-responsive fr-draggable" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/035/original/Streets_helpers.jpg?1461293375"></div><section><h1
       class="text-center">Our Approach</h1></section><p><br></p><div class="container"><div
-      class="row"><div class="col-md-12"><h2>After years of experience with outstanding
-      nonprofits, we narrowed our training and consulting approach to focus on the
-      three areas that matter most to fostering excellence: people, revenue, and impact.</h2><img
-      class="img-responsive fr-dib fr-draggable" src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/036/original/meritan_foster_parents.jpg?1461293539"><h2>All
-      effective organizations have robust practices and strategies that develop leadership
-      and attract talent, promote fiscal health and sustainability, and evaluate program
-      success. Both our training and consulting services are designed with this in
-      mind.</h2></div></div></div>'
+      class="row"><div class="col-md-12 text-center"><p class="lead">After years of
+      experience with outstanding nonprofits, we narrowed our training and consulting
+      approach to focus on the three areas that matter most to fostering excellence:
+      people, revenue, and impact.</p><img class="img-responsive fr-dib fr-draggable"
+      src="http://s3.amazonaws.com/npexcellence/uploads/uploads/000/000/036/original/meritan_foster_parents.jpg?1461293539"><p
+      class="lead"><br>All effective organizations have robust practices and strategies
+      that develop leadership and attract talent, promote fiscal health and sustainability,
+      and evaluate program success. Both our training and consulting services are
+      designed with this in mind.<br><br></p></div></div></div>'
     - what-we-do
     - true
     - true
@@ -11287,7 +12338,7 @@ pages:
     - '0'
     - '0'
     - '2016-02-24 03:38:50.391082'
-    - '2016-08-24 23:38:25.565376'
+    - '2016-09-23 03:42:17.24797'
   - - '27'
     - Our Supporters
     - '<h1 style="text-align: center;">Our Supporters</h1>'
@@ -11387,6 +12438,20 @@ pages:
     - '0'
     - '2016-09-06 01:43:54.103662'
     - '2016-09-06 01:43:54.103662'
+  - - '34'
+    - Blog
+    - '<div class="container"><div class="page-header"><h1 style="text-align: center;">NpExcellence
+      Blog</h1></div></div>'
+    - blog
+    - false
+    - true
+    - 
+    - '47'
+    - '48'
+    - '0'
+    - '0'
+    - '2016-09-23 00:07:11.103632'
+    - '2016-09-23 00:50:58.773607'
 
 ---
 events:

@@ -42,7 +42,7 @@ class Admin::OrgsController < Admin::ApplicationController
   end
 
   def index
-    @orgs = Org.all
+    @orgs = Org.all.order(:name)
   end
 
   #========== DESTROY ====================================

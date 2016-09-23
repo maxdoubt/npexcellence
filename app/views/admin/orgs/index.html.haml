@@ -7,6 +7,7 @@
     %th Name
     %th Role
     %th Active
+    %th Spotlight
     %th Phone
     %th Contact
     %th Email
@@ -16,7 +17,10 @@
     %tr
       %td= link_to org.name, admin_org_path(org)
       %td= org.role
-      %td= org.active
+      %td
+        = org.active if org.active == true
+      %td
+        = org.spotlight if org.spotlight == true
       %td= org.phone
       %td= org.contact
       %td= org.email
