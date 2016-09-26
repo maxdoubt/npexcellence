@@ -29,7 +29,7 @@
 
 
     - orgs.each_with_index do |org,i|
-      .item
+      .item{:class => ("active" if events.length == 0 and i == 0)}
         = image_tag org.photo.url(:original)
         .carousel-caption
           %h1= org.name
