@@ -7,5 +7,5 @@
     %ul.dropdown-menu
       = render 'shared/nav/dropdown', page: page
       %li.divider{role: "separator"}
-      - page.children.each do |page|
+      - page.children.where(published: true).each do |page|
         = render 'shared/nav/dropdown', page: page
