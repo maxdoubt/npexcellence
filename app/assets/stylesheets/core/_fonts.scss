@@ -55,3 +55,45 @@
   font-weight:  400;
 }
 
+.glacial {
+  font-family: glacial;
+}
+
+@font-face {
+  font-family: 'glacial';
+  src: url('GlacialIndifference-Bold.eot'); /* IE9 Compat Modes */
+  src: url('GlacialIndifference-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('GlacialIndifference-Bold.woff') format('woff'), /* Modern Browsers */
+       url('GlacialIndifference-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('GlacialIndifference-Bold.svg#18e4120734a7d9c7a8faafc483e2e4d6') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'glacial';
+  src: url('GlacialIndifference-Italic.eot'); /* IE9 Compat Modes */
+  src: url('GlacialIndifference-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('GlacialIndifference-Italic.woff') format('woff'), /* Modern Browsers */
+       url('GlacialIndifference-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('GlacialIndifference-Italic.svg#f7812b54365ca3b12b23d2dc7eff84d5') format('svg'); /* Legacy iOS */
+       
+  font-style:   italic;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'glacial';
+  src: url('GlacialIndifference-Regular.eot'); /* IE9 Compat Modes */
+  src: url('GlacialIndifference-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('GlacialIndifference-Regular.woff') format('woff'), /* Modern Browsers */
+       url('GlacialIndifference-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('GlacialIndifference-Regular.svg#ec4c1ff06cdd96d1c5981990c77f2438') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+
+

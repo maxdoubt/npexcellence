@@ -19,7 +19,7 @@ class PostPolicy < ApplicationPolicy
   end
 
   def destroy?
-    admin? && !own_record?
+    admin?
   end
 
   #------------------------------------------------------
