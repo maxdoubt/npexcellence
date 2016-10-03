@@ -10,7 +10,7 @@
       %li{"data-target" => "#carousel-example-generic", "data-slide-to" => i, :class => ("active" if i == 0)}
 
     - orgs.each_with_index do |org,i|
-      %li{"data-target" => "#carousel-example-generic", "data-slide-to" => i + counter + 1}
+      %li{"data-target" => "#carousel-example-generic", "data-slide-to" => i + counter, :class => ("active" if counter + i == 0)}
 
 
   .carousel-inner{role: 'listbox'}

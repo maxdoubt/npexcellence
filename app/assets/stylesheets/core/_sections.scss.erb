@@ -19,7 +19,7 @@ section:after{
   height: 100%;
   z-index: -1;
   opacity: .2;
-  background-image: url(<%= Setting.all.first.logo.url(:thumb) %>);
+  background-image: url(<%= Setting.first.logo.url(:thumb) %>);
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
@@ -37,5 +37,5 @@ section:before{
   z-index: -2;
   opacity: 1;
   background-position: 50% 50%;
-  background-color: $brand-primary;
+  background: linear-gradient(to right, $brand-primary, $brand-danger);
 }

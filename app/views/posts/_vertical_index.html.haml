@@ -2,7 +2,7 @@
   - posts.each do |post|
     .row
       %h2.text-center
-        = link_to "\“#{post.title}\”", post
+        = link_to "#{post.title}", post
       %h3.text-center
         %i= "#{post.user.first_name} #{post.user.last_name} - #{post.updated_at.strftime('%b %d, %Y')}"
       %p= post.abstract
