@@ -91,4 +91,5 @@ Rails.application.configure do
 
   config.action_mailer.default_url_options = { :host => 'npexcellence.com' }
 
+  GA.tracker = ENV['GA_TRACKER_ID']
 end

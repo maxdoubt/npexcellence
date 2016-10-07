@@ -16,3 +16,5 @@
   $(document).ready(function() {
   = yield :js_onready
   });
+
+= analytics_init if GoogleAnalytics.valid_tracker?
