@@ -1,0 +1,39 @@
+- if listing.description and !listing.description.empty?
+  %h4 Description
+  %p= listing.description
+
+
+- if listing.responsibilities and !listing.responsibilities.empty?
+  %h4 Responsibilities
+  %p= listing.responsibilities
+
+- if listing.qualifications and !listing.qualifications.empty?
+  %h4 Qualifications
+  %p= listing.qualifications
+
+- if listing.instructions and !listing.instructions.empty?
+  %h4 Instructions
+  %p= listing.instructions
+
+- if listing.email || listing.phone || listing.url
+  %h4 Contact Info
+  %dl
+    - if listing.email and listing.email.empty?
+      %dt Email
+      %dd= mail_to listing.email
+
+    - if listing.phone and !listing.phone.empty?
+      %dt Phone
+      %dd= link_to listing.phone, "tel:#{listing.phone}"
+
+    - if listing.url and !listing.url.empty?
+      %dt Url
+      %dd= link_to listing.url, listing.url
+
+- if listing.upload.exists?
+  %h4 
+    Download
+
+  %h3
+    = link_to listing.upload.url do
+      .fa.fa-file

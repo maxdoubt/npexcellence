@@ -1,0 +1,23 @@
+%h1 Job Listings
+
+%p= link_to 'New Listing', new_admin_listing_path, class: 'btn btn-primary'
+
+%table.table.table-default.table-striped.table-bordered
+  %tr
+    %th Org Name
+    %th Title
+    %th Description
+    %th State
+    %th Actions
+
+  - @listings.each do |listing|
+    %tr
+      %td= link_to listing.org_name, admin_listing_path(listing)
+      %td= listing.title
+      %td= listing.description.split(' ')[0..30].join(' ')
+      %td= listing.state
+      %td
+        - if policy(listing).destroy?
+          = link_to 'Destroy', admin_listing_path(listing), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger'
+        - if policy(listing).update?
+          = link_to 'Edit', edit_admin_listing_path(listing), class: 'btn btn-default'

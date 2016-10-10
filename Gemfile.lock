@@ -42,6 +42,8 @@ GEM
       sprockets (~> 3.0)
       tilt
     arel (6.0.3)
+    arel-helpers (2.3.0)
+      activerecord (>= 3.1.0, < 6)
     authlogic (3.4.6)
       activerecord (>= 3.2)
       activesupport (>= 3.2)
@@ -267,6 +269,7 @@ PLATFORMS
 DEPENDENCIES
   aasm
   angular-rails-templates
+  arel-helpers
   authlogic
   awesome_nested_set
   awesome_print

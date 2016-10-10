@@ -1,0 +1,82 @@
+%fieldset.well
+  .row
+    .col-md-12
+      .form-group
+        = f.label :state
+        = f.select :state, Listing.aasm.states_for_select {|v,k| [v, k]}, {}, { class: 'form-control' }
+
+  .row
+    .col-md-12
+      .form-group
+        = f.label :org_name
+        = f.text_field :org_name, class: 'form-control'
+
+  .row
+    .col-md-12
+      .form-group
+        = f.label :title
+        = f.text_field :title, class: 'form-control'
+
+  .row
+    .col-md-12
+      .form-group
+        = f.label :description
+        = f.text_area :description, class: 'form-control'
+
+  .row
+    .col-md-12
+      .form-group
+        = f.label :responsibilities
+        = f.text_area :responsibilities, class: 'form-control'
+
+  .row
+    .col-md-12
+      .form-group
+        = f.label :qualifications
+        = f.text_area :qualifications, class: 'form-control'
+
+  .row
+    .col-md-12
+      .form-group
+        = f.label :instructions
+        = f.text_area :instructions, class: 'form-control'
+
+  .row
+    .col-md-4
+      .form-group
+        = f.label :email
+        = f.text_field :email, class: 'form-control'
+
+    .col-md-4
+      .form-group
+        = f.label :phone
+        = f.text_field :phone, class: 'form-control'
+
+    .col-md-4
+      .form-group
+        = f.label :url
+        = f.text_field :url, class: 'form-control'
+
+  .row
+    .col-md-6
+      .form-group
+        = f.label :date_posted
+        = f.date_field :date_posted, class: 'form-control'
+
+    .col-md-6
+      .form-group
+        = f.label :full_time
+        = f.check_box :full_time, class: 'form-control'
+
+  .row
+    .col-md-12
+      .form-group
+        = f.label :upload
+        = f.file_field :upload
+        - if listing.upload.exists?
+          = link_to listing.upload_file_name, listing.upload.url
+
+
+
+= button_tag t('buttons.save'), class: 'btn btn-primary'
+= link_to t('buttons.cancel'), admin_listings_path, class: 'btn btn-default'
