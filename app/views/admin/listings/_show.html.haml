@@ -10,20 +10,20 @@
 
 - if listing.description and !listing.description.empty?
   %h4 Description
-  %p= listing.description
+  %p= simple_format listing.description
 
 
 - if listing.responsibilities and !listing.responsibilities.empty?
   %h4 Responsibilities
-  %p= listing.responsibilities
+  %p= simple_format listing.responsibilities
 
 - if listing.qualifications and !listing.qualifications.empty?
   %h4 Qualifications
-  %p= listing.qualifications
+  %p= simple_format listing.qualifications
 
 - if listing.instructions and !listing.instructions.empty?
   %h4 Instructions
-  %p= listing.instructions
+  %p= simple_format listing.instructions
 
 - if (listing.email and !listing.email.empty?) || (listing.phone and !listing.phone.empty?) || (listing.url and !listing.url.empty?)
   %h4 Contact Info
@@ -42,7 +42,7 @@
 
 - if listing.upload.exists?
   %h4 
-    Download
+    See Full Description
 
   %h3
     = link_to listing.upload.url do
