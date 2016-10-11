@@ -49,7 +49,7 @@ class Admin::SettingsController < Admin::ApplicationController
   end
 
   def setting_params
-    params.require(:setting).permit(:id, :title, :phone, :address, :footer, :logo, :facebook, :twitter)
+    params.require(:setting).permit(:id, :title, :phone, :address, :footer, :logo, :banner, :facebook, :twitter)
   end
 
 

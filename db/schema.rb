@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160908005947) do
+ActiveRecord::Schema.define(version: 20161010205030) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -32,6 +32,29 @@ ActiveRecord::Schema.define(version: 20160908005947) do
     t.integer  "org_id"
     t.datetime "created_at",         null: false
     t.datetime "updated_at",         null: false
+  end
+
+  create_table "listings", force: :cascade do |t|
+    t.integer  "org_id"
+    t.integer  "user_id"
+    t.string   "org_name"
+    t.string   "title"
+    t.string   "state",                              null: false
+    t.string   "email"
+    t.string   "phone"
+    t.string   "url"
+    t.text     "description"
+    t.text     "responsibilities"
+    t.text     "qualifications"
+    t.text     "instructions"
+    t.datetime "date_posted",                        null: false
+    t.boolean  "full_time",           default: true
+    t.string   "upload_file_name"
+    t.string   "upload_content_type"
+    t.integer  "upload_file_size"
+    t.datetime "upload_updated_at"
+    t.datetime "created_at",                         null: false
+    t.datetime "updated_at",                         null: false
   end
 
   create_table "orders", force: :cascade do |t|
@@ -132,16 +155,20 @@ ActiveRecord::Schema.define(version: 20160908005947) do
   end
 
   create_table "settings", force: :cascade do |t|
-    t.string   "phone",             default: "901.111.1111", null: false
-    t.string   "address",           default: "123 S. Main",  null: false
-    t.string   "footer",            default: "The footer",   null: false
-    t.string   "title",             default: "Website",      null: false
+    t.string   "phone",               default: "901.111.1111", null: false
+    t.string   "address",             default: "123 S. Main",  null: false
+    t.string   "footer",              default: "The footer",   null: false
+    t.string   "title",               default: "Website",      null: false
     t.string   "facebook"
     t.string   "twitter"
     t.string   "logo_file_name"
     t.string   "logo_content_type"
     t.integer  "logo_file_size"
     t.datetime "logo_updated_at"
+    t.string   "banner_file_name"
+    t.string   "banner_content_type"
+    t.integer  "banner_file_size"
+    t.datetime "banner_updated_at"
   end
 
   create_table "training_categories", force: :cascade do |t|

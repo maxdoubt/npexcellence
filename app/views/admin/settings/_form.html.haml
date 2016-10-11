@@ -34,6 +34,13 @@
         - if @setting.logo.exists?
           = image_tag @setting.logo.url(:medium)
 
+      .form-group
+        = f.label :banner
+        = f.file_field :banner
+        - if @setting.banner.exists?
+          = image_tag @setting.banner.url(:medium)
+
+
 
 = button_tag t('buttons.save'), class: 'btn btn-primary'
 = link_to t('buttons.cancel'), admin_settings_path, class: 'btn btn-default'
