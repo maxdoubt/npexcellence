@@ -1,0 +1,51 @@
+%h1
+  = listing.title
+  %small= listing.org_name
+
+%p.lead
+  - if listing.full_time
+    Full Time
+  - else
+    Part Time
+
+- markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, autolink: true)
+
+- if listing.description and !listing.description.empty?
+  %h4 Description
+  %p= markdown.render(listing.description).html_safe
+
+
+- if listing.responsibilities and !listing.responsibilities.empty?
+  %h4 Responsibilities
+  %p= markdown.render(listing.responsibilities).html_safe
+
+- if listing.qualifications and !listing.qualifications.empty?
+  %h4 Qualifications
+  %p= markdown.render(listing.qualifications).html_safe
+
+- if listing.instructions and !listing.instructions.empty?
+  %h4 Instructions
+  %p= markdown.render(listing.instructions).html_safe
+
+- if (listing.email and !listing.email.empty?) || (listing.phone and !listing.phone.empty?) || (listing.url and !listing.url.empty?)
+  %h4 Contact Info
+  %dl
+    - if listing.email and !listing.email.empty?
+      %dt Email
+      %dd= mail_to listing.email
+
+    - if listing.phone and !listing.phone.empty?
+      %dt Phone
+      %dd= link_to listing.phone, "tel:#{listing.phone}"
+
+    - if listing.url and !listing.url.empty?
+      %dt Url
+      %dd= link_to listing.url, listing.url
+
+- if listing.upload.exists?
+  %h4 
+    See Full Description
+
+  %h3
+    = link_to listing.upload.url do
+      .fa.fa-file

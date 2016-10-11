@@ -47,6 +47,13 @@
 
   / ---------------------------
 
+  - if params[:id] == 'career-center'
+    %br
+    .container
+      = render partial: 'listings/index', locals: {listings: Listing.all.where(state: 'published').order(date_posted: :desc)}
+
+  / ---------------------------
+
 
 - if @page.menu
   :css

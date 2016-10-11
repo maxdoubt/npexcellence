@@ -1,0 +1,13 @@
+%h2
+  = link_to listing do
+    = listing.title
+    %small= listing.org_name
+
+%p.lead
+  - if listing.full_time
+    Full Time
+  - else
+    Part Time
+
+  = " - Posted:"
+  = listing.date_posted.strftime('%b %e')

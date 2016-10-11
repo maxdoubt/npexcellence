@@ -1,0 +1,4 @@
+.container
+  .col-md-12
+    = render partial: 'show', locals: { listing: @listing }
+    = link_to 'Edit', edit_admin_listing_path(@listing), class: 'btn btn-default'

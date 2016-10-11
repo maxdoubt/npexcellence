@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   resources :events,          only: [:show]
+  resources :listings,        only: [:show]
   resources :pages,           only: [:show]
   resource  :user_session,    only: [:new,  :create, :destroy]
   resources :orgs,            only: [:index, :show]
@@ -22,6 +23,8 @@ Rails.application.routes.draw do
   namespace :admin do
 
     # collection resource routes
+    resources :listings
+    resources :listing_imports, only: [:new, :create]
     resources :orgs
     resources :org_imports,     only: [:new, :create]
     resources :posts

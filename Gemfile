@@ -43,6 +43,7 @@ gem 'friendly_id'
 gem 'roo'
 gem 'redcarpet'
 gem 'ffaker'
+gem 'arel-helpers'
 
 # uploads
 gem 'paperclip'
