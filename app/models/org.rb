@@ -91,7 +91,7 @@ class Org < ActiveRecord::Base
     (2..spreadsheet.last_row).each do |i|
 
       row = Hash[[header, spreadsheet.row(i)].transpose]
-      org = find_by_name(row["Agency Abbreviation"]) || new
+      org = find_by_abbreviation(row["Agency Abbreviation"]) || new
 
       # org.attributes = row.to_hash.slice(*accessible_attributes)
 
