@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161005033248) do
+ActiveRecord::Schema.define(version: 20161010205030) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -155,16 +155,20 @@ ActiveRecord::Schema.define(version: 20161005033248) do
   end
 
   create_table "settings", force: :cascade do |t|
-    t.string   "phone",             default: "901.111.1111", null: false
-    t.string   "address",           default: "123 S. Main",  null: false
-    t.string   "footer",            default: "The footer",   null: false
-    t.string   "title",             default: "Website",      null: false
+    t.string   "phone",               default: "901.111.1111", null: false
+    t.string   "address",             default: "123 S. Main",  null: false
+    t.string   "footer",              default: "The footer",   null: false
+    t.string   "title",               default: "Website",      null: false
     t.string   "facebook"
     t.string   "twitter"
     t.string   "logo_file_name"
     t.string   "logo_content_type"
     t.integer  "logo_file_size"
     t.datetime "logo_updated_at"
+    t.string   "banner_file_name"
+    t.string   "banner_content_type"
+    t.integer  "banner_file_size"
+    t.datetime "banner_updated_at"
   end
 
   create_table "training_categories", force: :cascade do |t|

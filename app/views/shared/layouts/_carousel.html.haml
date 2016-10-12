@@ -5,17 +5,24 @@
 .carousel.slide#carousel-example-generic{"data-ride" => "carousel"}
 
   %ol.carousel-indicators
+    %li{"data-target" => "#carousel-example-generic", "data-slide-to" => counter, :class => ("active")}
+
     - events.each_with_index do |event,i|
-      - counter = i
-      %li{"data-target" => "#carousel-example-generic", "data-slide-to" => i, :class => ("active" if i == 0)}
+      - counter = i + 1
+      %li{"data-target" => "#carousel-example-generic", "data-slide-to" => counter}
 
     - orgs.each_with_index do |org,i|
-      %li{"data-target" => "#carousel-example-generic", "data-slide-to" => i + counter, :class => ("active" if counter + i == 0)}
+      - counter = i + 1
+      %li{"data-target" => "#carousel-example-generic", "data-slide-to" => counter}
+
 
 
   .carousel-inner{role: 'listbox'}
+    .item.active
+      = image_tag Setting.first.banner.url(:full)
+
     - events.each_with_index do |event,i|
-      .item{:class => ("active" if i == 0)}
+      .item
         = image_tag event.photo.url(:large)
         .carousel-caption
           %h1= event.name
@@ -29,10 +36,11 @@
 
 
     - orgs.each_with_index do |org,i|
-      .item{:class => ("active" if events.length == 0 and i == 0)}
+      .item
         = image_tag org.photo.url(:original)
         .carousel-caption
           %h1= org.name
+          %p.lead Alliance Member
           = link_to 'Learn More', org, class: 'btn btn-default btn-primary'
           %br
           %br

@@ -44,6 +44,7 @@ gem 'roo'
 gem 'redcarpet'
 gem 'ffaker'
 gem 'arel-helpers'
+gem 'google-analytics-rails'
 
 # uploads
 gem 'paperclip'
@@ -72,5 +73,4 @@ end
 group :production do
   gem 'rails_12factor'
   gem 'newrelic_rpm'
-  gem 'google-analytics-rails'
 end
