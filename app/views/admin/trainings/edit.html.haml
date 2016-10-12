@@ -1,4 +1,4 @@
-= form_for @training, url: admin_trainings_path do |f|
+= form_for @training, url: admin_training_path(@training.id) do |f|
   %h2.form-header
     = t('trainings.edit.header')
   = render partial: 'form', locals: { f: f, training: @training }

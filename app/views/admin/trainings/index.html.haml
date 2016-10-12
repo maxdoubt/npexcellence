@@ -13,7 +13,7 @@
 
   - @trainings.each do |training|
     %tr
-      %td= link_to training.name, training_path(training)
+      %td= link_to training.name, admin_training_path(training)
       %td= training.begin_date
       %td= training.end_date
       %td= training.state

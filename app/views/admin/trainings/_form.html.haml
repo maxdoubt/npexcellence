@@ -47,12 +47,12 @@
     .col-md-4
       .form-group
         = f.label :begin_date
-        = f.date_field :begin_date, class: 'form-control'
+        = f.datetime_local_field :begin_date, class: 'form-control'
 
     .col-md-4
       .form-group
         = f.label :end_date
-        = f.date_field :end_date, class: 'form-control'
+        = f.datetime_local_field :end_date, class: 'form-control'
 
   .row
     .col-md-4
@@ -76,7 +76,7 @@
         = f.label :photo
         = f.file_field :photo
         - if training.photo.exists?
-          = image_tag @event.photo.url(:medium)
+          = image_tag training.photo.url(:medium)
 
 
 

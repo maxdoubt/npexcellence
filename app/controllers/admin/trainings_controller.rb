@@ -38,7 +38,6 @@ class Admin::TrainingsController < Admin::ApplicationController
   #========== READ ====================================
 
   def show
-    @users = @training.users.order(:last_name)
   end
 
   def index
@@ -70,15 +69,19 @@ class Admin::TrainingsController < Admin::ApplicationController
     params.require(:training).permit(:id, 
                                      :name,
                                      :location,
+                                     :summary,
                                      :description,
                                      :facilitators,
+                                     :all_day,
                                      :begin_date,
                                      :end_date,
                                      :max_registrations,
-                                     :active,
+                                     :state,
                                      :featured,
                                      :fee,
-                                     :training_category_id)
+                                     :training_category_id,
+                                     :paypal_url,
+                                     :photo)
   end
 
 
