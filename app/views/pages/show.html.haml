@@ -37,7 +37,7 @@
   - if params[:id] == 'trainings'
     %br
     .container
-      = render partial: 'trainings/index', locals: {trainings: Training.all.where(active: true)}
+      = render partial: 'trainings/index', locals: {trainings: Training.all.where('state = ? or state = ?', 'published', 'featured')}
 
 
   / ---------------------------

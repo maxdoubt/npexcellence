@@ -7,7 +7,7 @@
     %th Name
     %th Begin Date
     %th End Date
-    %th Active
+    %th State
     %th Created At
     %th Actions
 
@@ -16,7 +16,7 @@
       %td= link_to training.name, training_path(training)
       %td= training.begin_date
       %td= training.end_date
-      %td= training.active
+      %td= training.state
       %td= training.created_at
       %td
         = link_to 'Destroy', admin_training_path(training), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger'

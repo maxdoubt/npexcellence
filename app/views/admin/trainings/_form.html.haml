@@ -1,9 +1,9 @@
 %fieldset.well
   .row
-    .col-md-6
+    .col-md-12
       .form-group
-        = f.label :active
-        = f.check_box :active
+        = f.label :state
+        = f.select :state, Training.aasm.states_for_select {|v,k| [v, k]}, {}, { class: 'form-control' }
 
     .col-md-6
       .form-group
@@ -23,8 +23,12 @@
         = f.text_field :name, class: 'form-control'
 
       .form-group
+        = f.label :summary
+        = f.text_area :summary, class: 'form-control'
+
+      .form-group
         = f.label :description
-        = f.text_area :description, class: 'form-control'
+        = f.text_area :description, rows: 5, class: 'form-control'
 
       .form-group
         = f.label :facilitators
@@ -35,26 +39,45 @@
         = f.text_field :location, class: 'form-control'
 
   .row
-    .col-md-6
+    .col-md-4
+      .form-group
+        = f.label :all_day
+        = f.check_box :all_day, class: 'form-control'
+
+    .col-md-4
       .form-group
         = f.label :begin_date
         = f.date_field :begin_date, class: 'form-control'
 
-    .col-md-6
+    .col-md-4
       .form-group
         = f.label :end_date
         = f.date_field :end_date, class: 'form-control'
 
   .row
-    .col-md-6
+    .col-md-4
       .form-group
         = f.label :max_registrations
         = f.text_field :max_registrations, class: 'form-control'
 
-    .col-md-6
+    .col-md-4
       .form-group
         = f.label :fee
         = f.text_field :fee, class: 'form-control'
+
+    .col-md-4
+      .form-group
+        = f.label :paypal_url
+        = f.text_field :paypal_url, class: 'form-control'
+
+  .row
+    .col-md-12
+      .form-group
+        = f.label :photo
+        = f.file_field :photo
+        - if training.photo.exists?
+          = image_tag @event.photo.url(:medium)
+
 
 
 = button_tag t('buttons.save'), class: 'btn btn-primary'

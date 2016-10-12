@@ -13,6 +13,10 @@
         = f.text_field :name, class: 'form-control'
 
       .form-group
+        = f.label :summary
+        = f.text_area :summary, class: 'form-control'
+
+      .form-group
         = f.label :description
         = f.text_area :description, class: 'form-control'
 
@@ -22,12 +26,17 @@
 
 
   .row
-    .col-md-6
+    .col-md-2
+      .form-group
+        = f.label :all_day
+        = f.check_box :all_day, class: 'form-control'
+
+    .col-md-5
       .form-group
         = f.label :begin_date
         = f.datetime_local_field :begin_date, class: 'form-control'
 
-    .col-md-6
+    .col-md-5
       .form-group
         = f.label :end_date
         = f.datetime_local_field :end_date, class: 'form-control'

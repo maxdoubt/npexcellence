@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161010205030) do
+ActiveRecord::Schema.define(version: 20161012032340) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -32,6 +32,8 @@ ActiveRecord::Schema.define(version: 20161010205030) do
     t.integer  "org_id"
     t.datetime "created_at",         null: false
     t.datetime "updated_at",         null: false
+    t.boolean  "all_day"
+    t.text     "summary"
   end
 
   create_table "listings", force: :cascade do |t|
@@ -176,20 +178,27 @@ ActiveRecord::Schema.define(version: 20161010205030) do
   end
 
   create_table "trainings", force: :cascade do |t|
-    t.string   "name",                 null: false
-    t.string   "location",             null: false
+    t.string   "name",                                 null: false
+    t.string   "location",                             null: false
     t.string   "slug"
-    t.text     "description",          null: false
-    t.text     "facilitators",         null: false
-    t.datetime "begin_date",           null: false
-    t.datetime "end_date",             null: false
-    t.integer  "max_registrations",    null: false
-    t.boolean  "active",               null: false
-    t.boolean  "featured",             null: false
-    t.decimal  "fee",                  null: false
-    t.integer  "training_category_id", null: false
-    t.datetime "created_at",           null: false
-    t.datetime "updated_at",           null: false
+    t.text     "description",                          null: false
+    t.text     "facilitators",                         null: false
+    t.datetime "begin_date",                           null: false
+    t.datetime "end_date",                             null: false
+    t.integer  "max_registrations",                    null: false
+    t.boolean  "featured",                             null: false
+    t.decimal  "fee",                                  null: false
+    t.integer  "training_category_id",                 null: false
+    t.datetime "created_at",                           null: false
+    t.datetime "updated_at",                           null: false
+    t.string   "photo_file_name"
+    t.string   "photo_content_type"
+    t.integer  "photo_file_size"
+    t.datetime "photo_updated_at"
+    t.boolean  "all_day",              default: false
+    t.string   "paypal_url"
+    t.text     "summary"
+    t.string   "state"
   end
 
   create_table "uploads", force: :cascade do |t|

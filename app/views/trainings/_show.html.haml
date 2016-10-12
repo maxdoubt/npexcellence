@@ -1,3 +1,5 @@
+- markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, autolink: true)
+
 .panel.panel-default
   .panel-heading
     .row
@@ -6,8 +8,8 @@
           = training.name
           %small= training.training_category.name
       .col-sm-6
-        .btn.btn-default.pull-right 
-          = link_to 'Register', new_registration_path(training_id: training)
+        - if training.fee > 0
+          = link_to 'Purchase', training.paypal_url, class: 'btn btn-default pull-right'
   .panel-body
     .row
       .col-md-4
@@ -23,8 +25,12 @@
 
       .col-md-4
         %dl
-          %dt Fee
-          %dd= training.fee
+          %dt 
+            Fee
+            - if training.fee == 0
+              Free
+            - else
+              %dd= training.fee
 
           %dt Spots Availabile
           %dd= training.max_registrations
@@ -36,4 +42,4 @@
 
 
     %hr
-    %p= training.description
+    %p= markdown.render(training.description).html_safe
