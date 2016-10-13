@@ -8,7 +8,7 @@
   - else
     Part Time
 
-- markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, autolink: true)
+- markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new(hard_wrap: true), autolink: true)
 
 - if listing.description and !listing.description.empty?
   %h4 Description

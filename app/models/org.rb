@@ -81,6 +81,18 @@ class Org < ActiveRecord::Base
   validates_presence_of     :active
 
   #-------------------------------------------------------------------------------
+  # Instance Methods
+  #-------------------------------------------------------------------------------
+
+  def address_phone
+    a = []
+    a << self.address if self.address and !self.address.empty?
+    a << self.city    if self.city    and !self.city.empty?
+    a << self.phone   if self.phone   and !self.phone.empty?
+    return a
+  end
+
+  #-------------------------------------------------------------------------------
   # Class Methods
   #-------------------------------------------------------------------------------
 

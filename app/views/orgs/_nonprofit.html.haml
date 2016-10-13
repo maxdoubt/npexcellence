@@ -1,13 +1,8 @@
 .col-md-4.text-center
   %h3
-    - if org.website
+    - if org.website and !org.website.empty?
       = link_to org.name, org.website
     - else
       = org.name
   %p.small
-    - if org.address
-      = org.address
-    - if org.city
-      = " • #{org.city}"
-    - if org.phone
-      = " • #{org.phone}"
+    = org.address_phone.join(' • ')
