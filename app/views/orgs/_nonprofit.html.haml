@@ -1,7 +1,13 @@
-.col-md-6.text-center
-  %h3= org.name
-  %h4= org.address
-  %h4= org.city
-  %h4= org.phone
-  - if org.website
-    %h4= link_to org.website.gsub('http://','').downcase, org.website
+.col-md-4.text-center
+  %h3
+    - if org.website
+      = link_to org.name, org.website
+    - else
+      = org.name
+  %p.small
+    - if org.address
+      = org.address
+    - if org.city
+      = " • #{org.city}"
+    - if org.phone
+      = " • #{org.phone}"

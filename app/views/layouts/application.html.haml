@@ -17,7 +17,8 @@
             - if current_user
               = render partial: 'shared/nav/current_user_menu'
             - else
-              = link_to 'Sign In', login_path, class: 'btn btn-default navbar-btn'
+              = link_to 'Sign In', 'http://old.npexcellence.org/login.php', class: 'btn btn-default navbar-btn'
+              / = link_to 'Sign In', login_path, class: 'btn btn-default navbar-btn'
 
     .content-wrapper
       .container-fluid

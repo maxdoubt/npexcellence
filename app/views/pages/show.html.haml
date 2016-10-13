@@ -26,9 +26,11 @@
 
   - if params[:id] == 'members'
     .container
-      .row
-        - Org.where(role: 'nonprofit').order(:name).each_with_index do |org, i|
-          = render partial: 'orgs/nonprofit', locals: {org: org}
+      - Org.where(role: 'nonprofit').order(:name).each_slice(3) do |group|
+        .row
+          - group.each do |org|
+            = render partial: 'orgs/nonprofit', locals: {org: org}
+        %hr
 
   / ---------------------------
 
