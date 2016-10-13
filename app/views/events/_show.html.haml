@@ -1,5 +1,5 @@
 .panel.panel-default
-  .panel-heading
+  .panel-heading.text-center
     %h1= link_to event.name, event
     %h4
       = event.begin_date.strftime('%b %d')
@@ -7,10 +7,11 @@
       = event.begin_date.strftime('%l:%M %P')
       = " - "
       = event.end_date.strftime('%l:%M %P')
+    %p= link_to event.location, "http://maps.google.com/?q=#{event.location}", :target => "_blank"
 
   .panel-body
     .row
       .col-md-6
-        = image_tag event.photo.url(:square), class: 'img img-responsive img-rounded center-block'
+        = image_tag event.photo.url(:medium), class: 'img img-responsive img-rounded center-block'
       .col-md-6
-        = event.description
+        = event.summary

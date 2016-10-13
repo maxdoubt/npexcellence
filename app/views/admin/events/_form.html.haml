@@ -18,7 +18,11 @@
 
       .form-group
         = f.label :description
-        = f.text_area :description, class: 'form-control'
+        = f.text_area :description, class: 'form-control', rows: 5
+
+      .form-group
+        = f.label :location
+        = f.text_field :location, class: 'form-control'
 
       .form-group
         = f.label :url

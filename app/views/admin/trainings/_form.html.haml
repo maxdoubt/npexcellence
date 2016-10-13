@@ -35,21 +35,30 @@
         = f.text_field :facilitators, class: 'form-control'
 
       .form-group
+        = f.label :fit
+        = f.text_area :fit, class: 'form-control'
+
+      .form-group
         = f.label :location
         = f.text_field :location, class: 'form-control'
 
   .row
-    .col-md-4
+    .col-md-6
       .form-group
         = f.label :all_day
         = f.check_box :all_day, class: 'form-control'
 
-    .col-md-4
+    .col-md-6
+      .form-group
+        = f.label :multi_day
+        = f.check_box :multi_day, class: 'form-control'
+
+    .col-md-6
       .form-group
         = f.label :begin_date
         = f.datetime_local_field :begin_date, class: 'form-control'
 
-    .col-md-4
+    .col-md-6
       .form-group
         = f.label :end_date
         = f.datetime_local_field :end_date, class: 'form-control'
@@ -67,8 +76,21 @@
 
     .col-md-4
       .form-group
+        = f.label :fee_member
+        = f.text_field :fee_member, class: 'form-control'
+
+
+  .row
+    .col-md-6
+      .form-group
         = f.label :paypal_url
         = f.text_field :paypal_url, class: 'form-control'
+
+    .col-md-6
+      .form-group
+        = f.label :paypal_url_member
+        = f.text_field :paypal_url_member, class: 'form-control'
+
 
   .row
     .col-md-12

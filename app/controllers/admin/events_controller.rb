@@ -73,6 +73,7 @@ class Admin::EventsController < Admin::ApplicationController
                                   :url,
                                   :summary,
                                   :description,
+                                  :location,
                                   :all_day,
                                   :begin_date,
                                   :end_date,

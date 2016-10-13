@@ -1,0 +1,48 @@
+- markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, autolink: true)
+
+.container
+  .row
+    .col-sm-12
+      %h1
+        = @training.name
+        %small= @training.training_category.name
+
+  .row
+    .col-md-4
+      %dl
+        %dt Date / Time
+        %dd
+          = @training.begin_date.strftime('%m/%d/%Y')
+          to
+          = @training.end_date.strftime('%m/%d/%Y')
+
+        %dt Location
+        %dd= @training.location
+
+    .col-md-4
+      %dl
+        %dt 
+          Fee
+          - if @training.fee == 0
+            Free
+          - else
+            %dd= @training.fee
+
+        %dt Spots Availabile
+        %dd= @training.max_registrations
+
+    .col-md-4
+      %dl
+        %dt Facilitators
+        %dd= @training.facilitators
+  .row
+    .col-md-12
+      - if @training.fee > 0
+        = link_to 'Purchase', @training.paypal_url, class: 'btn btn-default'
+
+
+  %hr
+  .row
+    .col-md-12
+      %h3 Description
+      %p= markdown.render(@training.description).html_safe

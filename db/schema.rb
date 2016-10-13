@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 20161012032340) do
     t.datetime "updated_at",         null: false
     t.boolean  "all_day"
     t.text     "summary"
+    t.string   "location"
   end
 
   create_table "listings", force: :cascade do |t|
@@ -196,9 +197,14 @@ ActiveRecord::Schema.define(version: 20161012032340) do
     t.integer  "photo_file_size"
     t.datetime "photo_updated_at"
     t.boolean  "all_day",              default: false
+    t.boolean  "multi_day",            default: false
+    t.jsonb    "days",                 default: {},    null: false
     t.string   "paypal_url"
+    t.string   "paypal_url_member"
     t.text     "summary"
     t.string   "state"
+    t.decimal  "fee_member"
+    t.text     "fit"
   end
 
   create_table "uploads", force: :cascade do |t|
