@@ -1,7 +1,7 @@
 $brand-danger:   #8dc63f !default; // green
-$brand-success:  #7FC1D7 !default; // light blue
-$brand-warning:  #2C5D75 !default; // dark blue
-$brand-info:     #D6DB4A !default; // gray
+$brand-success:  #4167AF !default; // light blue
+$brand-warning:  #5CBCE8 !default; // dark blue
+$brand-info:     #8BCFEE !default; // gray
 $brand-primary:  #4fb93b !default;
 
 $navbar-inverse-bg: $brand-primary !default;
@@ -12,17 +12,17 @@ $navbar-border-radius: 0px !default;
 $navbar-inverse-border: 0px !default;
 
 $state-success-bg:               $brand-success !default;
-$state-success-text:             darken(adjust-hue($state-success-bg, -10), 35%) !default;
+$state-success-text:             #fff !default;
 $state-success-border:           darken(adjust-hue($state-success-bg, -10), 5%) !default;
 
 $state-info-bg:                  $brand-info !default;
-$state-info-text:                darken(adjust-hue($state-info-bg, -10), 25%) !default;
+$state-info-text:                #fff !default;
 $state-info-border:              darken(adjust-hue($state-info-bg, -10), 5%) !default;
 
 $state-warning-bg:               $brand-warning !default;
-$state-warning-text:             lighten(adjust-hue($state-warning-bg, -10), 25%) !default;
+$state-warning-text:             #fff !default;
 $state-warning-border:           darken(adjust-hue($state-warning-bg, -10), 5%) !default;
 
 $state-danger-bg:                $brand-danger !default;
-$state-danger-text:              darken(adjust-hue($state-danger-bg, -10), 25%) !default;
+$state-danger-text:              #fff !default;
 $state-danger-border:            darken(adjust-hue($state-danger-bg, -10), 5%) !default;
