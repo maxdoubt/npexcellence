@@ -3,12 +3,20 @@
     %p= current_setting.title
     %p= current_setting.address
     %p= current_setting.phone
+    %p
+      = mail_to current_setting.email
+      |
+      = link_to 'Subscribe to our Mailing List', current_setting.mailing_list
     %h3
       = link_to current_setting.facebook, :target => "_blank" do
         %i.fa.fa-facebook-official
 
       = link_to current_setting.twitter, :target => "_blank" do
         %i.fa.fa-twitter-square
+
+      = mail_to current_setting.email do
+        %i.fa.fa-envelope
+
 
 
   .col-sm-6.text-right
