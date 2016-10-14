@@ -14,7 +14,7 @@
     .col-md-4
       = image_tag @event.photo.url(:medium), class: 'img img-responsive img-rounded center-block'
     .col-md-8.text-justify
-      - markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, autolink: true)
+      - markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new(hard_wrap: true), autolink: true)
       = markdown.render(@event.description).html_safe
 %br
 %br
