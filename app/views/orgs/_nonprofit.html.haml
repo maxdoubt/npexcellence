@@ -1,8 +1,6 @@
 .col-md-4.text-center
-  %h3
+  %p.lead
     - if org.website and !org.website.empty?
       = link_to org.name, org.website
     - else
       = org.name
-  %p.small
-    = org.address_phone.join(' • ')
