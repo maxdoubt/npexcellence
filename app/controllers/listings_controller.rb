@@ -6,7 +6,7 @@ class ListingsController < ApplicationController
 
   # callbacks
   before_filter :assign_record,      only:   [:show, :edit, :update, :destroy]
-  before_filter :authorize_listing,  except: [:index, :new, :create]
+  before_filter :authorize_listing,  except: [:show]
 
   #========== CREATE ====================================
 
