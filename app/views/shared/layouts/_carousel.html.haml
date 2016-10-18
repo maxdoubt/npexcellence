@@ -1,5 +1,5 @@
 - orgs = Org.where(spotlight: true).order(:name)
-- events = Event.where('state = ? AND begin_date >= ?', 'featured', Date.today).order(:begin_date)
+- events = Event.where('state = ? AND end_date >= ?', 'featured', Date.today).order(:begin_date)
 - counter = 0
 
 .carousel.slide#carousel-example-generic{"data-ride" => "carousel"}
@@ -28,11 +28,17 @@
           %h1= event.name
           = link_to 'Learn More', event, class: 'btn btn-default btn-primary'
           %h2
-            = event.begin_date.strftime('%b %d')
-            = " - "
-            = event.begin_date.strftime('%l:%M %P')
-            = " - "
-            = event.end_date.strftime('%l:%M %P')
+            - if event.all_day
+              = event.begin_date.strftime('%b %d')
+              - if event.end_date.strftime('%b %d') != event.begin_date.strftime('%b %d')
+                = " - "
+                = event.end_date.strftime('%b %d')
+            - else
+              = event.begin_date.strftime('%b %d')
+              = " - "
+              = event.begin_date.strftime('%l:%M %P')
+              = " - "
+              = event.end_date.strftime('%l:%M %P')
 
 
     - orgs.each_with_index do |org,i|
