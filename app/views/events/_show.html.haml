@@ -2,11 +2,17 @@
   .panel-heading.text-center
     %h1= link_to event.name, event
     %h4
-      = event.begin_date.strftime('%b %d')
-      = " - "
-      = event.begin_date.strftime('%l:%M %P')
-      = " - "
-      = event.end_date.strftime('%l:%M %P')
+      - if event.all_day
+        = event.begin_date.strftime('%b %d')
+        - if event.end_date.strftime('%b %d') != event.begin_date.strftime('%b %d')
+          = " - "
+          = event.end_date.strftime('%b %d')
+      - else
+        = event.begin_date.strftime('%b %d')
+        = " - "
+        = event.begin_date.strftime('%l:%M %P')
+        = " - "
+        = event.end_date.strftime('%l:%M %P')
     %p= link_to event.location, "http://maps.google.com/?q=#{event.location}", :target => "_blank"
 
   .panel-body
