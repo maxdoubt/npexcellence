@@ -90,7 +90,8 @@ class Admin::OrgsController < Admin::ApplicationController
                                 :photo, 
                                 :photo_two, 
                                 :photo_three, 
-                                :photo_four)
+                                :photo_four,
+                                :youtube_id)
   end
 
 

@@ -11,6 +11,16 @@
 
 %hr
 
+- if org.youtube_id and !org.youtube_id.empty?
+  .row
+    .col-md-2
+    .col-md-8
+      .embed-responsive.embed-responsive-16by9.text-center
+        %iframe.embed-responsive-item{src: "https://www.youtube.com/embed/#{org.youtube_id}", frameborder: "0", allowfullscreen: ""}
+    .col-md-2
+
+  %hr
+
 .row.text-center
   .col-sm-6
     %h2 Description

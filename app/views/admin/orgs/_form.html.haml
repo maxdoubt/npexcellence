@@ -111,6 +111,10 @@
         - if @org.photo_four.exists?
           = image_tag @org.photo_four.url(:medium)
 
+      .form-group
+        = f.label :youtube_id
+        = f.text_field :youtube_id, class: 'form-control'
+
 
 
 = button_tag t('buttons.save'), class: 'btn btn-primary'
