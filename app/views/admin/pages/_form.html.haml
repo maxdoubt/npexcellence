@@ -65,5 +65,18 @@
       },
       imageUploadMethod: 'POST',
       imageUploadParam: "upload[upload]",
+      imageMaxSize: 1024 * 400,
+      imageResize: false,
+      imageOutputSize: false,
+      imageDefaultWidth: 0,
+      imageStyles: {
+        'img-responsive': 'Mobile Friendly',
+        'center-block': 'Centered',
+        'img-rounded': 'Rounded Corners',
+        'img-circle': 'Image in a Circle',
+        'img-thumbnail': 'Image in a Thumbnail'
+      },
+      imageMove: false,
+      imageEditButtons: ['imageReplace', 'imageStyle', 'imageRemove', 'imageLink', 'linkOpen', 'linkEdit', 'linkRemove'],
       toolbarStickyOffset: 60
     )
